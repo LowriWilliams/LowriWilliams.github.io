@@ -1,5 +1,5 @@
 {"project": {
-    "corona": 
+    "corona": [
       {
       "name": "Lowri Williams",
       "comment" : "This is a test!"
@@ -8,7 +8,7 @@
       "name": "Lowri Williams",
       "comment" : "This is another test!"
       }
-      
+      ]
       
    
 }
