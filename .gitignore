@@ -1,5 +1,4 @@
 .DS_Store
-projects/.DS_Store
-img/.DS_Store
-js/.DS_Store
-projects/backups
+*/.DS_Store
+*/*/.DS_Store
+
