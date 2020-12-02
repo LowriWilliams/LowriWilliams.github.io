@@ -21,8 +21,6 @@
 
 ### line 411 after <head>
 
-    <div class="folium-map" id="map_61abb9a16eaa48dd82c70e65ec680f8b" ></div>
-
     <div id='maplegend' class='maplegend' style='position: absolute; z-index:9999; border:2px solid grey; background-color:rgba(255, 255, 255, 0.8); border-radius:6px; padding: 10px; font-size:11px; right: 20px; top: 12px; width:180px;'>
         
         <div class='legend-title'>Number of cases: <b>29/11/2020</b></div>
