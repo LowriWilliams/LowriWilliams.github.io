@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Dr
+title: Dr Lowri Williams
 
 # # Name pronunciation (optional)
 # name_pronunciation: ''
