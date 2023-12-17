@@ -86,12 +86,12 @@ sections:
           organization: Elsevier
           title: Elsevier - Top Open Access Contributor Award
 
-        #  - date_end: ''
-        #   date_start: '2023-11-13'
+         - date_end: ''
+          date_start: '2023-11-13'
         #   description: Co-organised and designed a Capture the Flag competition for students at Cardiff University's School of Computer Science & Informatics. Winners had the chance to be nominated for the NCSC's CyberFirst - a gateway to mentorship, placements, and a community dedicated to securing our digital future.
-        #   icon: cyberfirst
-        #   organization: NSCS - CyberFirst
-        #   title: Capture the Flag - NSCS's CyberFirst Competition
+          icon: cyberfirst
+          organization: NSCS - CyberFirst
+          title: Capture the Flag - NSCS's CyberFirst Competition
 
           # - date_end: ''
           # date_start: '2023-11-13'
