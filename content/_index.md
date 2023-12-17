@@ -57,39 +57,29 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - date_end: ''
-          date_start: '2024-01-01'
-          description: ''
+          date_start: '2024-02-01'
           icon: cardiff
           organization: Cardiff University
           organization_url: 
           title: Cardiff University
           url: ''
           description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
+
         - date_end: ''
           date_start: '2023-12-04'
-          description: ''
           icon: blackhat
           organization: BlackHat
-          organization_url: https://www.blackhat.com
           title: BlackHat Europe 2023
-          url: ''
-          description: Attended BlackHat Europe 2023 in London.
+          description: Attended BlackHat Europe 2023 in London, UK.
+
         - date_end: ''
-          date_start: '2021-01-01'
+          date_start: '2023-11-21'
           description: Formulated informed blockchain models, hypotheses, and use cases.
-          icon: edx
-          organization: edX
-          organization_url: https://www.edx.org
-          title: Blockchain Fundamentals
-          url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-        - date_end: '2020-12-21'
-          date_start: '2020-07-01'
-          description: ''
-          icon: datacamp
-          organization: DataCamp
-          organization_url: https://www.datacamp.com
-          title: 'Object-Oriented Programming in R'
-          url: ''
+          icon: intermobility
+          organization: Intermobility Expo 2023
+          title: Intermobility Expo 2023
+          description: Attened the Intermobility Expo 2023 in Dubai, UAE.
+
     design:
       columns: '2'
 
