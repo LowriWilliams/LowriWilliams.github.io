@@ -81,7 +81,8 @@ sections:
 
         - date_end: ''
           date_start: '2023-11-14'
-          description: Co-author of a paper recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.
+          description: Co-author of a paper recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.</br>
+          You can read the paper <a href='https://shorturl.at/pGZ48'>here</a> 
           icon: elsevier
           organization: Elsevier
           title: Elsevier - Top Open Access Contributor Award
