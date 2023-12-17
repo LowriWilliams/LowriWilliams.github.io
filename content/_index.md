@@ -81,11 +81,17 @@ sections:
 
         - date_end: ''
           date_start: '2023-11-14'
-          description: Co-author of a paper recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.</br>
-          You can read the paper <a href='https://shorturl.at/pGZ48'>here</a> 
+          description: Co-author of a paper recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.
           icon: elsevier
           organization: Elsevier
           title: Elsevier - Top Open Access Contributor Award
+
+         - date_end: ''
+          date_start: '2023-11-13'
+          description: Co-organised and designed a Capture the Flag competition for students at Cardiff University's School of Computer Science & Informatics. Winners had the chance to be nominated for the NCSC's CyberFirst - a gateway to mentorship, placements, and a community dedicated to securing our digital future.
+          icon: cyberfirst
+          organization: NSCS/CyberFirst
+          title: Capture the Flag - NSCS/CyberFirst Competition
 
 
 
