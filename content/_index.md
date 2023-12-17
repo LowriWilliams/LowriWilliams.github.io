@@ -64,6 +64,7 @@ sections:
           organization_url: https://www.blackhat.com
           title: BlackHat Europe 2023
           url: ''
+          description: Attended BlackHat Europe 2023.
         - date_end: ''
           date_start: '2021-01-01'
           description: Formulated informed blockchain models, hypotheses, and use cases.
@@ -83,17 +84,17 @@ sections:
     design:
       columns: '2'
 
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
+  # - block: collection
+  #   id: featured
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     columns: '2'
+  #     view: card
       
   # - block: collection
   #   content:
