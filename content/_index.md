@@ -64,7 +64,7 @@ sections:
           organization_url: https://www.blackhat.com
           title: BlackHat Europe 2023
           url: ''
-          description: Attended BlackHat Europe 2023.
+          description: Attended BlackHat Europe 2023 in London.
         - date_end: ''
           date_start: '2021-01-01'
           description: Formulated informed blockchain models, hypotheses, and use cases.
