@@ -56,14 +56,14 @@ sections:
       #   Leave other parameters empty if not required.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - date_end: ''
-          date_start: '2024-02-01'
-          icon: cardiff
-          organization: Cardiff University
-          organization_url: 
-          title: Cardiff University
-          url: ''
-          description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
+        # - date_end: ''
+        #   date_start: '2024-02-01'
+        #   icon: cardiff
+        #   organization: Cardiff University
+        #   organization_url: 
+        #   title: Cardiff University
+        #   url: ''
+        #   description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
 
         - date_end: ''
           date_start: '2023-12-04'
@@ -74,11 +74,21 @@ sections:
 
         - date_end: ''
           date_start: '2023-11-21'
-          description: Formulated informed blockchain models, hypotheses, and use cases.
           icon: intermobility
           organization: Intermobility Expo 2023
           title: Intermobility Expo 2023
           description: Attened the Intermobility Expo 2023 in Dubai, UAE.
+
+        - date_end: ''
+          date_start: '2023-11-14'
+          description: Co-author of a paper recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.
+          icon: elsevier
+          organization: Elsevier
+          title: Elsevier - Top Open Access Contributor Award
+
+
+
+      
 
     design:
       columns: '2'
