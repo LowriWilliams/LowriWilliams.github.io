@@ -93,14 +93,13 @@ sections:
           organization: NCSC CyberFirst
           title: Capture the Flag - Cardiff University - NCSC CyberFirst
 
-        
+        - date_end: ''
+          date_start: '2023-11-08'
+          icon: discribe
+          organization: Digital Security by Design
+          title: Digital Security by Design (DSbD) - All Hands Meeting
+          description: Attended the Digital Security by Design (DSbD) all hands meeting in Manchester, UK.
 
-          # - date_end: ''
-          # date_start: '2023-11-13'
-          # description: 
-          # icon: cyberfirst
-          # organization: NSCS/CyberFirst
-          # title: Capture the Flag - NSCS/CyberFirst Competition
 
 
 
