@@ -57,6 +57,15 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - date_end: ''
+          date_start: '2024-01-01'
+          description: ''
+          icon: cardiff
+          organization: Cardiff University
+          organization_url: 
+          title: Cardiff University
+          url: ''
+          description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
+        - date_end: ''
           date_start: '2023-12-04'
           description: ''
           icon: blackhat
