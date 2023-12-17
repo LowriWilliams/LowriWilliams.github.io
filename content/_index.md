@@ -57,12 +57,12 @@ sections:
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
         - date_end: ''
-          date_start: '2021-01-25'
+          date_start: '2023-12-04'
           description: ''
-          icon: coursera
-          organization: Coursera
-          organization_url: https://www.coursera.org
-          title: Neural Networks and Deep Learning
+          icon: blackhat
+          organization: BlackHat
+          organization_url: https://www.blackhat.com
+          title: BlackHat Europe 2023
           url: ''
         - date_end: ''
           date_start: '2021-01-01'
