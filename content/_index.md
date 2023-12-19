@@ -233,6 +233,13 @@ sections:
 
         - date_end: ''
           date_start: '2022-12-01'
+          icon: cardiff_series
+          organization: Cardiff University
+          title: Developed and Launched Cardiff University's Cybersecurity Event Series Website
+          description: Develop and maintin Cardiff University's  [Cybersecurity Event Series](https://cyberevents.cs.cf.ac.uk/) - a resource to keep up to date with the latest cybersecurity events at Cardiff University.
+
+        - date_end: ''
+          date_start: '2022-12-01'
           icon: cardiff
           organization: Cardiff University
           title: £10,000 Funding Awarded 
