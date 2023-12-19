@@ -128,19 +128,19 @@ sections:
           title: Fintech Awards Wales - Cardiff University
           description: Attended Fintech Awards Wales as part of Cardiff University’s cybersecurity team, who was nominated for the best cybersecurity programme. 
 
-        - date_end: ''
-          date_start: '2023-08-10'
-          icon: montrealuni
-          organization: Montreal University - Universite de Montreal
-          title: Academic visit to Montreal University
-          description: Visited Montreal University to form research collaborations and networks.
+        # - date_end: ''
+        #   date_start: '2023-08-10'
+        #   icon: montrealuni
+        #   organization: Montreal University - Universite de Montreal
+        #   title: Academic visit to Montreal University
+        #   description: Visited Montreal University to form research collaborations and networks.
 
-        - date_end: ''
-          date_start: '2023-08-09'
-          icon: ottawauni
-          organization: Ottawa University 
-          title: Academic visit to Ottawa University
-          description: Visited Ottawa University to form research collaborations and networks.
+        # - date_end: ''
+        #   date_start: '2023-08-09'
+        #   icon: ottawauni
+        #   organization: Ottawa University 
+        #   title: Academic visit to Ottawa University
+        #   description: Visited Ottawa University to form research collaborations and networks.
 
 
 
