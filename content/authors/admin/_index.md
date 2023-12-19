@@ -23,9 +23,9 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Text Mining
-  - Machine Learning
-  - Information Retrieval
+  - Text Mining/Information Retrieval
+  - Machine Learning/Adversarial Machine Learning
+  - Intrusion Detection
 
 # Education to show in About widget
 education:
@@ -68,4 +68,8 @@ highlight_name: true
 ---
 
 Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+
+<!-- I am a Lecturer (~Assistant Professor) at the School of Computer Science and Informatics at Cardiff University. My research focuses on technologies that apply Artificial Intelligence for education and information accessibility. In particular, my work employs Natural Language Processing approaches to facilitate reading and understanding. I am especially interested in studying the real capabilities of systems for several Natural Language Generation tasks, such as Text Simplification, Summarisation and Machine Translation. In order to do that, my collaborators and I create language resources, design evaluation methodologies or metrics, and implement models using machine learning techniques.
+
+Previously, I was a Research Associate at SheffieldNLP (2020-2021), working with Prof. Lucia Specia for the APE-QUEST and Bergamot projects on Quality Estimation for Machine Translation. Before that, I worked as Adjunct Professor at the Pontifical Catholic University of Peru (2013-2016), where I was a member of the Artificial Intelligence Group IA-PUCP. During my Masters, I was also a member of the Interinstitutional Center for Computational Linguistics at the University of São Paulo. -->
 {style="text-align: justify;"}
