@@ -89,7 +89,7 @@ sections:
         - date_end: ''
           date_start: '2023-11-13'
           description: Co-organised and designed a Capture the Flag competition for students at Cardiff University's School of Computer Science & Informatics. Winners had the chance to be nominated for the NCSC's CyberFirst - a gateway to mentorship, placements, and a community dedicated to securing our digital future.
-          icon: test
+          icon: cyberfirst
           organization: NCSC CyberFirst
           title: Capture the Flag - Cardiff University - NCSC CyberFirst
 
