@@ -242,7 +242,7 @@ sections:
 
         - date_end: ''
           date_start: '2022-06-14'
-          icon: waikatoauni
+          icon: waikatouni
           organization: Waikato University 
           title: Academic visit to Waikato University
           description: Visited Waikato University, New Zealand to form research collaborations and networks.
