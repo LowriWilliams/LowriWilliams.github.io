@@ -270,7 +270,7 @@ sections:
 
         - date_end: ''
           date_start: '2021-02-27'
-          icon: oxfordadacemic
+          icon: oxfordacademic
           organization: Oxford Academic
           title: New Publication
           description: Co-author of our paper "A three-tiered intrusion detection system for industrial control systems” published in the Journal of Cybersecurity.
