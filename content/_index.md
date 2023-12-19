@@ -261,12 +261,12 @@ sections:
           title: New Publication
           description: Co-author of our paper "Hardening machine learning denial of service (DoS) defences against adversarial machine attacks in IoT smart home networks” published in the Computers & Security journal. 
 
-        - date_end: ''
-          date_start: '2021-06-08'
-          icon: frontiers
-          organization: Frontiers
-          title: Member of Editorial Board
-          description: A member of the editorial board of the new Social Data Science: Using Social Networks Data for Social Impact journal
+        # - date_end: ''
+        #   date_start: '2021-06-08'
+        #   icon: frontiers
+        #   organization: Frontiers
+        #   title: Member of Editorial Board
+        #   description: A member of the editorial board of the new Social Data Science: Using Social Networks Data for Social Impact journal
 
         - date_end: ''
           date_start: '2020-12-25'
