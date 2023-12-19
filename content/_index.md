@@ -191,7 +191,7 @@ sections:
 
         - date_end: ''
           date_start: '2023-04-03'
-          icon: utmuniversity
+          icon: utmuni
           organization: UTM University
           title: Capture the Flag - UTM University - Cardiff University
           description: Co-organised and designed an Easter themed Capture the Flag competition for attendees from UTM University, Mexico and Cardiff University.
