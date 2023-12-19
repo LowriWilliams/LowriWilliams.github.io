@@ -107,6 +107,13 @@ sections:
           title: Capture the Flag - Cardiff University - Airbus
           description: Co-organised a Capture the Flag competition for students at Cardiff University's School of Computer Science & Informatics in collaboration with Airbus. 
 
+        - date_end: ''
+          date_start: '2023-10-03'
+          icon: cyberdas
+          organization: CyberDAS
+          title: CyberDAS - International Workshop on Cyber Security and Data Science - Speaker
+          description: Presented our work on text mining techniques for tracking technology adoption.
+
 
 
 
