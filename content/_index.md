@@ -133,14 +133,57 @@ sections:
           icon: montrealuni
           organization: Montreal University - Universite de Montreal
           title: Academic visit to Montreal University
-          description: Visited Montreal University to form research collaborations and networks.
+          description: Visited Montreal University, Canada to form research collaborations and networks.
 
         - date_end: ''
           date_start: '2023-08-09'
           icon: ottawauni
           organization: Ottawa University 
           title: Academic visit to Ottawa University
-          description: Visited Ottawa University to form research collaborations and networks.
+          description: Visited Ottawa University, Canada to form research collaborations and networks.
+
+        - date_end: ''
+          date_start: '2023-07-01'
+          icon: nationalhighways
+          organization: National Highways
+          title: £120,000 Funding Awarded
+          description: Co-investigator on a National Highways funded project titled - Evaluating and Improving the Robustness of National Highways’ AI-based Systems.
+
+        - date_end: ''
+          date_start: '2023-07-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: £5,000 Funding Awarded
+          description: Prinicple-investigator on a Cardiff University funded project titled - Know the Adversary - Extracting the Context, Action, and Purpose of an Adversary’s Actions from Free Text.
+
+        - date_end: ''
+          date_start: '2023-07-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: £2,300 Funding Awarded
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship in collaboration with Airbus titled - Threat Intelligent Report Similarity using Natural Language Processing.
+        
+        - date_end: ''
+          date_start: '2023-07-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: £2,300 Funding Awarded
+          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with Copper Horse Ltd titled - Automotive Cyber Security Investigation and Research.
+
+        - date_end: ''
+          date_start: '2023-07-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: £2,300 Funding Awarded
+          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with CyberSmart titled - Exploring the Effectiveness of Incentives for Improving Cyber Security Behaviours in Organisations.
+
+
+
+
+
+
+
+
 
 
 
