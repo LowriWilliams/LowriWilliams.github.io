@@ -200,9 +200,9 @@ sections:
 
         - date_end: ''
           date_start: '2022-12-12'
-          icon: itsuniversity
-          organization: ITS University
-          title: Capture the Flag - ITS University - Cardiff University
+          icon: itsuni
+          organization: Institute of Technology (ITS) University
+          title: Capture the Flag - Institute of Technology (ITS) University - Cardiff University
           description: Co-organised a Capture the Flag competition for attendees from ITS University, Indonesia and Cardiff University.
 
         - date_end: ''
