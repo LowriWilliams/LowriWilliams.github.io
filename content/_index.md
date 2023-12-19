@@ -252,7 +252,7 @@ sections:
           title: Academic visit to Waikato University
           description: Visited Waikato University, New Zealand to form research collaborations and networks.
 
-        - date_end: '2024-01-30'
+        - date_end: ''
           date_start: '2021-07-16'
           icon: cardiff
           organization: Cardiff University 
@@ -285,7 +285,7 @@ sections:
           icon: frontiers
           organization: Frontiers
           title: Member of Editorial Board
-          description: A member of the editorial board of the new "Social Data Science - Using Social Networks Data for Social Impact" journal
+          description: A member of the editorial board of the new "Social Data Science - Using Social Networks Data for Social Impact" journal.
 
         - date_end: ''
           date_start: '2022-02-01'
@@ -308,7 +308,7 @@ sections:
           title: New Publication
           description: Author of our paper "Comparing the Utility of Different Classification Schemes for Emotive Language Analysis” published in Springer's Journal of Classification.
 
-        - date_end: ''
+        - date_end: '2021-07-15'
           date_start: '2019-02-01'
           icon: cardiff
           organization: Cardiff University 
