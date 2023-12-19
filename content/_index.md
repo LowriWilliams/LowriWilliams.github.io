@@ -61,7 +61,7 @@ sections:
         #   icon: cardiff
         #   organization: Cardiff University
         #   organization_url: 
-        #   title: Cardiff University
+        #   title: New Position
         #   url: ''
         #   description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
 
@@ -233,7 +233,47 @@ sections:
           title: Guest Talk at Cardiff University's Cybersecurity Research Seminar Series
           description: Presented a talk in the internal cybersecurity research seminar series titled - How to write an academic paper.
 
-          
+        - date_end: ''
+          date_start: '2022-10-12'
+          icon: discribe
+          organization: Digital Security by Design
+          title: Digital Security by Design (DSbD) - All Hands Meeting
+          description: Attended the Digital Security by Design (DSbD) all hands meeting in Wolverhampton, UK.
+
+        - date_end: ''
+          date_start: '2022-06-14'
+          icon: waikatoauni
+          organization: Waikato University 
+          title: Academic visit to Waikato University
+          description: Visited Waikato University, New Zealand to form research collaborations and networks.
+
+        - date_end: ''
+          date_start: '2021-07-16'
+          icon: cardiff
+          organization: Cardiff University 
+          title: New Position
+          description: Joined the Discribe research project as a Research Associate.
+
+        - date_end: ''
+          date_start: '2021-06-12'
+          icon: elsevier
+          organization: Elsevier
+          title: New Publication
+          description: Co-author of our paper "Hardening machine learning denial of service (DoS) defences against adversarial machine attacks in IoT smart home networks” published in the Computers & Security journal. 
+
+        - date_end: ''
+          date_start: '2021-06-08'
+          icon: frontiers
+          organization: Frontiers
+          title: Member of Editorial Board
+          description: A member of the editorial board of the new Social Data Science: Using Social Networks Data for Social Impact journal
+
+
+
+
+
+
+
 
         
 
