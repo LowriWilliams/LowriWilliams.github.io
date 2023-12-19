@@ -100,6 +100,13 @@ sections:
           title: Digital Security by Design (DSbD) - All Hands Meeting
           description: Attended the Digital Security by Design (DSbD) all hands meeting in Manchester, UK.
 
+        - date_end: ''
+          date_start: '2023-10-30'
+          icon: airbus
+          organization: Airbus
+          title: Capture the Flag - Cardiff University - Airbus
+          description: Co-organised a Capture the Flag competition for students at Cardiff University's School of Computer Science & Informatics in collaboration with Airbus. 
+
 
 
 
