@@ -112,7 +112,7 @@ sections:
           icon: cyberdas
           organization: CyberDAS
           title: CyberDAS - International Workshop on Cyber Security and Data Science - Speaker
-          description: Presented our work on text mining techniques for tracking technology adoption.
+          description: Presented a workshop talk on how text mining techniques can be used to track technology adoption.
 
         - date_end: ''
           date_start: '2023-09-29'
@@ -176,6 +176,42 @@ sections:
           organization: Cardiff University
           title: £2,300 Funding Awarded
           description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with CyberSmart titled - Exploring the Effectiveness of Incentives for Improving Cyber Security Behaviours in Organisations.
+
+        - date_end: ''
+          date_start: '2023-04-27'
+          icon: discribe
+          organization: Digital Security by Design
+          title: Digital Security by Design (DSbD) - All Hands Meeting
+          description: Attended the Digital Security by Design (DSbD) all hands meeting in London, UK.
+
+        - date_end: ''
+          date_start: '2023-04-03'
+          icon: utmuniversity
+          organization: UTM University
+          title: Capture the Flag - UTM University - Cardiff University
+          description: Co-organised and designed a Capture the Flag competition for attendees from UTM University, Mexico and Cardiff University.
+
+        - date_end: ''
+          date_start: '2023-03-20'
+          icon: graduateprogrammewales
+          organization: Graduate Programme Wales
+          title: Data Science X Cybersecurity Hackathon - Graduate Programme Wales - Cardiff University
+          description: Co-organised and designed a Data Science X Cybersecurity Hackathon for attendees from the Graduate Programme Wales and Cardiff University.
+
+        - date_end: ''
+          date_start: '2022-12-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: £10,000 Funding Awarded 
+          description: Co-investigator of a Cardiff University and the University of Waikato Strategic International Partnership Collaborative Seed Fund - Factors that Drive Phishing Attacks.
+
+
+
+
+
+
+
+
 
 
 
