@@ -306,7 +306,7 @@ sections:
           icon: springer
           organization: Springer
           title: New Publication
-          description: Author of our paper "Comparing the Utility of Different Classification Schemes for Emotive Language Analysis” published in Springer's Journal of Classification.
+          description: Author of our paper "[Comparing the Utility of Different Classification Schemes for Emotive Language Analysis](https://link.springer.com/article/10.1007/s00357-019-9307-0)” published in Springer's Journal of Classification.
 
         - date_end: '2021-07-15'
           date_start: '2019-02-01'
