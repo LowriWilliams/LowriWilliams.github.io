@@ -60,17 +60,15 @@ sections:
         #   date_start: '2024-02-01'
         #   icon: cardiff
         #   organization: Cardiff University
-        #   organization_url: 
         #   title: New Position
-        #   url: ''
         #   description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
 
-        - date_end: ''
-          date_start: '2024-01-01'
-          icon: cisse
-          organization: The Colloquium on Information Systems Security Education
-          title: New Publication
-          description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+        # - date_end: ''
+        #   date_start: '2024-01-01'
+        #   icon: cisse
+        #   organization: The Colloquium on Information Systems Security Education
+        #   title: New Publication
+        #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
 
         - date_end: ''
           date_start: '2023-12-04'
@@ -254,7 +252,7 @@ sections:
           title: Academic visit to Waikato University
           description: Visited Waikato University, New Zealand to form research collaborations and networks.
 
-        - date_end: ''
+        - date_end: '2024-01-30'
           date_start: '2021-07-16'
           icon: cardiff
           organization: Cardiff University 
