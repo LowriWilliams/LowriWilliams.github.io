@@ -189,7 +189,7 @@ sections:
           icon: utmuniversity
           organization: UTM University
           title: Capture the Flag - UTM University - Cardiff University
-          description: Co-organised and designed a Capture the Flag competition for attendees from UTM University, Mexico and Cardiff University.
+          description: Co-organised and designed an Easter themed Capture the Flag competition for attendees from UTM University, Mexico and Cardiff University.
 
         - date_end: ''
           date_start: '2023-03-20'
@@ -204,6 +204,38 @@ sections:
           organization: Cardiff University
           title: £10,000 Funding Awarded 
           description: Co-investigator of a Cardiff University and the University of Waikato Strategic International Partnership Collaborative Seed Fund - Factors that Drive Phishing Attacks.
+
+        - date_end: ''
+          date_start: '2023-12-12'
+          icon: itsuniversity
+          organization: ITS University
+          title: Capture the Flag - ITS University - Cardiff University
+          description: Co-organised a Capture the Flag competition for attendees from ITS University, Indonesia and Cardiff University.
+
+        - date_end: ''
+          date_start: '2023-12-09'
+          icon: cardiff
+          organization: Cardiff University
+          title: Capture the Flag - Cardiff University
+          description: Co-organised and designed a Christmas themed Capture the Flag competition for attendees from Cardiff University.
+
+        - date_end: ''
+          date_start: '2022-12-06'
+          icon: blackhat
+          organization: BlackHat
+          title: BlackHat Europe 2022
+          description: Attended BlackHat Europe 2023 in London, UK.
+
+        - date_end: ''
+          date_start: '2022-12-02'
+          icon: cardiff
+          organization: Cardiff University
+          title: Guest Talk at Cardiff University's Cybersecurity Research Seminar Series
+          description: Presented a talk in the internal cybersecurity research seminar series titled - How to write an academic paper.
+
+          
+
+        
 
 
 
