@@ -264,28 +264,28 @@ sections:
           icon: elsevier
           organization: Elsevier
           title: New Publication
-          description: Co-author of our paper "[Hardening machine learning denial of service (DoS) defences against adversarial machine attacks in IoT smart home networks]”(https://www.sciencedirect.com/science/article/pii/S0167404821001760?via%3Dihub) published in the Computers & Security journal. 
+          description: Co-author of our paper "[Hardening machine learning denial of service (DoS) defences against adversarial machine attacks in IoT smart home networks](https://www.sciencedirect.com/science/article/pii/S0167404821001760?via%3Dihub)" published in the Computers & Security journal. 
 
         - date_end: ''
           date_start: '2021-05-01'
           icon: elsevier
           organization: Elsevier
           title: New Publication
-          description: Co-author of our paper "[Adversarial attacks on machine learning cybersecurity defences in Industrial Control Systems]”(https://www.sciencedirect.com/science/article/pii/S2214212620308607) published in the Journal of Information Security and Applications.
+          description: Co-author of our paper "[Adversarial attacks on machine learning cybersecurity defences in Industrial Control Systems](https://www.sciencedirect.com/science/article/pii/S2214212620308607)" published in the Journal of Information Security and Applications.
 
         - date_end: ''
           date_start: '2021-02-27'
           icon: oxfordacademic
           organization: Oxford Academic
           title: New Publication
-          description: Co-author of our paper "[A three-tiered intrusion detection system for industrial control systems]”(https://academic.oup.com/cybersecurity/article/7/1/tyab006/6153960?guestAccessKey=97f6d5aa-9956-442e-8e17-b74db0578b52&login=false) published in the Journal of Cybersecurity.
+          description: Co-author of our paper "[A three-tiered intrusion detection system for industrial control systems](https://academic.oup.com/cybersecurity/article/7/1/tyab006/6153960?guestAccessKey=97f6d5aa-9956-442e-8e17-b74db0578b52&login=false)" published in the Journal of Cybersecurity.
 
         - date_end: ''
           date_start: '2021-06-08'
           icon: frontiers
           organization: Frontiers
           title: Member of Editorial Board
-          description: A member of the editorial board of the new "[Social Data Science - Using Social Networks Data for Social Impact]"(https://www.frontiersin.org/research-topics/46751/social-data-science-using-social-networks-data-for-social-impact) journal.
+          description: A member of the editorial board of the new "[Social Data Science - Using Social Networks Data for Social Impact](https://www.frontiersin.org/research-topics/46751/social-data-science-using-social-networks-data-for-social-impact)" journal.
 
         - date_end: ''
           date_start: '2022-02-01'
@@ -299,7 +299,7 @@ sections:
           icon: ieee
           organization: IEEE
           title: New Publication
-          description: Co-author of our paper "[A Supervised Intrusion Detection System for Smart Home IoT Devices]”(https://ieeexplore.ieee.org/document/8753563) published in the IEEE Internet of Things Journal.
+          description: Co-author of our paper "[A Supervised Intrusion Detection System for Smart Home IoT Devices](https://ieeexplore.ieee.org/document/8753563)" published in the IEEE Internet of Things Journal.
         
         - date_end: ''
           date_start: '2019-05-10'
