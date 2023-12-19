@@ -272,9 +272,22 @@ sections:
           date_start: '2020-12-25'
           icon: portalcovidcymru
           organization: Portal Covid Cymru
-          title: Member of Editorial Board
-          description: A member of the editorial board of the new Social Data Science: Using Social Networks Data for Social Impact journal
+          title: Launch of Portal Covid Cymru
+          description: Design, developed, and maintained a public dashboard reporting Covid-19 statistics.
 
+        - date_end: ''
+          date_start: '2022-02-01'
+          icon: iituni
+          organization: Indraprastha Institute of Information Technology
+          title: Academic visit to Indraprastha's Institute of Information Technology
+          description: Visited Indraprastha's Institute of Information Technology, India to form research collaborations and networks.
+
+        - date_end: ''
+          date_start: '2019-02-01'
+          icon: cardiff
+          organization: Cardiff University 
+          title: New Position
+          description: Joined the Data Innovation Accelerator research project as a Research Data Scientist.
 
 
 
