@@ -121,12 +121,12 @@ sections:
           title: Capture the Flag - Yucatan i6 - Cardiff University
           description: Co-organised and designed a Capture the Flag competition for attendees at Yucatan i6, North America's largest cybersecurity event.
 
-        #  - date_end: ''
-        #   date_start: '2023-09-08'
-        #   icon: fintechwales
-        #   organization: Fintech Awards Wales
-        #   title: Fintech Awards Wales - Cardiff University
-        #   description: Attended Fintech Awards Wales as part of Cardiff University’s cybersecurity team, who was nominated for the best cybersecurity programme. 
+         - date_end: ''
+          date_start: '2023-09-08'
+          icon: fintechwales
+          organization: Fintech Awards Wales
+          title: Fintech Awards Wales - Cardiff University
+          description: Attended Fintech Awards Wales as part of Cardiff University’s cybersecurity team, who was nominated for the best cybersecurity programme. 
 
         # - date_end: ''
         #   date_start: '2023-08-10'
