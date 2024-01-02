@@ -16,12 +16,12 @@ main:
   # - name: Teaching
   #   url: '#teaching'
   #   weight: 40
-  - name: Publications
-    url: '#publications'
-    weight: 50
-  - name: Funding
-    url: '#funding'
-    weight: 60
+  # - name: Publications
+  #   url: '#publications'
+  #   weight: 50
+  # - name: Funding
+  #   url: '#funding'
+  #   weight: 60
   - name: Contact
     url: '#contact'
     weight: 70

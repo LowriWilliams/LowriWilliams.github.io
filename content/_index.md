@@ -236,7 +236,7 @@ sections:
           icon: cardiff_series
           organization: Cardiff University
           title: Cardiff University's Cybersecurity Event Series Website
-          description: Developed and maintin Cardiff University's  [Cybersecurity Event Series](https://cyberevents.cs.cf.ac.uk/) - a resource to keep up to date with the latest cybersecurity events at Cardiff University.
+          description: Developed and maintain Cardiff University's  [Cybersecurity Event Series](https://cyberevents.cs.cf.ac.uk/) - a resource to keep up to date with the latest cybersecurity events at Cardiff University.
 
         - date_end: ''
           date_start: '2022-12-01'
