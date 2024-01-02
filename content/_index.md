@@ -273,7 +273,7 @@ sections:
           title: Academic visit to Waikato University
           description: Visited Waikato University, New Zealand to form research collaborations and networks.
 
-        - date_end: '' #'2024-03-01'
+        - date_end: ''
           date_start: '2021-07-16'
           icon: cardiff
           organization: Cardiff University 
