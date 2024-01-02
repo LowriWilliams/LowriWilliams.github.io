@@ -77,7 +77,12 @@ sections:
         # title: 
         # description: 
 
-
+        # - date_end: ''
+        # date_start: '2024-02-01'
+        # icon: cardiff
+        # organization: Cardiff University
+        # title: Module Leader
+        # description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
 
         - date_end: ''
           date_start: '2023-12-04'
@@ -268,7 +273,7 @@ sections:
           title: Academic visit to Waikato University
           description: Visited Waikato University, New Zealand to form research collaborations and networks.
 
-        - date_end: ''
+        - date_end: '' #'2024-03-01'
           date_start: '2021-07-16'
           icon: cardiff
           organization: Cardiff University 
@@ -331,33 +336,6 @@ sections:
           title: New Position
           description: Joined the Data Innovation Accelerator research project as a Research Data Scientist.
 
-
-
-
-
-
-
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        
           
 
 
