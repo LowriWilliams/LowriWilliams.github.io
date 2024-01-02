@@ -23,19 +23,19 @@ bio: My research interests include distributed robotics, mobile computing and pr
 
 # Interests to show in About widget
 interests:
-  - Text Mining/Information Retrieval
+  - Natural Language Processing/Text Mining/Information Retrieval/LLMs
   - Machine Learning/Adversarial Machine Learning
   - Intrusion Detection
 
 # Education to show in About widget
-education:
-  courses:
-    - course: PhD in Computer Science
-      institution: Cardiff University
-      year: 2017
-    - course: BSc Information Systems
-      institution: Cardiff University
-      year: 2013
+# education:
+#   courses:
+#     - course: PhD in Computer Science
+#       institution: Cardiff University
+#       year: 2017
+#     - course: BSc Information Systems
+#       institution: Cardiff University
+#       year: 2013
 
 
 # Social/Academic Networking
