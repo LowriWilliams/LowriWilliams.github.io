@@ -70,12 +70,12 @@ sections:
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
 
-        # - date_end: ''
-        #   date_start: '2024-00-00'
-        #   icon: cih
-        #   organization: Cyber Innovation Hub
-        #   title: 
-        #   description: 
+        - date_end: ''
+        date_start: '2024-01-01'
+        icon: cih
+        organization: Cyber Innovation Hub
+        title: 
+        description: 
 
 
 
