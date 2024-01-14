@@ -335,8 +335,7 @@ sections:
           description: Joined the Data Innovation Accelerator research project as a Research Data Scientist.
 
           
-      subtitle: Would it work here
-
+        - title: see more
 
 
       
