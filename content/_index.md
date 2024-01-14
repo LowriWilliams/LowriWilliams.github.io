@@ -81,6 +81,7 @@ sections:
           organization: Cardiff University
           title: Module Leader
           description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
+          certificate_url: See more
 
         - date_end: ''
           date_start: '2023-12-04'
@@ -335,8 +336,6 @@ sections:
           description: Joined the Data Innovation Accelerator research project as a Research Data Scientist.
 
           
-        - title: see more
-
 
       
 
