@@ -47,14 +47,13 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'News'
-      subtitle:
+      
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
 
 
       items:
 
-        title: Test
         # - date_end: ''
         #   date_start: '2024-02-01'
         #   icon: cardiff
@@ -336,7 +335,7 @@ sections:
           description: Joined the Data Innovation Accelerator research project as a Research Data Scientist.
 
           
-
+      subtitle: Would it work here
 
 
 
