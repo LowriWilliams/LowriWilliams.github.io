@@ -51,12 +51,10 @@ sections:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
 
-      # Accomplishments.
-      #   Add/remove as many `item` blocks below as you like.
-      #   `title`, `organization`, and `date_start` are the required parameters.
-      #   Leave other parameters empty if not required.
-      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+
       items:
+
+        title: Test
         # - date_end: ''
         #   date_start: '2024-02-01'
         #   icon: cardiff
@@ -84,8 +82,6 @@ sections:
           organization: Cardiff University
           title: Module Leader
           description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
-
-
 
         - date_end: ''
           date_start: '2023-12-04'
