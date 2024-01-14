@@ -50,6 +50,12 @@ sections:
       subtitle:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
+
+      text: |-
+      {{% callout note %}}
+      Quickly discover relevant content by [filtering publications](./publication/).
+      {{% /callout %}}
+
       # Accomplishments.
       #   Add/remove as many `item` blocks below as you like.
       #   `title`, `organization`, and `date_start` are the required parameters.
@@ -85,7 +91,6 @@ sections:
           description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
 
 
-        text: Quickly discover relevant content by [filtering publications](./publication/).
 
         - date_end: ''
           date_start: '2023-12-04'
