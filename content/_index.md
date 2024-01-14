@@ -99,7 +99,7 @@ sections:
           icon: intermobility
           organization: Intermobility Expo 2023
           title: Intermobility Expo 2023
-          description: Attened the Intermobility Expo 2023 in Dubai, UAE.
+          description: Attended the Intermobility Expo 2023 in Dubai, UAE.
 
         - date_end: ''
           date_start: '2023-11-14'
@@ -361,20 +361,20 @@ sections:
   #     columns: '2'
   #     view: card
       
-  - block: collection
-    content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
+  # - block: collection
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       Quickly discover relevant content by [filtering publications](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
 
   # - block: collection
   #   id: talks
