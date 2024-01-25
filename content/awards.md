@@ -36,12 +36,12 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-  - block: about.biography
-    id: about
-    content:
-      title: About Me
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
+  # - block: about.biography
+  #   id: about
+  #   content:
+  #     title: About Me
+  #     # Choose a user profile to display (a folder name within `content/authors/`)
+  #     username: admin
  
   - block: accomplishments
     content:
@@ -53,7 +53,7 @@ sections:
 
 
       items:
-        text: [See All](/awards/).
+
         # - date_end: ''
         #   date_start: '2024-02-01'
         #   icon: cardiff
@@ -379,13 +379,13 @@ sections:
   #     columns: '2'
   #     view: compact
   
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      email: WilliamsL10@cardiff.ac.uk
-      address:
-        street: School of Computer Science and Informatics, Cardiff University, Abacws, Senghennydd Road, Cardiff, CF24 4AG      
-    design:
-      columns: '2'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     email: WilliamsL10@cardiff.ac.uk
+  #     address:
+  #       street: School of Computer Science and Informatics, Cardiff University, Abacws, Senghennydd Road, Cardiff, CF24 4AG      
+  #   design:
+  #     columns: '2'
 ---
