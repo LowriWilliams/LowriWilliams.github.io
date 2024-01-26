@@ -68,12 +68,12 @@ sections:
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
 
-        # - date_end: ''
-        # date_start: '2024-01-01'
-        # icon: cih
-        # organization: Cyber Innovation Hub
-        # title: 
-        # description: 
+        - date_end: ''
+          date_start: '2024-01-01'
+          description: Co-author of a [paper](https://www.sciencedirect.com/science/article/pii/S2214212620308607#d1e2377) awarded Dr K W Wong Annual Award for Best Paper 2023, sponsored by the Journal of Information Security and Applications and Elsevier.
+          icon: elsevier
+          organization: Elsevier
+          title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
         - date_end: ''
           date_start: '2024-01-01'
