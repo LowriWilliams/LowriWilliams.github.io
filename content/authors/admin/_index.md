@@ -15,8 +15,10 @@ role: Lecturer in Cybersecurity
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) // [Cardiff University](https://www.cardiff.ac.uk/)
-    url: ''
+  - name: School of Computer Science and Informatics 
+    url: 'https://www.cardiff.ac.uk/computer-science/'
+  - name: Cardiff University
+    url: 'https://www.cardiff.ac.uk'
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include distributed robotics, mobile computing and programmable matter.
