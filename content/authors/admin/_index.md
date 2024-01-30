@@ -11,10 +11,12 @@ last_name: Williams
 superuser: true
 
 # Role/position/tagline
-role: Lecturer in Cybersecurity
+role: Lecturer
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Cybersecurity 
+    url: 'https://www.cardiff.ac.uk/centre-for-cyber-security-research'
   - name: School of Computer Science and Informatics 
     url: 'https://www.cardiff.ac.uk/computer-science/'
   - name: Cardiff University

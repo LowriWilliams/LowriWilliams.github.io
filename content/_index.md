@@ -65,7 +65,7 @@ sections:
           icon: cardiff
           organization: Cardiff University
           title: New Position
-          description: Joined Cardiff University's School of Computer Science & Informatics as a Lecturer in Cybersecurity.
+          description: Joined [Cardiff University's](https://www.cardiff.ac.uk/) [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) as a Lecturer in Cybersecurity.
 
         - date_end: ''
           date_start: '2024-01-01'
