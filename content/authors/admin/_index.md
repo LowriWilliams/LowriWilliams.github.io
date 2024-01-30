@@ -11,11 +11,11 @@ last_name: Williams
 superuser: true
 
 # Role/position/tagline
-role: Research Data Scientist #Lecturer in Cybersecurity
+role: Lecturer in Cybersecurity
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Cardiff University
+  - name: [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) // [Cardiff University](https://www.cardiff.ac.uk/)
     url: ''
 
 # Short bio (displayed in user profile at end of posts)
@@ -68,7 +68,7 @@ highlight_name: true
 ---
 
 
-I am a Research Data Scientist at the School of Computer Science and Informatics at Cardiff University. My work focuses on the development of novel approaches to automated cyber defence. Currently, my interest is on how to capture user attitudes towards cyber technologies using text mining and machine learning techniques.
+I am a Lecturer at the [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) at [Cardiff University](https://www.cardiff.ac.uk/). My work focuses on the development of novel approaches to automated cyber defence. Currently, my interest is on how to apply text mining and machine learning techniques in defence methodologies.
 
 
 {style="text-align: justify;"}
