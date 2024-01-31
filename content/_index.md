@@ -44,10 +44,10 @@ sections:
       username: admin
  
   - block: accomplishments
-    id: awards
+    id: news
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'News'
+      title: 'Stay Updated'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -59,6 +59,7 @@ sections:
         #   organization: The Colloquium on Information Systems Security Education
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+
         - date_end: ''
           date_start: '2024-02-01'
           icon: mdpi
@@ -80,7 +81,7 @@ sections:
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
-        - text: [See All](/awards/)
+      text: [See All](/awards/)
        
     design:
       columns: '2'
