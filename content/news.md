@@ -37,7 +37,7 @@ sections:
         gradient_start: '#004ba0'
         text_color_light: true
  
-  - block: accomplishments
+  - block: news
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'News'
