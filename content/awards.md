@@ -1,20 +1,4 @@
 ---
-title: News
-cms_exclude: true
-
-# View.
-#   1 = List
-#   2 = Compact
-#   3 = Card
-#   4 = Citation
-view: 3
-
-# Optional header image (relative to `static/media/` folder).
-banner:
-  caption: ''
-  image: ''
-
-
 # Leave the homepage title empty to use the site title
 title: ''
 date: 2022-10-24
@@ -52,13 +36,8 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-  - block: about.biography
-    id: about
-    content:
-      title: About Me
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: admin
- 
+  
+
   - block: accomplishments
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
