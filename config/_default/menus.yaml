@@ -10,18 +10,18 @@ main:
   - name: News
     url: '#awards'
     weight: 20
-  # - name: Funding
-  #   url: '/funding/'
-  #   weight: 30
   # - name: Supervision
-  #   url: '/supervision/'
-  #   weight: 40
+  #   url: '#supervision'
+  #   weight: 30
   # - name: Teaching
-  #   url: '/teaching/'
-  #   weight: 50
+  #   url: '#teaching'
+  #   weight: 40
   - name: Publications
     url: '#publications'
-    weight: 60
+    weight: 50
+  # - name: Funding
+  #   url: '#funding'
+  #   weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
