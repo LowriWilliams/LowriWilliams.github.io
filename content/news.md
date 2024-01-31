@@ -39,9 +39,10 @@ sections:
   
 
   - block: accomplishments
+    id: news
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'News'
+      title: 'Recent News'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -379,13 +380,13 @@ sections:
   #     columns: '2'
   #     view: compact
   
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      email: WilliamsL10@cardiff.ac.uk
-      address:
-        street: School of Computer Science and Informatics, Cardiff University, Abacws, Senghennydd Road, Cardiff, CF24 4AG      
-    design:
-      columns: '2'
+  # - block: contact
+  #   id: contact
+  #   content:
+  #     title: Contact
+  #     email: WilliamsL10@cardiff.ac.uk
+  #     address:
+  #       street: School of Computer Science and Informatics, Cardiff University, Abacws, Senghennydd Road, Cardiff, CF24 4AG      
+  #   design:
+  #     columns: '2'
 ---
