@@ -44,10 +44,10 @@ sections:
       username: admin
  
   - block: accomplishments
-    id: news
+    id: awards
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'Stay Updated'
+      title: 'News'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -59,7 +59,7 @@ sections:
         #   organization: The Colloquium on Information Systems Security Education
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
-
+        
         - date_end: ''
           date_start: '2024-02-01'
           icon: mdpi
