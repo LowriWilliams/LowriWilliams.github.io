@@ -10,24 +10,19 @@ main:
   - name: News
     url: '#awards'
     weight: 20
-  # - name: Supervision
-  #   url: '#supervision'
-  #   weight: 30
-  # - name: Teaching
-  #   url: '#teaching'
-  #   weight: 40
-  # - name: Publications
-  #   url: '#publications'
-  #   weight: 50
-  # - name: Funding
-  #   url: '#funding'
-  #   weight: 60
+  - name: Funding
+    url: '#funding'
+    weight: 30
+  - name: Supervision
+    url: '#supervision'
+    weight: 40
+  - name: Teaching
+    url: '#teaching'
+    weight: 50
+  - name: Publications
+    url: '#publications'
+    weight: 60
   - name: Contact
     url: '#contact'
     weight: 70
 
-# Link to a PDF of your resume/CV from the menu.
-# To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
-#  - name: CV
-#    url: uploads/resume.pdf
-#    weight: 70
