@@ -47,7 +47,7 @@ sections:
     id: news
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'News'
+      title: 'Stay Updated'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
