@@ -62,6 +62,13 @@ sections:
         
         - date_end: ''
           date_start: '2024-02-01'
+          icon: mdpi
+          organization: Cardiff University
+          title: Guest Editor
+          description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity: Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
+          
+        - date_end: ''
+          date_start: '2024-02-01'
           icon: cardiff
           organization: Cardiff University
           title: New Position
