@@ -81,6 +81,7 @@ sections:
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
+      text: [See All](/awards/)
         # - date_end: ''
         #   date_start: '2024-01-01'
         #   icon: cardiff
