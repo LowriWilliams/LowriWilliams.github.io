@@ -52,7 +52,8 @@ sections:
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
 
-
+      text: [See All](/awards/)
+      
       items:
        # - date_end: ''
         #   date_start: '2024-01-01'
@@ -80,8 +81,6 @@ sections:
           icon: elsevier
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
-      
-    text: [See All](/awards/)
        
     design:
       columns: '2'
