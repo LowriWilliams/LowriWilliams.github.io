@@ -340,51 +340,6 @@ sections:
     design:
       columns: '2'
 
-  # - block: collection
-  #   id: featured
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
-  #   design:
-  #     columns: '2'
-  #     view: card
-      
-  # - block: collection
-  #   content:
-  #     title: Recent Publications
-  #     text: |-
-  #       {{% callout note %}}
-  #       Quickly discover relevant content by [filtering publications](./publication/).
-  #       {{% /callout %}}
-  #     filters:
-  #       folders:
-  #         - publication
-  #       exclude_featured: true
-  #   design:
-  #     columns: '2'
-  #     view: citation
-
-  # - block: collection
-  #   id: talks
-  #   content:
-  #     title: Recent & Upcoming Talks
-  #     filters:
-  #       folders:
-  #         - event
-  #   design:
-  #     columns: '2'
-  #     view: compact
-  
-  - block: contact
-    id: contact
-    content:
-      title: Contact
-      email: WilliamsL10@cardiff.ac.uk
-      address:
-        street: School of Computer Science and Informatics, Cardiff University, Abacws, Senghennydd Road, Cardiff, CF24 4AG      
-    design:
-      columns: '2'
+ 
+ 
 ---
