@@ -37,10 +37,11 @@ sections:
         gradient_start: '#004ba0'
         text_color_light: true
  
-  - block: accomplishments
+   - block: news
+    id: news
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'News'
+      title: 'Stay Updated'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
