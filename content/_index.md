@@ -89,18 +89,12 @@ sections:
   - block: collection
     id: publications
     content:
-      items:
-       - date_end: ''
-          date_start: '2024-01-01'
-          icon: cisse
-          organization: The Colloquium on Information Systems Security Education
-          title: New Publication
-          description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+      
       title: Recent Publications
       text: "[See all](/publications/)" 
       filters:
         folders:
-          - publication
+          - recent_publication
         # exclude_featured: true
     design:
       columns: '2'
