@@ -36,7 +36,7 @@ sections:
         gradient_end: '#1976d2'
         gradient_start: '#004ba0'
         text_color_light: true
-
+        
   - block: about.biography
     id: about
     content:
@@ -89,9 +89,10 @@ sections:
   - block: collection
     id: publications
     content:
-      
       title: Recent Publications
-      text: "[See all](/publications/)" 
+      text: |-
+        
+        [See all](./publication/)
       filters:
         folders:
           - recent_publication
