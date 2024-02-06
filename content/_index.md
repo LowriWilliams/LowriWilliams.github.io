@@ -81,12 +81,7 @@ sections:
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
-      text: |-
-        {{% callout note %}}
-        [See all](./awards/).
-        {{% /callout %}}
-
-       
+      text: "[See all](/awards/)"       
     design:
       columns: '2'
       
@@ -105,6 +100,49 @@ sections:
     design:
       columns: '2'
       view: citation
+
+
+    - block: accomplishments
+    id: awards
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'News'
+      
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
+
+      items:
+       # - date_end: ''
+        #   date_start: '2024-01-01'
+        #   icon: cisse
+        #   organization: The Colloquium on Information Systems Security Education
+        #   title: New Publication
+        #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+
+        - date_end: ''
+          date_start: '2024-02-01'
+          icon: mdpi
+          organization: MDPI Open Access Journal
+          title: Guest Editor
+          description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
+          
+        - date_end: ''
+          date_start: '2024-02-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: New Position
+          description: Joined [Cardiff University's](https://www.cardiff.ac.uk/) [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) as a Lecturer in Cybersecurity.
+
+        - date_end: ''
+          date_start: '2024-01-01'
+          description: Co-author of a [paper](https://www.sciencedirect.com/science/article/pii/S2214212620308607#d1e2377) awarded the Dr K W Wong Annual Award for Best Paper 2023, sponsored by the Journal of Information Security and Applications and Elsevier.
+          icon: elsevier
+          organization: Elsevier
+          title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
+
+      text: "[See all](/awards/)"       
+    design:
+      columns: '2'
 
   # - block: collection
   #   id: talks
