@@ -82,9 +82,9 @@ sections:
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
       text: |-
-        {{% callout note %}}
+        {}
         [See all](./awards/).
-        {{% /callout %}}
+        {}
 
        
     design:
