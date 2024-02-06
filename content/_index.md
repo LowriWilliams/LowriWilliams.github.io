@@ -85,28 +85,28 @@ sections:
     design:
       columns: '2'
       
-  - block: collection
+  # - block: collection
+  #   id: publications
+  #   content:
+  #     title: Recent Publications
+  #     text: |-
+  #       {{% callout note %}}
+  #       [See all](./publication/).
+  #       {{% /callout %}}
+  #     filters:
+  #       folders:
+  #         - publication
+  #       # exclude_featured: true
+  #   design:
+  #     columns: '2'
+  #     view: citation
+
+
+  - block: publications
     id: publications
     content:
-      title: Recent Publications
-      text: |-
-        {{% callout note %}}
-        [See all](./publication/).
-        {{% /callout %}}
-      filters:
-        folders:
-          - publication
-        # exclude_featured: true
-    design:
-      columns: '2'
-      view: citation
-
-
-    - block: accomplishments
-    id: awards
-    content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'News'
+      title: 'Recent Publications'
       
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -140,7 +140,7 @@ sections:
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
-      text: "[See all](/awards/)"       
+      text: "[See all](/publications/)"       
     design:
       columns: '2'
 
