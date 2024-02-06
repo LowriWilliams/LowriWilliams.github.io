@@ -298,7 +298,7 @@ sections:
           title: New Publication
           description: Co-author of our paper "[A three-tiered intrusion detection system for industrial control systems](https://academic.oup.com/cybersecurity/article/7/1/tyab006/6153960?guestAccessKey=97f6d5aa-9956-442e-8e17-b74db0578b52&login=false)" published in the Journal of Cybersecurity.
 
-        - date_end: ''
+        - date_end: '2024-02-01'
           date_start: '2021-06-08'
           icon: frontiers
           organization: Frontiers
