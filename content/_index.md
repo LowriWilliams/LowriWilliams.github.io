@@ -102,7 +102,7 @@ sections:
   #     view: citation
 
 
-  - block: publications
+  - block: collection
     id: publications
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
