@@ -93,7 +93,7 @@ sections:
       title: Recent Publications
       text: |-
         {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
+        [See all](./publication/).
         {{% /callout %}}
       filters:
         folders:
