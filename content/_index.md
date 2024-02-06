@@ -81,7 +81,10 @@ sections:
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
-      text: "[See all](/awards/)"
+      text: |-
+        {{% callout note %}}
+        [See all](./awards/).
+        {{% /callout %}}
 
        
     design:
