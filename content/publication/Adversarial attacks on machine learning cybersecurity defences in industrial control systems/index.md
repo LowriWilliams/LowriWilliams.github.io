@@ -1,10 +1,11 @@
 ---
-title: "A three-tiered intrusion detection system for industrial control systems"
+title: "Adversarial attacks on machine learning cybersecurity defences in industrial control systems"
 authors:
 - E Anthi
 - L Williams
+- M Rhode
 - P Burnap
-- K Jones
+- A Wedgbury
 
 date: "2021-01-01"
 doi: "https://academic.oup.com/cybersecurity/article/7/1/tyab006/6153960?login=true"
