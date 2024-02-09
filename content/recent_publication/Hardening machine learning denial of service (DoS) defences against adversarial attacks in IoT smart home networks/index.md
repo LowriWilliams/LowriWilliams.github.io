@@ -2,7 +2,7 @@
 title: "Hardening machine learning denial of service (DoS) defences against adversarial attacks in IoT smart home networks"
 authors:
 - E Anthi
-- *L Williams*
+- L Williams
 - A Javed
 - P Burnap
 
