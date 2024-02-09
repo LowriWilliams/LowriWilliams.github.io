@@ -2,7 +2,7 @@
 title: "Hardening machine learning denial of service (DoS) defences against adversarial attacks in IoT smart home networks"
 authors:
 - E Anthi
-- L Williams
+- *L Williams*
 - A Javed
 - P Burnap
 
@@ -23,7 +23,7 @@ publication_types: ["2"]
 publication: 'Computers and Security'
 publication_short: ""
 
-abstract: Machine learning based Intrusion Detection Systems (IDS) allow flexible and efficient automated detection of cyberattacks in Internet of Things (IoT) networks. However, this has also created an additional attack vector; the machine learning models which support the IDS’s decisions may also be subject to cyberattacks known as Adversarial Machine Learning (AML). In the context of IoT, AML can be used to manipulate data and network traffic that traverse through such devices. These perturbations increase the confusion in the decision boundaries of the machine learning classifier, where malicious network packets are often miss-classified as being benign. Consequently, such errors are bypassed by machine learning based detectors, which increases the potential of significantly delaying attack detection and further consequences such as personal information leakage, damaged hardware, and financial loss. Given the impact that these attacks may have, this paper proposes a rule-based approach towards generating AML attack samples and explores how they can be used to target a range of supervised machine learning classifiers used for detecting Denial of Service attacks in an IoT smart home network. The analysis explores which DoS packet features to perturb and how such adversarial samples can support increasing the robustness of supervised models using adversarial training. The results demonstrated that the performance of all the top performing classifiers were affected, decreasing a maximum of 47.2 percentage points when adversarial samples were present. Their performances improved following adversarial training, demonstrating their robustness towards such attacks.
+abstract: The paper explores how adversarial learning can be used to target machine learning based intrustion detection systems from being able to dechiper DoS attacks.
 
 # Summary. An optional shortened abstract.
 summary: 
