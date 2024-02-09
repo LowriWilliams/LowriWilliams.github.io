@@ -2,7 +2,7 @@
 title: "Adversarial attacks on machine learning cybersecurity defences in industrial control systems"
 authors:
 - E Anthi
-- L Williams
+- **L Williams**
 - M Rhode
 - P Burnap
 - A Wedgbury
