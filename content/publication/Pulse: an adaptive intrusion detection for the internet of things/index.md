@@ -1,9 +1,9 @@
 ---
 title: "Pulse: an adaptive intrusion detection for the internet of things"
 authors:
-- E Anthi
-- L Williams
-- P Burnap
+- Eirini Anthi
+- Lowri Williams
+- Pete Burnap
 date: "2018-01-01"
 doi: "https://digital-library.theiet.org/content/conferences/10.1049/cp.2018.0035"
 

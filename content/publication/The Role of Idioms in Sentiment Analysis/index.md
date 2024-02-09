@@ -1,11 +1,11 @@
 ---
 title: "The Role of Idioms in Sentiment Analysis"
 authors:
-- L Williams
-- C Bannister
-- M Arribas-Ayllon
-- A Preece
-- I Spasic
+- Lowri Williams
+- Christian Bannister
+- Michael Arribas-Ayllon
+- Alun Preece
+- Irena Spasic
 date: "2015-11-30"
 doi: "https://doi.org/10.1016/j.eswa.2015.05.039"
 

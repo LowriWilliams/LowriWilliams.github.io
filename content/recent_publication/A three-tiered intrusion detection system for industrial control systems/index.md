@@ -1,10 +1,10 @@
 ---
 title: "A three-tiered intrusion detection system for industrial control systems"
 authors:
-- E Anthi
-- **L Williams**
-- P Burnap
-- K Jones
+- Eirini Anthi
+- Lowri Williams
+- Pete Burnap
+- Kevin Jones
 
 date: "2021-02-27"
 doi: "https://academic.oup.com/cybersecurity/article/7/1/tyab006/6153960?login=true"

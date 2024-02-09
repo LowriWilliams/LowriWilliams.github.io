@@ -1,10 +1,10 @@
 ---
 title: "Comparing the utility of different classification schemes for emotive language analysis"
 authors:
-- L Williams
-- M Arribas-Ayllon
-- A Artemiou
-- I Spasic
+- Lowri Williams
+- Michael Arribas-Ayllon
+- Andreas Artemiou
+- Irena Spasic
 
 date: "2019-10-01"
 doi: "https://link.springer.com/article/10.1007/s00357-019-9307-0"

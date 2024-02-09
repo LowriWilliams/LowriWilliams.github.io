@@ -1,11 +1,11 @@
 ---
 title: "Adversarial attacks on machine learning cybersecurity defences in industrial control systems"
 authors:
-- E Anthi
-- **L Williams**
-- M Rhode
-- P Burnap
-- A Wedgbury
+- Eirini Anthi
+- Lowri Williams
+- Matilda Rhode
+- Pete Burnap
+- Adam Wedgbury
 
 date: "2021-05-01"
 doi: "https://www.sciencedirect.com/science/article/pii/S2214212620308607"

@@ -1,9 +1,9 @@
 ---
 title: "Idiom-based features in sentiment analysis: Cutting the Gordian knot"
 authors:
-- I Spasic
-- L Williams
-- A Buerki
+- Irena Spasic
+- Lowri Williams
+- Andreas Buerki
 date: "2017-12-19"
 doi: "https://ieeexplore.ieee.org/document/8226982"
 

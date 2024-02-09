@@ -1,11 +1,11 @@
 ---
 title: "A supervised intrusion detection system for smart home IoT devices"
 authors:
-- E Anthi
-- L Williams
-- M Słowińska
-- G Theodorakopoulos
-- P Burnap
+- Eirini Anthi
+- Lowri Williams
+- Małgorzata Słowińska
+- George Theodorakopoulos
+- Pete Burnap
 
 date: "2019-07-02"
 doi: "https://ieeexplore.ieee.org/abstract/document/8753563"
