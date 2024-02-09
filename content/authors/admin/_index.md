@@ -23,7 +23,7 @@ organizations:
     url: 'https://www.cardiff.ac.uk'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests revolve around on how to apply text mining and machine learning techniques in defence methodologies.
 
 # Interests to show in About widget
 interests:
@@ -72,7 +72,12 @@ highlight_name: true
 ---
 
 
-I am a Lecturer (~Assistant Professor) at the [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) at [Cardiff University](https://www.cardiff.ac.uk/). My work focuses on the development of novel approaches to automated cyber defence. Currently, my interest is on how to apply text mining and machine learning techniques in defence methodologies.
+I am a Lecturer (~Assistant Professor) at the [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) at [Cardiff University](https://www.cardiff.ac.uk/). My work focuses on the development of novel approaches to **automated cyber defence**. In particular, my interest is on how to apply **text mining** and **machine learning** techniques in defence methodologies.
+
+Previously, I was a Research Associate at Cardiff University, working with Prof. Pete Burnap for the [Discribe Hub](https://www.discribehub.org/) and [Data Innovation Accelerator](https://www.cardiff.ac.uk/data-innovation-accelerator) projects.
+
+
+
 
 <!-- My research focuses on technologies that apply Artificial Intelligence for education and information accessibility. In particular, my work employs Natural Language Processing approaches to facilitate reading and understanding. I am especially interested in studying the real capabilities of systems for several Natural Language Generation tasks, such as Text Simplification, Summarisation and Machine Translation. In order to do that, my collaborators and I create language resources, design evaluation methodologies or metrics, and implement models using machine learning techniques.
 
