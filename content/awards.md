@@ -135,7 +135,7 @@ sections:
           icon: yucatani6
           organization: Yucatan i6
           title: Capture the Flag - Yucatan i6 - Cardiff University
-          description: Co-organised and designed a Capture the Flag competition for attendees at Yucatan i6, North America's largest cybersecurity event.
+          description: Co-organised and designed a Capture the Flag competition for attendees at [Yucatan i6](https://yucatan-i6.com/), North America's largest cybersecurity event.
 
         - date_end: ''
           date_start: '2023-09-08'
@@ -247,7 +247,7 @@ sections:
           icon: cardiff_series
           organization: Cardiff University
           title: Cardiff University's Cybersecurity Event Series Website
-          description: Developed and maintain Cardiff University's  [Cybersecurity Event Series](https://cyberevents.cs.cf.ac.uk/) - a resource to keep up to date with the latest cybersecurity events at Cardiff University.
+          description: Developed and maintain Cardiff University's [Cybersecurity Event Series](https://cyberevents.cs.cf.ac.uk/) - a resource to keep up to date with the latest cybersecurity events at Cardiff University.
 
         - date_end: ''
           date_start: '2022-12-01'
