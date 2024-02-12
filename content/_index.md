@@ -53,9 +53,7 @@ sections:
         enable: true
         text: See all news
         link: awards/
-      # Date format: https://docs.hugoblox.com/customization/#date-format
-      date_format: Jan 2006
-
+    
       items:
        # - date_end: ''
         #   date_start: '2024-01-01'
