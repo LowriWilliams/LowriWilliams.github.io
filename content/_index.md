@@ -90,9 +90,9 @@ sections:
     id: publications
     content:
       title: Recent Publications
-      text: |-
+      # text: |-
         
-        [See all](./publication/)
+      #   [See all](./publication/)
       filters:
         folders:
           - recent_publication
@@ -100,9 +100,11 @@ sections:
     design:
       columns: '2'
       view: card
+    archive:
+      enable: true
+      text: See all publications
+      link: publication/
 
-
-  
   # - block: collection
   #   id: talks
   #   content:
