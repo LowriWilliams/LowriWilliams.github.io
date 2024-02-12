@@ -53,7 +53,6 @@ sections:
         enable: true
         text: See all news
         link: awards/
-    
       items:
        # - date_end: ''
         #   date_start: '2024-01-01'
