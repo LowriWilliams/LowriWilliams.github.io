@@ -90,6 +90,10 @@ sections:
     id: publications
     content:
       title: Recent Publications
+      archive:
+        enable: true
+        text: See all publications
+        link: publication/
       # text: |-
         
       #   [See all](./publication/)
@@ -100,10 +104,7 @@ sections:
     design:
       columns: '2'
       view: card
-    archive:
-      enable: true
-      text: See all publications
-      link: publication/
+    
 
   # - block: collection
   #   id: talks
