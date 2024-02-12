@@ -49,7 +49,10 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'News'
-      
+      archive:
+        enable: true
+        text: See all news
+        link: awards/
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
 
@@ -81,8 +84,7 @@ sections:
           icon: elsevier
           organization: Elsevier
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
-
-      text: "[See all](/awards/)"       
+       
     design:
       columns: '2'
       
@@ -94,13 +96,9 @@ sections:
         enable: true
         text: See all publications
         link: publication/
-      # text: |-
-        
-      #   [See all](./publication/)
       filters:
         folders:
           - recent_publication
-        # exclude_featured: true
     design:
       columns: '2'
       view: card
