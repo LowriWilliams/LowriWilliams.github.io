@@ -49,9 +49,10 @@ sections:
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
       title: 'News'
+      count: 2
       archive:
         enable: true
-        text: See all publications
+        text: See more news
         link: awards/
       # Date format: https://docs.hugoblox.com/customization/#date-format
       date_format: Jan 2006
@@ -83,9 +84,7 @@ sections:
           description: Co-author of a [paper](https://www.sciencedirect.com/science/article/pii/S2214212620308607#d1e2377) awarded the Dr K W Wong Annual Award for Best Paper 2023, sponsored by the Journal of Information Security and Applications and Elsevier.
           icon: elsevier
           organization: Elsevier
-          title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
-
-      text: "[See all](/awards/)"       
+          title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023      
     design:
       columns: '2'
       
