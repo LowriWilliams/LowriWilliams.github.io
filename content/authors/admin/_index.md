@@ -72,7 +72,7 @@ highlight_name: true
 ---
 
 
-I am a Lecturer (~Assistant Professor) at the [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) at [Cardiff University](https://www.cardiff.ac.uk/). My work focuses on the development of novel approaches to **automated cyber defence**. In particular, my interest is on how to apply **text mining** and **machine learning** techniques in defence methodologies.
+I am a Lecturer (~Assistant Professor) at the [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) at [Cardiff University](https://www.cardiff.ac.uk/). My work focuses on the development of novel approaches towards **automated cyber defence**. In particular, my interest is on how to apply **text mining** and **machine learning** techniques in defence methodologies.
 
 Previously, I was a Research Associate at Cardiff University working for the [Discribe Hub](https://www.discribehub.org/) and [Data Innovation Accelerator](https://www.cardiff.ac.uk/data-innovation-accelerator) projects.
 
