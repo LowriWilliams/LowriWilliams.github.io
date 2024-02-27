@@ -63,6 +63,12 @@ sections:
         #   organization: The Colloquium on Information Systems Security Education
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+        - date_end: ''
+          date_start: '2024-02-27'
+          icon: cardiff
+          organization: Cardiff University
+          title: £2,300 Funding Awarded
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech.
 
         - date_end: ''
           date_start: '2024-02-01'
@@ -77,13 +83,6 @@ sections:
           organization: Cardiff University
           title: New Position
           description: Joined [Cardiff University's](https://www.cardiff.ac.uk/) [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) as a Lecturer in Cybersecurity.
-
-        - date_end: ''
-          date_start: '2024-01-01'
-          description: Co-author of a [paper](https://www.sciencedirect.com/science/article/pii/S2214212620308607#d1e2377) awarded the Dr K W Wong Annual Award for Best Paper 2023, sponsored by the Journal of Information Security and Applications and Elsevier.
-          icon: elsevier
-          organization: Elsevier
-          title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
       text: "[See all](/awards/)"       
     design:

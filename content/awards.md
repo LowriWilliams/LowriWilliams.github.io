@@ -53,6 +53,14 @@ sections:
         #   organization: The Colloquium on Information Systems Security Education
         #   title: New Publication
         #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+
+        - date_end: ''
+          date_start: '2024-02-27'
+          icon: cardiff
+          organization: Cardiff University
+          title: £2,300 Funding Awarded
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech.
+
         - date_end: ''
           date_start: '2024-02-01'
           icon: mdpi
