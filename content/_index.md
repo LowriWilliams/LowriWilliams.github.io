@@ -68,7 +68,7 @@ sections:
           icon: cardiff
           organization: Cardiff University
           title: Funding Awarded
-          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £2,300.
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.
 
         - date_end: ''
           date_start: '2024-02-01'
