@@ -58,8 +58,8 @@ sections:
           date_start: '2024-02-27'
           icon: cardiff
           organization: Cardiff University
-          title: £2,300 Funding Awarded
-          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech.
+          title: Funding Awarded
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £2,300.
 
         - date_end: ''
           date_start: '2024-02-01'
@@ -170,36 +170,36 @@ sections:
           date_start: '2023-07-01'
           icon: nationalhighways
           organization: National Highways
-          title: £120,000 Funding Awarded
-          description: Co-investigator on a National Highways funded project titled - Evaluating and Improving the Robustness of National Highways’ AI-based Systems.
+          title: Funding Awarded
+          description: Co-investigator on a National Highways funded project titled - Evaluating and Improving the Robustness of National Highways’ AI-based Systems. Worth £120,000.
 
         - date_end: ''
           date_start: '2023-07-01'
           icon: cardiff
           organization: Cardiff University
-          title: £5,000 Funding Awarded
-          description: Prinicple-investigator on a Cardiff University funded project titled - Know the Adversary - Extracting the Context, Action, and Purpose of an Adversary’s Actions from Free Text.
+          title: Funding Awarded
+          description: Prinicple-investigator on a Cardiff University funded project titled - Know the Adversary - Extracting the Context, Action, and Purpose of an Adversary’s Actions from Free Text. Worth £5,000.
 
         - date_end: ''
           date_start: '2023-07-01'
           icon: cardiff
           organization: Cardiff University
-          title: £2,300 Funding Awarded
-          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship in collaboration with Airbus titled - Threat Intelligent Report Similarity using Natural Language Processing.
+          title: Funding Awarded
+          description: Prinicple-investigator of a Cardiff University On-campus Summer Internship in collaboration with Airbus titled - Threat Intelligent Report Similarity using Natural Language Processing. Worth £2,300.
         
         - date_end: ''
           date_start: '2023-07-01'
           icon: cardiff
           organization: Cardiff University
-          title: £2,300 Funding Awarded
-          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with Copper Horse Ltd titled - Automotive Cyber Security Investigation and Research.
+          title: Funding Awarded
+          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with Copper Horse Ltd titled - Automotive Cyber Security Investigation and Research. Worth £2,300.
 
         - date_end: ''
           date_start: '2023-07-01'
           icon: cardiff
           organization: Cardiff University
-          title: £2,300 Funding Awarded
-          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with CyberSmart titled - Exploring the Effectiveness of Incentives for Improving Cyber Security Behaviours in Organisations.
+          title: Funding Awarded
+          description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with CyberSmart titled - Exploring the Effectiveness of Incentives for Improving Cyber Security Behaviours in Organisations. Worth £2,300.
 
         - date_end: ''
           date_start: '2023-04-27'
@@ -261,8 +261,8 @@ sections:
           date_start: '2022-12-01'
           icon: cardiff
           organization: Cardiff University
-          title: £10,000 Funding Awarded 
-          description: Co-investigator of a Cardiff University and the University of Waikato Strategic International Partnership Collaborative Seed Fund - Factors that Drive Phishing Attacks.
+          title: Funding Awarded 
+          description: Co-investigator of a Cardiff University and the University of Waikato Strategic International Partnership Collaborative Seed Fund - Factors that Drive Phishing Attacks. Worth £10,000.
 
         - date_end: ''
           date_start: '2022-10-12'
