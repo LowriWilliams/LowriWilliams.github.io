@@ -57,12 +57,13 @@ sections:
       date_format: Jan 2006
 
       items:
-       # - date_end: ''
-        #   date_start: '2024-01-01'
-        #   icon: cisse
-        #   organization: The Colloquium on Information Systems Security Education
-        #   title: New Publication
-        #   description: Author of our paper "Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students” published in the Journal of The Colloquium for Information Systems Security Education.
+        - date_end: ''
+          date_start: '2024-01-01'
+          icon: cisse
+          organization: The Colloquium on Information Systems Security Education
+          title: New Publication
+          description: Author of our paper [Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students](https://www.researchgate.net/publication/378343997_Leveraging_Gamification_and_Game-based_Learning_in_Cybersecurity_Education_Engaging_and_Inspiring_Non-Cyber_Students) published in the Journal of The Colloquium for Information Systems Security Education.
+
         - date_end: ''
           date_start: '2024-02-27'
           icon: cardiff
@@ -77,13 +78,7 @@ sections:
           title: Guest Editor
           description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
           
-        - date_end: ''
-          date_start: '2024-02-01'
-          icon: cardiff
-          organization: Cardiff University
-          title: New Position
-          description: Joined [Cardiff University's](https://www.cardiff.ac.uk/) [School of Computer Science and Informatics](https://www.cardiff.ac.uk/computer-science/) as a Lecturer in Cybersecurity.
-
+       
       text: "[See all](/awards/)"       
     design:
       columns: '2'
