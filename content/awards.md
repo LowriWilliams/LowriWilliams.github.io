@@ -48,7 +48,7 @@ sections:
 
       items:
         - date_end: ''
-          date_start: '2024-01-01'
+          date_start: '2024-02-28'
           icon: cisse
           organization: The Colloquium on Information Systems Security Education
           title: New Publication
