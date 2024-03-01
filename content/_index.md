@@ -99,6 +99,24 @@ sections:
       view: card
     
 
+
+
+
+    - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      archive:
+        enable: true
+        text: See all publications
+        link: awards/
+      filters:
+        folders:
+          - news
+    design:
+      columns: '2'
+      view: card
+
   # - block: collection
   #   id: talks
   #   content:
