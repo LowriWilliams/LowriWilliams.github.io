@@ -44,59 +44,59 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
  
-  # - block: accomplishments
-  #   id: awards
-  #   content:
-  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-  #     title: 'News'
-  #     archive:
-  #       enable: true
-  #       text: See more news
-  #       link: awards/
-  #     # Date format: https://docs.hugoblox.com/customization/#date-format
-  #     date_format: Jan 2006
+  - block: accomplishments
+    id: awards
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'News'
+      archive:
+        enable: true
+        text: See more news
+        link: awards/
+      # Date format: https://docs.hugoblox.com/customization/#date-format
+      date_format: Jan 2006
 
-  #     items:
-  #       - date_end: ''
-  #         date_start: '2024-02-28'
-  #         icon: cisse
-  #         organization: The Colloquium on Information Systems Security Education
-  #         title: New Publication
-  #         description: Main author of our paper [Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students](https://www.researchgate.net/publication/378343997_Leveraging_Gamification_and_Game-based_Learning_in_Cybersecurity_Education_Engaging_and_Inspiring_Non-Cyber_Students) published in the Journal of The Colloquium for Information Systems Security Education.
+      items:
+        - date_end: ''
+          date_start: '2024-02-28'
+          icon: cisse
+          organization: The Colloquium on Information Systems Security Education
+          title: New Publication
+          description: Main author of our paper [Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students](https://www.researchgate.net/publication/378343997_Leveraging_Gamification_and_Game-based_Learning_in_Cybersecurity_Education_Engaging_and_Inspiring_Non-Cyber_Students) published in the Journal of The Colloquium for Information Systems Security Education.
 
-  #       - date_end: ''
-  #         date_start: '2024-02-27'
-  #         icon: cardiff
-  #         organization: Cardiff University
-  #         title: Funding Awarded
-  #         description: Principle-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.
+        - date_end: ''
+          date_start: '2024-02-27'
+          icon: cardiff
+          organization: Cardiff University
+          title: Funding Awarded
+          description: Principle-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.
 
-  #       - date_end: ''
-  #         date_start: '2024-02-01'
-  #         icon: mdpi
-  #         organization: MDPI Open Access Journal
-  #         title: Guest Editor
-  #         description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
+        - date_end: ''
+          date_start: '2024-02-01'
+          icon: mdpi
+          organization: MDPI Open Access Journal
+          title: Guest Editor
+          description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
           
        
-  #     text: "[See all](/awards/)"       
-  #   design:
-  #     columns: '2'
+      text: "[See all](/awards/)"       
+    design:
+      columns: '2'
       
-  # - block: collection
-  #   id: publications
-  #   content:
-  #     title: Recent Publications
-  #     archive:
-  #       enable: true
-  #       text: See all publications
-  #       link: publication/
-  #     filters:
-  #       folders:
-  #         - recent_publication
-  #   design:
-  #     columns: '2'
-  #     view: card
+  - block: collection
+    id: publications
+    content:
+      title: Recent Publications
+      archive:
+        enable: true
+        text: See all publications
+        link: publication/
+      filters:
+        folders:
+          - recent_publication
+    design:
+      columns: '2'
+      view: card
     
   # - block: collection
   #   id: talks
