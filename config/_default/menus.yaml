@@ -8,7 +8,7 @@ main:
     url: '#about'
     weight: 10
   - name: News
-    url: 'awards/'
+    url: '#awards'
     weight: 20
   # - name: Supervision
   #   url: '#supervision'
@@ -17,7 +17,7 @@ main:
   #   url: '#teaching'
   #   weight: 40
   - name: Publications
-    url: 'publication/'
+    url: '#publications'
     weight: 50
   # - name: Funding
   #   url: '#funding'
