@@ -8,7 +8,7 @@ authors:
 
 
 date: "2024-02-28"
-doi: "https://www.researchgate.net/publication/378343997_Leveraging_Gamification_and_Game-based_Learning_in_Cybersecurity_Education_Engaging_and_Inspiring_Non-Cyber_Students"
+doi: "https://cisse.info/journal/index.php/cisse/article/view/186/186"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
