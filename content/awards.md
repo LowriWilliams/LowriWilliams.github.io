@@ -67,6 +67,13 @@ sections:
           organization: MDPI Open Access Journal
           title: Guest Editor
           description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
+
+        - date_end: ''
+          date_start: '2024-01-01'
+          description: Co-founder and domain knowledge expert of [QRLA](https://qrla.io/), a start-up formed as part of the [Cyber Innovation Hub](https://cyberinnovationhub.wales/) initative in collaboration with [Alacrity](https://alacrityfoundation.co.uk/).
+          icon: qrla
+          organization: QRLA
+          title: New Position
           
         - date_end: ''
           date_start: '2024-02-01'
