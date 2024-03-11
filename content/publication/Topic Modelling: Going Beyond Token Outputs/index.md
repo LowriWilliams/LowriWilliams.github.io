@@ -28,7 +28,7 @@ abstract: Topic modelling is a text mining technique for identifying salient the
 summary: 
 
 tags:
--  Topic Modelling
+- Topic Modelling
 - Keyword Extraction
 - Natural Language Processing
 - Text Mining
