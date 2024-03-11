@@ -23,7 +23,7 @@ publication_types: ["3"]
 publication: 'Journal of The Colloquium for Information Systems Security Education'
 publication_short: ""
 
-abstract: This paper investigates the use of gamification and game-based learning in the field of cybersecurity education. Due to their technical complexity and lack of coherence, traditional pedagogical methods, such as lectures, may fail to engage and inspire students, especially those from non-cyber backgrounds. To address this issue, we devised two distinct cybersecurity frameworks/games based on traditional Capture The Flag (CTF) competitions; an open-ended CTF event and a story-based CTF. Such games have demonstrated potential across multiple disciplines, including computer science, physics, mathematics, and engineering, as well as across multiple levels of study including undergraduate and postgraduate students. The positive feedback and significant increase in the interest to pursue a postgraduate course in cybersecurity, especially among non-cybersecurity students, attest to the success of this gamification strategy. As such, this paper provides valuable insights for enhancing the attractiveness and efficacy of cybersecurity education, thereby encouraging a broader spectrum of non-technical and non- cybersecurity students to pursue this crucial field.
+abstract: This paper investigates the use of gamification and game-based learning in the field of cybersecurity education. 
 
 # Summary. An optional shortened abstract.
 summary: 
