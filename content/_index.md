@@ -57,6 +57,21 @@ sections:
       date_format: Jan 2006
 
       items:
+
+        # - date_end: ''
+        #   date_start: '2024-'
+        #   icon: mdpi
+        #   organization: MDPI Big Data and Cognitive Computing
+        #   title: New Publication
+        #   description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification]() published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
+
+        - date_end: ''
+          date_start: '2023-04-20'
+          icon: amwe24
+          organization: Autonomy Mobility World Expo
+          title: Autonomy Mobility World Expo 2024
+          description: Attended the Autonomy Mobility World Expo in Paris, France.
+
         - date_end: ''
           date_start: '2024-02-28'
           icon: cisse
@@ -69,15 +84,7 @@ sections:
           icon: cardiff
           organization: Cardiff University
           title: Funding Awarded
-          description: Principle-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.
-
-        - date_end: ''
-          date_start: '2024-02-01'
-          icon: mdpi
-          organization: MDPI Open Access Journal
-          title: Guest Editor
-          description: Guest Editor of the MDPI [Navigating AI Challenges in Cybersecurity - Strategies for Industrial and IoT Protection](https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT) Journal.
-          
+          description: Principle-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.          
        
       text: "[See all](/awards/)"       
     design:
