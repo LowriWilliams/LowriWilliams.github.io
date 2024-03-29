@@ -57,20 +57,19 @@ sections:
       date_format: Jan 2006
 
       items:
-
-        # - date_end: ''
-        #   date_start: '2024-'
-        #   icon: mdpi
-        #   organization: MDPI Big Data and Cognitive Computing
-        #   title: New Publication
-        #   description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification]() published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
+        - date_end: ''
+          date_start: '2024-03-29'
+          icon: mdpi
+          organization: MDPI Big Data and Cognitive Computing
+          title: New Publication
+          description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
 
         - date_end: ''
-          date_start: '2024-04-20'
+          date_start: '2024-03-20'
           icon: amwe24
           organization: Autonomy Mobility World Expo
           title: Autonomy Mobility World Expo 2024
-          description: Attended the Autonomy Mobility World Expo in Paris, France.
+          description: Attended the Autonomy Mobility World Expo in Paris, France as part of a National Highways funded project.
 
         - date_end: ''
           date_start: '2024-02-28'
@@ -78,13 +77,7 @@ sections:
           organization: The Colloquium on Information Systems Security Education
           title: New Publication
           description: Main author of our paper [Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students](https://cisse.info/journal/index.php/cisse/article/view/186/186) published in the Journal of The Colloquium for Information Systems Security Education.
-
-        - date_end: ''
-          date_start: '2024-02-27'
-          icon: cardiff
-          organization: Cardiff University
-          title: Funding Awarded
-          description: Principle-investigator of a Cardiff University On-campus Summer Internship - Decoding Hate; Analysing Features that Amplify Online Hate Speech. Worth £3,000.          
+        
        
       text: "[See all](/awards/)"       
     design:

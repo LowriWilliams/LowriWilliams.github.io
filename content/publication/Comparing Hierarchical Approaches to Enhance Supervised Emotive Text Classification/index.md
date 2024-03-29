@@ -1,14 +1,13 @@
 ---
-title: "Adversarial attacks on machine learning cybersecurity defences in industrial control systems"
+title: "Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification"
 authors:
-- Eirini Anthi
 - Lowri Williams
-- Matilda Rhode
+- Eirini Anthi
 - Pete Burnap
-- Adam Wedgbury
 
-date: "2021-05-01"
-doi: "https://www.sciencedirect.com/science/article/pii/S2214212620308607"
+
+date: "2024-03-29"
+doi: "https://www.mdpi.com/2504-2289/8/4/38"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -20,20 +19,20 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: 'Journal of Information Security and Applications'
+publication: 'Journal of Big Data and Cognitive Computing'
 publication_short: ""
 
-abstract: This paper explores how adversarial learning can be used to target supervised models by generating adversarial samples using the Jacobian-based Saliency Map attack and exploring classification behaviours. 
+abstract: This paper provides a comparative investigation into how methods used in hierarchical classification problems in other domains, which extend traditional evaluation metrics to consider the characteristics of the hierarchical classification scheme, can be applied and subsequently improve the classification of emotive texts.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-- Industrial Control Systems
-- Supervised machine learning
-- Adversarial Machine Learning
-- Attack detection
-- Intrusion Detection System
+- Sentiment Analysis
+- Emotion Classification
+- Supervised Machine Learning
+- Hierarchical Classification
+- Natural Language Processing
 featured: true
 
 # links:
