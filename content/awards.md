@@ -55,7 +55,7 @@ sections:
           description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
 
         - date_end: ''
-          date_start: '2024-04-20'
+          date_start: '2024-03-20'
           icon: amwe24
           organization: Autonomy Mobility World Expo
           title: Autonomy Mobility World Expo 2024
