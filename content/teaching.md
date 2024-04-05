@@ -52,7 +52,7 @@ sections:
           icon: cardiff
           organization: Cardiff University
           title: Module Leader
-          description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics. The module aims to prepare students for their dissertation project by developing comprehensive understanding of approaches, methods, tools and techniques necessary for efficient and effective research in Computer Science and related areas.
+          description: I am currently the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics. The module aims to prepare students for their dissertation project by developing comprehensive understanding of approaches, methods, tools and techniques necessary for efficient and effective research in Computer Science and related areas.
 
         - date_end: '2018-07-01'
           date_start: '2017-01-01'
