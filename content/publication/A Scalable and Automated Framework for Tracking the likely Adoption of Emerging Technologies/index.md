@@ -5,8 +5,8 @@ authors:
 - Eirini Anthi
 - Pete Burnap
 
-date: "2024-01-25"
-doi: "https://arxiv.org/abs/2402.01670"
+date: "2024-04-19"
+doi: "https://www.mdpi.com/2078-2489/15/4/237"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -38,7 +38,7 @@ links:
 - icon: arxiv
   icon_pack: ai
   name: arXiv:2402.01670
-  url: https://arxiv.org/abs/2402.01670
+  url: https://www.mdpi.com/2078-2489/15/4/237
 # - icon: inspire
 #   icon_pack: ai
 #   name: inspire1728738
