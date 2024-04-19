@@ -70,7 +70,7 @@ sections:
           icon: mdpi
           organization: MDPI Information
           title: New Publication
-          description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section'Information Processes.
+          description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section Information Processes.
 
         - date_end: ''
           date_start: '2024-03-29'
@@ -85,14 +85,6 @@ sections:
           organization: Autonomy Mobility World Expo
           title: Autonomy Mobility World Expo 2024
           description: Attended the Autonomy Mobility World Expo in Paris, France as part of a National Highways funded project.
-
-        - date_end: ''
-          date_start: '2024-02-28'
-          icon: cisse
-          organization: The Colloquium on Information Systems Security Education
-          title: New Publication
-          description: Main author of our paper [Leveraging Gamification and Game-based Learning in Cybersecurity Education - Engaging and Inspiring Non-Cyber Students](https://cisse.info/journal/index.php/cisse/article/view/186/186) published in the Journal of The Colloquium for Information Systems Security Education.
-        
        
       text: "[See all](/awards/)"       
     design:

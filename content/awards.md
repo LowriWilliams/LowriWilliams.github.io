@@ -61,7 +61,7 @@ sections:
           icon: mdpi
           organization: MDPI Information
           title: New Publication
-          description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section'Information Processes.
+          description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section Information Processes.
         
         - date_end: ''
           date_start: '2024-03-29'
