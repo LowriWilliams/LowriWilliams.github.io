@@ -34,11 +34,11 @@ tags:
 - Natural Language Processing
 featured: true
 
-links:
-- icon: arxiv
-  icon_pack: ai
-  name: arXiv:2402.01670
-  url: https://www.mdpi.com/2078-2489/15/4/237
+# links:
+# - icon: arxiv
+#   icon_pack: ai
+#   name: arXiv:2402.01670
+#   url: https://www.mdpi.com/2078-2489/15/4/237
 # - icon: inspire
 #   icon_pack: ai
 #   name: inspire1728738
