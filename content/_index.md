@@ -62,7 +62,7 @@ sections:
           icon: mdpi
           organization: MDPI Big Data and Cognitive Computing
           title: New Publication
-          description: Main author of our paper [Topic Modelling: Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
+          description: Main author of our paper [Topic Modelling; Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
 
         - date_end: ''
           date_start: '2024-03-29'
