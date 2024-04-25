@@ -61,13 +61,20 @@ sections:
           organization: MDPI Information
           title: New Publication
           description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section Information Processes.
+
+        - date_end: ''
+          date_start: '2024-03-29'
+          icon: mdpi
+          organization: MDPI Big Data and Cognitive Computing
+          title: Journal Cover
+          description: Our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/4). 
         
         - date_end: ''
           date_start: '2024-03-29'
           icon: mdpi
           organization: MDPI Big Data and Cognitive Computing
           title: New Publication
-          description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
+          description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining. 
 
         - date_end: ''
           date_start: '2024-03-20'
