@@ -57,12 +57,12 @@ sections:
       date_format: Jan 2006
 
       items:
-        # - date_end: ''
-        #   date_start: '2024-XX-XX'
-        #   icon: mdpi
-        #   organization: MDPI Big Data and Cognitive Computing
-        #   title: New Publication
-        #   description: Main author of our paper [Topic Modelling: Going Beyond Token Outputs]() published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
+        - date_end: ''
+          date_start: '2024-04-25'
+          icon: mdpi
+          organization: MDPI Big Data and Cognitive Computing
+          title: New Publication
+          description: Main author of our paper [Topic Modelling: Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
 
 
         - date_end: ''
@@ -78,13 +78,6 @@ sections:
           organization: MDPI Big Data and Cognitive Computing
           title: New Publication
           description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
-
-        - date_end: ''
-          date_start: '2024-03-20'
-          icon: amwe24
-          organization: Autonomy Mobility World Expo
-          title: Autonomy Mobility World Expo 2024
-          description: Attended the Autonomy Mobility World Expo in Paris, France as part of a National Highways funded project.
        
       text: "[See all](/awards/)"       
     design:
