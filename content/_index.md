@@ -57,6 +57,14 @@ sections:
       date_format: Jan 2006
 
       items:
+
+        - date_end: ''
+          date_start: '2024-04-26'
+          icon: bsides_cymru
+          organization: BSides Cymru
+          title: BSides Cymru 2024
+          description: Attended BSides Cymru in Cardiff, Wales. 
+
         - date_end: ''
           date_start: '2024-04-25'
           icon: mdpi
