@@ -48,12 +48,12 @@ sections:
 
       items:
 
-        - date_end: ''
-          date_start: '2024-04-26'
-          icon: bsides_cymru
-          organization: BSides Cymru
-          title: BSides Cymru 2024
-          description: Attended BSides Cymru 2024 in Cardiff, Wales. 
+        # - date_end: ''
+        #   date_start: '2024-04-26'
+        #   icon: bsides_cymru
+        #   organization: BSides Cymru
+        #   title: BSides Cymru 2024
+        #   description: Attended BSides Cymru 2024 in Cardiff, Wales. 
 
         - date_end: ''
           date_start: '2024-04-25'
@@ -83,12 +83,12 @@ sections:
           title: New Publication
           description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining. 
 
-        - date_end: ''
-          date_start: '2024-03-20'
-          icon: amwe24
-          organization: Autonomy Mobility World Expo
-          title: Autonomy Mobility World Expo 2024
-          description: Attended the Autonomy Mobility World Expo in Paris, France as part of a National Highways funded project.
+        # - date_end: ''
+        #   date_start: '2024-03-20'
+        #   icon: amwe24
+        #   organization: Autonomy Mobility World Expo
+        #   title: Autonomy Mobility World Expo 2024
+        #   description: Attended the Autonomy Mobility World Expo in Paris, France as part of a National Highways funded project.
 
         - date_end: ''
           date_start: '2024-02-28'
@@ -139,19 +139,19 @@ sections:
           title: Module Leader
           description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
 
-        - date_end: ''
-          date_start: '2023-12-04'
-          icon: blackhat
-          organization: BlackHat
-          title: BlackHat Europe 2023
-          description: Attended BlackHat Europe 2023 in London, UK.
+        # - date_end: ''
+        #   date_start: '2023-12-04'
+        #   icon: blackhat
+        #   organization: BlackHat
+        #   title: BlackHat Europe 2023
+        #   description: Attended BlackHat Europe 2023 in London, UK.
 
-        - date_end: ''
-          date_start: '2023-11-21'
-          icon: intermobility
-          organization: Intermobility Expo 2023
-          title: Intermobility Expo 2023
-          description: Attended the Intermobility Expo 2023 in Dubai, UAE as part of a National Highways funded project.
+        # - date_end: ''
+        #   date_start: '2023-11-21'
+        #   icon: intermobility
+        #   organization: Intermobility Expo 2023
+        #   title: Intermobility Expo 2023
+        #   description: Attended the Intermobility Expo 2023 in Dubai, UAE as part of a National Highways funded project.
 
         - date_end: ''
           date_start: '2023-11-14'
@@ -167,12 +167,12 @@ sections:
           organization: NCSC CyberFirst
           title: Capture the Flag - Cardiff University - NCSC CyberFirst
 
-        - date_end: ''
-          date_start: '2023-11-08'
-          icon: discribe
-          organization: Digital Security by Design
-          title: Digital Security by Design (DSbD) - All Hands Meeting
-          description: Attended the Digital Security by Design (DSbD) all hands meeting in Manchester, UK.
+        # - date_end: ''
+        #   date_start: '2023-11-08'
+        #   icon: discribe
+        #   organization: Digital Security by Design
+        #   title: Digital Security by Design (DSbD) - All Hands Meeting
+        #   description: Attended the Digital Security by Design (DSbD) all hands meeting in Manchester, UK.
 
         - date_end: ''
           date_start: '2023-10-30'
@@ -195,12 +195,12 @@ sections:
           title: Capture the Flag - Yucatan i6 - Cardiff University
           description: Co-organised and designed a Capture the Flag competition for attendees at [Yucatan i6](https://yucatan-i6.com/), North America's largest cybersecurity event.
 
-        - date_end: ''
-          date_start: '2023-09-08'
-          icon: fintechwales
-          organization: Fintech Awards Wales
-          title: Fintech Awards Wales - Cardiff University
-          description: Attended Fintech Awards Wales as part of Cardiff University’s cybersecurity team, who was nominated for the best cybersecurity programme. 
+        # - date_end: ''
+        #   date_start: '2023-09-08'
+        #   icon: fintechwales
+        #   organization: Fintech Awards Wales
+        #   title: Fintech Awards Wales - Cardiff University
+        #   description: Attended Fintech Awards Wales as part of Cardiff University’s cybersecurity team, who was nominated for the best cybersecurity programme. 
 
         - date_end: ''
           date_start: '2023-08-10'
@@ -251,12 +251,12 @@ sections:
           title: Funding Awarded
           description: Co-investigator of a Cardiff University On-campus Summer Internship in collaboration with CyberSmart titled - Exploring the Effectiveness of Incentives for Improving Cyber Security Behaviours in Organisations. Worth £3,000.
 
-        - date_end: ''
-          date_start: '2023-04-27'
-          icon: discribe
-          organization: Digital Security by Design
-          title: Digital Security by Design (DSbD) - All Hands Meeting
-          description: Attended the Digital Security by Design (DSbD) all hands meeting in London, UK.
+        # - date_end: ''
+        #   date_start: '2023-04-27'
+        #   icon: discribe
+        #   organization: Digital Security by Design
+        #   title: Digital Security by Design (DSbD) - All Hands Meeting
+        #   description: Attended the Digital Security by Design (DSbD) all hands meeting in London, UK.
 
         - date_end: ''
           date_start: '2023-04-03'
@@ -286,12 +286,12 @@ sections:
           title: Capture the Flag - Cardiff University
           description: Co-organised and designed a Christmas themed Capture the Flag competition for attendees from Cardiff University.
 
-        - date_end: ''
-          date_start: '2022-12-06'
-          icon: blackhat
-          organization: BlackHat
-          title: BlackHat Europe 2022
-          description: Attended BlackHat Europe 2023 in London, UK.
+        # - date_end: ''
+        #   date_start: '2022-12-06'
+        #   icon: blackhat
+        #   organization: BlackHat
+        #   title: BlackHat Europe 2022
+        #   description: Attended BlackHat Europe 2023 in London, UK.
 
         - date_end: ''
           date_start: '2022-12-02'
@@ -314,12 +314,12 @@ sections:
           title: Funding Awarded 
           description: Co-investigator of a Cardiff University and the University of Waikato Strategic International Partnership Collaborative Seed Fund - Factors that Drive Phishing Attacks. Worth £10,000.
 
-        - date_end: ''
-          date_start: '2022-10-12'
-          icon: discribe
-          organization: Digital Security by Design
-          title: Digital Security by Design (DSbD) - All Hands Meeting
-          description: Attended the Digital Security by Design (DSbD) all hands meeting in Wolverhampton, UK.
+        # - date_end: ''
+        #   date_start: '2022-10-12'
+        #   icon: discribe
+        #   organization: Digital Security by Design
+        #   title: Digital Security by Design (DSbD) - All Hands Meeting
+        #   description: Attended the Digital Security by Design (DSbD) all hands meeting in Wolverhampton, UK.
 
         - date_end: ''
           date_start: '2022-06-14'
