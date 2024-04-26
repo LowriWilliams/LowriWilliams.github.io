@@ -63,7 +63,7 @@ sections:
           icon: bsides_cymru
           organization: BSides Cymru
           title: BSides Cymru 2024
-          description: Attended BSides Cymru in Cardiff, Wales. 
+          description: Attended BSides Cymru 2024 in Cardiff, Wales. 
 
         - date_end: ''
           date_start: '2024-04-25'
@@ -79,12 +79,6 @@ sections:
           title: Journal Cover
           description: Our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/4). 
 
-        - date_end: ''
-          date_start: '2024-04-19'
-          icon: mdpi
-          organization: MDPI Information
-          title: New Publication
-          description: Main author of our paper [A Scalable and Automated Framework for Tracking the likely Adoption of Emerging Technologies](https://www.mdpi.com/2078-2489/15/4/237) published in MDPI Information's section Information Processes.
 
       text: "[See all](/awards/)"       
     design:

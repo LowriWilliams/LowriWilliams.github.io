@@ -53,7 +53,7 @@ sections:
           icon: bsides_cymru
           organization: BSides Cymru
           title: BSides Cymru 2024
-          description: Attended BSides Cymru in Cardiff, Wales. 
+          description: Attended BSides Cymru 2024 in Cardiff, Wales. 
 
         - date_end: ''
           date_start: '2024-04-25'
