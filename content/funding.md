@@ -47,13 +47,12 @@ sections:
 
 
       items:
-
-      - date_end: ''
+        - date_end: ''
           date_start: '2024-05-03'
           icon: cardiff
           organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
           title: Funding Awarded
-          description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study . Worth £2,360.
+          description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study. Worth £2,360.
           
         - date_end: ''
           date_start: '2024-02-27'

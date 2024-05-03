@@ -58,7 +58,7 @@ sections:
 
       items:
 
-       - date_end: ''
+        - date_end: ''
           date_start: '2024-05-03'
           icon: cardiff
           organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
