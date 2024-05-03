@@ -58,6 +58,13 @@ sections:
 
       items:
 
+       - date_end: ''
+          date_start: '2024-05-03'
+          icon: cardiff
+          organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
+          title: Funding Awarded
+          description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study . Worth £2,360.
+
         - date_end: ''
           date_start: '2024-04-25'
           icon: mdpi
@@ -71,13 +78,6 @@ sections:
           organization: MDPI Big Data and Cognitive Computing
           title: Journal Cover
           description: Our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/4). 
-
-        - date_end: ''
-          date_start: '2024-03-29'
-          icon: mdpi
-          organization: MDPI Big Data and Cognitive Computing
-          title: New Publication
-          description: Main author of our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining. 
 
 
       text: "[See all](/awards/)"       
