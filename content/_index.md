@@ -57,6 +57,12 @@ sections:
       date_format: Jan 2006
 
       items:
+        - date_end: ''
+          date_start: '2024-05-07'
+          icon: ieee
+          organization: IEEE Access
+          title: New Publication
+          description: Co-author of our paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) published in IEEE Access. 
 
         - date_end: ''
           date_start: '2024-05-03'
@@ -71,14 +77,6 @@ sections:
           organization: MDPI Big Data and Cognitive Computing
           title: New Publication
           description: Main author of our paper [Topic Modelling; Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
-
-        - date_end: ''
-          date_start: '2024-03-29'
-          icon: mdpi
-          organization: MDPI Big Data and Cognitive Computing
-          title: Journal Cover
-          description: Our paper [Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification](https://www.mdpi.com/2504-2289/8/4/38), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/4). 
-
 
       text: "[See all](/awards/)"       
     design:

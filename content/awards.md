@@ -48,6 +48,13 @@ sections:
 
       items:
 
+       - date_end: ''
+          date_start: '2024-05-07'
+          icon: ieee
+          organization: IEEE Access
+          title: New Publication
+          description: Co-author of our paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) published in IEEE Access. 
+
         - date_end: ''
           date_start: '2024-05-03'
           icon: cardiff
