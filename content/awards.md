@@ -48,7 +48,7 @@ sections:
 
       items:
 
-       - date_end: ''
+        - date_end: ''
           date_start: '2024-05-07'
           icon: ieee
           organization: IEEE Access
