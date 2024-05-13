@@ -57,6 +57,14 @@ sections:
       date_format: Jan 2006
 
       items:
+
+        - date_end: ''
+          date_start: '2024-05-12'
+          icon: mdpi
+          organization: MDPI Big Data and Cognitive Computing
+          title: Journal Cover
+          description: Our paper [Topic Modelling; Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/5). 
+
         - date_end: ''
           date_start: '2024-05-07'
           icon: ieee
@@ -70,13 +78,6 @@ sections:
           organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
           title: Funding Awarded
           description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study. Worth £2,360.
-
-        - date_end: ''
-          date_start: '2024-04-25'
-          icon: mdpi
-          organization: MDPI Big Data and Cognitive Computing
-          title: New Publication
-          description: Main author of our paper [Topic Modelling; Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44) published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining.
 
       text: "[See all](/awards/)"       
     design:
