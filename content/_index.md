@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2024-05-16'
+          icon: yucatani6
+          organization: Yucatan i6
+          title: Capture the Flag - Yucatan i6 - Cardiff University
+          description: Co-organised and designed a Capture the Flag competition for attendees at [Yucatan i6](https://yucatan-i6.com/)'s cybersecurity event.
+
+        - date_end: ''
           date_start: '2024-05-12'
           icon: mdpi
           organization: MDPI Big Data and Cognitive Computing
@@ -71,13 +78,6 @@ sections:
           organization: IEEE Access
           title: New Publication
           description: Co-author of our paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) published in IEEE Access. 
-
-        - date_end: ''
-          date_start: '2024-05-03'
-          icon: cardiff
-          organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
-          title: Funding Awarded
-          description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study. Worth £2,360.
 
       text: "[See all](/awards/)"       
     design:
