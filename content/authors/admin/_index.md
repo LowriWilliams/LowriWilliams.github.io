@@ -52,7 +52,7 @@ social:
     link: '/#contact'
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/Lowri_Williams
+    link: https://twitter.com/LowriWilliams
     label: Follow me on Twitter
     display:
       header: true
