@@ -1,0 +1,102 @@
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[main]]
+  name = "Inicio"
+  url = "#about"
+  weight = 10
+
+[[main]]
+  identifier = "research"
+  name = "Publicaciones"
+  url = "#featured"
+  weight = 20
+
+[[main]]
+  identifier = "research1"
+  name = "Publicaciones Destacadas"
+  url = "#featured"
+  parent = "research"
+  weight = 20
+
+[[main]]
+  identifier = "research2"
+  name = "Publicaciones (lista completa)"
+  url = "publication/"
+  parent = "research"
+  weight = 30
+
+[[main]]
+  identifier = "vidsandapps"
+  name = "Videos y Apps"
+  url = "#posts"
+  weight = 40
+
+[[main]]
+  identifier = "vidsandapps1"
+  name = "YouTube"
+  url = "#posts"
+  parent = "vidsandapps"
+  weight = 40
+
+[[main]]
+  identifier = "vidsandapps2"
+  name = "Shiny Apps"
+  url = "#shiny"
+  parent = "vidsandapps"
+  weight = 50
+
+[[main]]
+  identifier = "people"
+  name = "Personas"
+  url = "team/"
+  weight = 60
+
+[[main]]
+  identifier = "people1"
+  name = "Laboratorio (EvoCo)"
+  url = "team/"
+  parent = "people"
+  weight = 60
+
+[[main]]
+  identifier = "people2"
+  name = "Colaboraciones"
+  url = "colabs/"
+  parent = "people"
+  weight = 65
+
+[[main]]
+  identifier = "resume"
+  name = "Trayectoria"
+  url = "profile/"
+  weight = 70
+
+[[main]]
+  identifier = "resume1"
+  name = "Experiencia"
+  url = "profile/#experience"
+  parent = "resume"
+  weight = 70
+
+[[main]]
+  identifier = "resume2"
+  name = "Logros"
+  url = "profile/#accomplishments"
+  parent = "resume"
+  weight = 75
+
+[[main]]
+  name = "Contacto"
+  url = "#contact"
+  weight = 80
+
+# Link to a PDF of your resume/CV from the menu.
+# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
+ [[main]]
+   identifier = "cv"
+   name = "HV"
+   url = "cv"
+   weight = 90
