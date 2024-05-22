@@ -19,7 +19,7 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication: 'Journal of Big Data and Cognitive Computing'
 publication_short: ""
 
 abstract: This paper presents a novel approach towards extending the output of traditional topic modelling methods beyond a list of isolated tokens. 

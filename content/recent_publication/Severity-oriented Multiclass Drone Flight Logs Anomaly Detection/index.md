@@ -21,7 +21,7 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication: 'IEEE Access'
 publication_short: ""
 
 abstract: This study proposes DroLoVe, a severity-oriented multiclass anomaly detection approach for drone flight log data. 

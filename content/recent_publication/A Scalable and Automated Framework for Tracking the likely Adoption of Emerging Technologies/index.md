@@ -18,7 +18,7 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: ''
+publication: 'Journal of Information'
 publication_short: ""
 
 abstract: This paper presents a scalable and automated framework for tracking likely adoption and/or rejection of new technologies from a large landscape of adopters. 
