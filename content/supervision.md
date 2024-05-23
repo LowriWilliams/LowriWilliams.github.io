@@ -47,12 +47,21 @@ sections:
 
 
       items:
+
+        - date_end: ''
+          date_start: '2022-10-01'
+          icon: peter
+          organization: Part-Time PhD Student 
+          title: Peter Jones
+          description: [Peter Jones](https://www.linkedin.com/in/peter-jones-43b98924/) is a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around the security of access control systems.
+
+        
         - date_end: '2024-05-31'
           date_start: '2023-11-01'
           icon: swardi
           organization: Visiting PhD Student 
           title: Swardiantara Silalahi
-          description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper, [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
+          description: [Swardiantara Silalahi](https://www.linkedin.com/in/swardiantara/) was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
 
         
       
