@@ -53,7 +53,7 @@ sections:
           icon: tristram
           organization: Part-Time PhD Student 
           title: Tristram Ridley-Jones
-          description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around building efficient security operating systems in organisations.
+          description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around designing effective Security Operation Centres (SOCs) in organisations
 
         - date_end: ''
           date_start: '2022-10-01'
@@ -62,7 +62,6 @@ sections:
           title: Peter Jones
           description: Peter Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around the security of access control systems.
 
-        
         - date_end: '2024-05-31'
           date_start: '2023-11-01'
           icon: swardi
