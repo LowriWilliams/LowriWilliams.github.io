@@ -69,9 +69,8 @@ sections:
           title: Swardiantara Silalahi
           description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
 
-        
-      
 
+      text: "PhD Supervision" 
     design:
       columns: '2'
 
