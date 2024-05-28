@@ -58,7 +58,7 @@ sections:
         - date_end: ''
           date_start: '2024-05-28'
           icon: hamza_khan
-          organization: 
+          organization: Discribe Funded Project
           title: Hamza Khan
           description: Hamza Khan is a Research Assistant working on a [Discribe](https://www.discribehub.org/) funded project. He is working under my supervison focusing on the development of an ontology based approach towards mapping the Digital Security by Design (DSbD).
 
