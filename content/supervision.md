@@ -48,6 +48,20 @@ sections:
 
       items:
 
+        # - date_end: '2024-07-19'
+        #   date_start: '2024-06-10'
+        #   icon: Itsaso_forbes
+        #   organization: Cardiff University On-campus Summer Internship
+        #   title: Itsaso Forbes
+        #   description: Itsaso Forbes was a Cardiff Univeristy summer research intern who spent 6 weeks under my supervision exploring...
+
+        # - date_end: ''
+        #   date_start: '2024-05-28'
+        #   icon: hamza_khan
+        #   organization: 
+        #   title: Hamza Khan
+        #   description: Hamza Khan was a Research Assistant...
+
         - date_end: ''
           date_start: '2024-01-01'
           icon: tristram_r_jones
@@ -90,13 +104,34 @@ sections:
           title: Artem Gavryushenko
           description: Artem Gavryushenko was a Cardiff Univeristy summer research intern who spent 6 weeks under my co-supervision with Dr Eirini Anthi exploring how gamification can be effectively employed to stimulate incentives and inspire a significant shift in the cybersecurity behaviors of employees.
 
+        - date_end: '2024-04-24'
+          date_start: '2023-06-01'
+          icon: bilal_brar
+          organization: National Highways Funded Project
+          title: Bilal Brar
+          description: Bilal Brar was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. Prior to this post, Bilal worked under my supervision on a short-term project investigating the extraction of the context, action, and purposes of adversaries from text.
 
+        - date_end: '2024-04-24'
+          date_start: '2023-06-01'
+          icon: hamza_afzal
+          organization: National Highways Funded Project
+          title: Hamza Afzal
+          description: Hamza Afzal was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
+        - date_end: '2024-04-24'
+          date_start: '2023-06-01'
+          icon: joydip_bhowmick
+          organization: National Highways Funded Project
+          title: Joydip Bhowmick
+          description: Joydip Bhowmick was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
+        - date_end: '2024-04-24'
+          date_start: '2023-06-01'
+          icon: kabir_gujral
+          organization: National Highways Funded Project
+          title: Kabir Gujral
+          description: Kabir Gujral was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
-# Funds
-# Bilal Brar - 2023 - school + nh
-# Hamza Afzal - 2023 - seed funds + nh
 
     design:
       columns: '2'
