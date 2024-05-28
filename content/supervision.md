@@ -50,27 +50,54 @@ sections:
 
         - date_end: ''
           date_start: '2024-01-01'
-          icon: tristram
+          icon: tristram_r_jones
           organization: Part-Time PhD Student 
           title: Tristram Ridley-Jones
           description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around designing effective Security Operation Centres (SOCs) in organisations.
 
         - date_end: ''
           date_start: '2022-10-01'
-          icon: peter
+          icon: peter_jones
           organization: Part-Time PhD Student 
           title: Peter Jones
           description: Peter Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around the security of access control systems.
 
         - date_end: '2024-05-31'
           date_start: '2023-11-01'
-          icon: swardi
+          icon: swardi_silalahi
           organization: Visiting PhD Student 
           title: Swardiantara Silalahi
           description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
 
+        - date_end: '2023-06-30'
+          date_start: '2023-06-01'
+          icon: michael_drury
+          organization: Cardiff University On-campus Summer Internship
+          title: Michael Drury
+          description: Michael Drury was a Cardiff Univeristy summer research intern who spent 6 weeks under my supervision working on investigating the problem of threat intelligent report matching. 
 
-      text: "PhD Supervision" 
+        - date_end: '2023-06-30'
+          date_start: '2023-06-01'
+          icon: rhydian_brown
+          organization: Cardiff University On-campus Summer Internship
+          title: Rhydian Brown
+          description: Rhydian Brown was a Cardiff Univeristy summer research intern who spent 6 weeks under my co-supervision with Dr Eirini Anthi working on automotive cyber security.
+
+        - date_end: '2023-06-30'
+          date_start: '2023-06-01'
+          icon: artem_gavryushenko
+          organization: Cardiff University On-campus Summer Internship
+          title: Artem Gavryushenko
+          description: Artem Gavryushenko was a Cardiff Univeristy summer research intern who spent 6 weeks under my co-supervision with Dr Eirini Anthi exploring how gamification can be effectively employed to stimulate incentives and inspire a significant shift in the cybersecurity behaviors of employees.
+
+
+
+
+
+# Funds
+# Bilal Brar - 2023 - school + nh
+# Hamza Afzal - 2023 - seed funds + nh
+
     design:
       columns: '2'
 
