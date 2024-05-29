@@ -78,16 +78,8 @@ Previously, I was a Research Associate at Cardiff University working for the [Di
 
 I am a co-founder and act as a domain knowledge expert of [QRLA](https://qrla.io/), a start-up formed as part of the [Cyber Innovation Hub](https://cyberinnovationhub.wales/) initative in collaboration with [Alacrity](https://alacrityfoundation.co.uk/).
 
-**Looking for PhD Students!** I am interested in supervising funded or self-funded PhD students in projects involving Large Language Model (LLM) security. Please, check the relevant page in FindAPhD for more information and do not hesitate to contact me if you have any questions.
+🚨 **Looking for PhD Students!** - I am interested in supervising funded or self-funded PhD students in projects involving Large Language Model (LLM) security. Please, check the relevant page in FindAPhD for more information and do not hesitate to contact me if you have any questions.
 
-
-
-
-<!-- My research focuses on technologies that apply Artificial Intelligence for education and information accessibility. In particular, my work employs Natural Language Processing approaches to facilitate reading and understanding. I am especially interested in studying the real capabilities of systems for several Natural Language Generation tasks, such as Text Simplification, Summarisation and Machine Translation. In order to do that, my collaborators and I create language resources, design evaluation methodologies or metrics, and implement models using machine learning techniques.
-
-Previously, I was a Research Associate at SheffieldNLP (2020-2021), working with Prof. Lucia Specia for the APE-QUEST and Bergamot projects on Quality Estimation for Machine Translation. Before that, I worked as Adjunct Professor at the Pontifical Catholic University of Peru (2013-2016), where I was a member of the Artificial Intelligence Group IA-PUCP. During my Masters, I was also a member of the Interinstitutional Center for Computational Linguistics at the University of São Paulo.
-
-Looking for PhD Students! I am interested in supervising self-funded PhD students in projects involving Natural Language Processing for Text Adaptation. Please, check the relevant page in FindAPhD for more information. Do not hesitate to contact me if you have any questions! -->
 
 
 {style="text-align: justify;"}
