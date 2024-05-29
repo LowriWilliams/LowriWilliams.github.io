@@ -58,6 +58,20 @@ sections:
 
       items:
 
+        # - date_end: ''
+        #   date_start: '2024-04-25'
+        #   icon: mdpi
+        #   organization: MDPI IoT
+        #   title: New Publication
+        #   description: Co-author of our paper [Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)]() published in MDPI IoT Journal.
+
+        # - date_end: ''
+        #   date_start: '2024-04-25'
+        #   icon: mdpi
+        #   organization: MDPI Cybersecurity and Privacy
+        #   title: New Publication
+        #   description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals]() published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
+
         - date_end: ''
           date_start: '2024-05-16'
           icon: yucatani6
