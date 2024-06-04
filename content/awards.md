@@ -70,13 +70,6 @@ sections:
           description: Co-author of our paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) published in IEEE Access. 
 
         - date_end: ''
-          date_start: '2024-05-03'
-          icon: cardiff
-          organization: Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme
-          title: Funding Awarded
-          description: Co-investigator of a Cardiff University Digital Transformation Innovation Institute (DTII) Seedcorn Sprint Project Call - ECR Development Programme - Visualising Data from Sports Wearables to Support Recovery – Badminton Case Study. Worth £2,360.
-
-        - date_end: ''
           date_start: '2024-04-25'
           icon: mdpi
           organization: MDPI Big Data and Cognitive Computing
