@@ -49,7 +49,14 @@ sections:
       items:
 
         - date_end: ''
-          date_start: '2024-06-01'
+          date_start: '2024-06-06'
+          icon: mdpi
+          organization: MDPI IoT
+          title: New Publication
+          description: Co-author of our paper [Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)](https://www.mdpi.com/2624-831X/5/2/18) published in MDPI IoT Journal.
+
+        - date_end: ''
+          date_start: '2024-06-06'
           icon: mdpi
           organization: MDPI Cybersecurity and Privacy
           title: New Publication
