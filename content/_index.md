@@ -59,18 +59,18 @@ sections:
       items:
 
         # - date_end: ''
-        #   date_start: '2024-04-25'
+        #   date_start: '2024-06-05'
         #   icon: mdpi
         #   organization: MDPI IoT
         #   title: New Publication
         #   description: Co-author of our paper [Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)]() published in MDPI IoT Journal.
 
-        # - date_end: ''
-        #   date_start: '2024-04-25'
-        #   icon: mdpi
-        #   organization: MDPI Cybersecurity and Privacy
-        #   title: New Publication
-        #   description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals]() published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
+        - date_end: ''
+          date_start: '2024-06-01'
+          icon: mdpi
+          organization: MDPI Cybersecurity and Privacy
+          title: New Publication
+          description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals](https://www.mdpi.com/2624-800X/4/2/17) published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
 
         - date_end: ''
           date_start: '2024-05-16'
@@ -85,13 +85,6 @@ sections:
           organization: MDPI Big Data and Cognitive Computing
           title: Journal Cover
           description: Our paper [Topic Modelling; Going Beyond Token Outputs](https://www.mdpi.com/2504-2289/8/5/44), published in MDPI Big Data and Cognitive Computing's special issue Advances in Natural Language Processing and Text Mining, was chosen as the [journal's front cover](https://www.mdpi.com/2504-2289/8/5). 
-
-        - date_end: ''
-          date_start: '2024-05-07'
-          icon: ieee
-          organization: IEEE Access
-          title: New Publication
-          description: Co-author of our paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) published in IEEE Access. 
 
       text: "[See all](/awards/)"       
     design:

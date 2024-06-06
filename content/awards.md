@@ -49,6 +49,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2024-06-01'
+          icon: mdpi
+          organization: MDPI Cybersecurity and Privacy
+          title: New Publication
+          description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals](https://www.mdpi.com/2624-800X/4/2/17) published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
+
+        - date_end: ''
           date_start: '2024-05-16'
           icon: yucatani6
           organization: Yucatan i6
