@@ -22,7 +22,7 @@ publication_types: ["2"]
 publication: 'IoT'
 publication_short: ""
 
-abstract: This paper explores security vulnerabilities that target RF communications on popular commercial IoT devices such as Wi-Fi, Zigbee, and 433 Mz. Using software-defined radio, a range of attacks were deployed against the devices, including jamming, replay attacks, packet manipulation, protocol reverse engineering, and harmonic frequency attacks. The results demonstrated that all devices used were susceptible to jamming attacks, and in some cases, they were rendered inoperable and required a hard reset to function correctly again. This finding highlights the lack of protection against both intentional and unintentional jamming. In addition, all devices demonstrated that they were susceptible to replay attacks, which highlights the need for more hardened security measures. Finally, this paper discusses proposals for defence mechanisms for enhancing the security of IoT devices against the aforementioned attacks.
+abstract: This paper explores security vulnerabilities that target RF communications on popular commercial IoT devices such as Wi-Fi, Zigbee, and 433 Mz. Using software-defined radio, a range of attacks were deployed against the devices, including jamming, replay attacks, packet manipulation, protocol reverse engineering, and harmonic frequency attacks. The results demonstrated that all devices used were susceptible to jamming attacks, and in some cases, they were rendered inoperable and required a hard reset to function correctly again. 
 
 # Summary. An optional shortened abstract.
 summary: 
