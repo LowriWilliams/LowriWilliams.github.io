@@ -50,63 +50,63 @@ sections:
 
         - date_end: '2024-07-19'
           date_start: '2024-06-10'
-          icon: itsaso_forbes
+          icon: 
           organization: Cardiff University On-campus Summer Internship
           title: Itsaso Forbes
           description: Itsaso Forbes was a Cardiff Univeristy summer research intern who spent 6 weeks under my supervision exploring the propogation of hate speech on social networks.
 
         - date_end: ''
           date_start: '2024-05-28'
-          icon: hamza_khan
+          icon: 
           organization: Discribe Funded Project
           title: Hamza Khan
           description: Hamza Khan is a Research Assistant working on a [Discribe](https://www.discribehub.org/) funded project. He is working under my supervison focusing on the development of an ontology based approach towards mapping the Digital Security by Design (DSbD).
 
         - date_end: ''
           date_start: '2024-01-01'
-          icon: tristram_r_jones
+          icon: 
           organization: Part-Time PhD Student 
           title: Tristram Ridley-Jones
           description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around designing effective Security Operation Centres (SOCs) in organisations.
 
         - date_end: ''
           date_start: '2022-10-01'
-          icon: peter_jones
+          icon: 
           organization: Part-Time PhD Student 
           title: Peter Jones
           description: Peter Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around the security of access control systems.
 
         - date_end: '2024-05-31'
           date_start: '2023-11-01'
-          icon: swardi_silalahi
+          icon: 
           organization: Visiting PhD Student 
           title: Swardiantara Silalahi
           description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
 
         - date_end: '2023-06-30'
           date_start: '2023-06-01'
-          icon: michael_drury
+          icon: 
           organization: Cardiff University On-campus Summer Internship
           title: Michael Drury
           description: Michael Drury was a Cardiff Univeristy summer research intern who spent 6 weeks under my supervision working on investigating the problem of threat intelligent report matching. 
 
         - date_end: '2023-06-30'
           date_start: '2023-06-01'
-          icon: rhydian_brown
+          icon: 
           organization: Cardiff University On-campus Summer Internship
           title: Rhydian Brown
           description: Rhydian Brown was a Cardiff Univeristy summer research intern who spent 6 weeks under my co-supervision with Dr Eirini Anthi working on automotive cyber security.
 
         - date_end: '2023-06-30'
           date_start: '2023-06-01'
-          icon: artem_gavryushenko
+          icon: 
           organization: Cardiff University On-campus Summer Internship
           title: Artem Gavryushenko
           description: Artem Gavryushenko was a Cardiff Univeristy summer research intern who spent 6 weeks under my co-supervision with Dr Eirini Anthi exploring how gamification can be effectively employed to stimulate incentives and inspire a significant shift in the cybersecurity behaviors of employees.
 
         - date_end: '2024-04-24'
           date_start: '2023-06-01'
-          icon: bilal_brar
+          icon: 
           organization: National Highways Funded Project
           title: Bilal Brar
           description: Bilal Brar was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. Prior to this post, Bilal worked under my supervision on a short-term project investigating the extraction of the context, action, and purposes of adversaries from text.
@@ -115,19 +115,19 @@ sections:
           date_start: '2023-06-01'
           icon: hamza_afzal
           organization: National Highways Funded Project
-          title: Hamza Afzal
+          title: 
           description: Hamza Afzal was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
         - date_end: '2024-04-24'
           date_start: '2023-06-01'
-          icon: joydip_bhowmick
+          icon: 
           organization: National Highways Funded Project
           title: Joydip Bhowmick
           description: Joydip Bhowmick was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
         - date_end: '2024-04-24'
           date_start: '2023-06-01'
-          icon: kabir_gujral
+          icon: 
           organization: National Highways Funded Project
           title: Kabir Gujral
           description: Kabir Gujral was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
