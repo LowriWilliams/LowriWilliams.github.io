@@ -113,9 +113,9 @@ sections:
 
         - date_end: '2024-04-24'
           date_start: '2023-06-01'
-          icon: hamza_afzal
+          icon: 
           organization: National Highways Funded Project
-          title: 
+          title: Hamza Afzal
           description: Hamza Afzal was a Research Assistant on a National Highways funded project who spent 12 months under my co-supervision with Dr Eirini Anthi exploring AI trustworthiness in Intelligent Transport Systems. 
 
         - date_end: '2024-04-24'

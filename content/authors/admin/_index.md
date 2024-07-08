@@ -23,7 +23,7 @@ organizations:
     url: 'https://www.cardiff.ac.uk'
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests revolve around on how to apply text mining and machine learning techniques in defence methodologies.
+bio: My research interests revolve around on how to apply text mining and machine learning techniques in cybersecurity defence methodologies.
 
 # Interests to show in About widget
 interests:
@@ -78,7 +78,7 @@ Previously, I was a Research Associate at Cardiff University working for the [Di
 
 I am a co-founder and act as a domain knowledge expert of [QRLA](https://qrla.io/), a start-up formed as part of the [Cyber Innovation Hub](https://cyberinnovationhub.wales/) initative in collaboration with [Alacrity](https://alacrityfoundation.co.uk/).
 
-🚨 **Looking for PhD Students!** - I am interested in supervising funded or self-funded PhD students in projects involving Large Language Model (LLM) security. Please, check the relevant page in FindAPhD for more information and do not hesitate to contact me if you have any questions.
+🚨 **Looking for PhD Students!** - I am interested in supervising funded or self-funded PhD students in projects involving Large Language Model (LLM) security. Please check the relevant page in FindAPhD for more information and do not hesitate to contact me if you have any questions.
 
 
 
