@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2024-07-10'
+          icon: sai_lab
+          organization: SAI Lab
+          title: Co-Director of SAI Lab
+          description: The [Safe AI (SAI) Lab](https://sai-lab.co.uk) is a research group dedicated to ensuring the ethical and secure development of Artificial Intelligence technologies. As a leader in the global movement towards responsible AI, we focus on both the theoretical foundations and practical applications of AI safety. Our interdisciplinary team collaborates with experts across various domains to advance the field and address critical challenges. At SAI Lab, our research spans diverse topics such as algorithmic transparency, robustness, fairness, and the prevention of AI misuse. 
+
+        - date_end: ''
           date_start: '2024-06-06'
           icon: mdpi
           organization: MDPI IoT
@@ -71,13 +78,6 @@ sections:
           organization: MDPI Cybersecurity and Privacy
           title: New Publication
           description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals](https://www.mdpi.com/2624-800X/4/2/17) published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
-
-        - date_end: ''
-          date_start: '2024-05-16'
-          icon: yucatani6
-          organization: Yucatan i6
-          title: Capture the Flag - Yucatan i6 - Cardiff University
-          description: Co-organised and designed a Capture the Flag competition for attendees at [Yucatan i6](https://yucatan-i6.com/)'s cybersecurity event.
 
 
       text: "[See all](/awards/)"       
