@@ -161,13 +161,6 @@ sections:
           title: Elsevier - Dr K W Wong Annual Award for Best Paper 2023
 
         - date_end: ''
-          date_start: '2024-01-01'
-          icon: cardiff
-          organization: Cardiff University
-          title: Module Leader
-          description: I am the leader of the [Topics, Research and Skills in Computing (CMT221)](https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html) module at Cardiff University's School of Computer Science & Informatics.
-
-        - date_end: ''
           date_start: '2023-11-14'
           description: Co-author of a [paper](https://www.sciencedirect.com/science/article/pii/S2214212620308607?CMX_ID=&SIS_ID=&dgcid=STMJ_213567_STMJIN_OA&utm_acid=88310617&utm_campaign=STMJ_213567_STMJIN_OA&utm_in=DM426871&utm_medium=email&utm_source=AC_) recognised by Elsevier as a top Open Access contributor. The article was linked to the United Nations Sustainable Development Goals; to build resilient infrastructure, promote inclusive and sustainable industrialisation, and foster innovation.
           icon: elsevier

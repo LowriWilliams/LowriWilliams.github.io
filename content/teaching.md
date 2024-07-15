@@ -47,6 +47,14 @@ sections:
 
 
       items:
+
+        - date_end: ''
+          date_start: '2024-10-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: Module Leader
+          description: I am currently the leader of the [Software Development Skills 1 (CM6113)](https://www.cardiff.ac.uk/study/undergraduate/courses/course/applied-software-engineering-bsc) module at Cardiff University's School of Computer Science & Informatics. This module introduces basic skills, knowledge and understanding of professional practice and ethics in software development.
+
         - date_end: ''
           date_start: '2024-01-01'
           icon: cardiff
