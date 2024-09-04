@@ -58,6 +58,20 @@ sections:
 
       items:
 
+        # - date_end: ''
+        #   date_start: ''
+        #   icon: mdpi
+        #   organization: MDPI Information
+        #   title: New Publication
+        #   description: Main author of our paper []() published in MDPI Information's section Information Processes.
+
+        - date_end: ''
+          date_start: '2024-09-03'
+          icon: cardiff
+          organization: Cardiff University
+          title: PhD Viva - Internal Examiner
+          description: Acted as an internal examiner for a PhD viva at Cardiff University.
+
         - date_end: ''
           date_start: '2024-07-10'
           icon: sai_lab
@@ -71,14 +85,6 @@ sections:
           organization: MDPI IoT
           title: New Publication
           description: Co-author of our paper [Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)](https://www.mdpi.com/2624-831X/5/2/18) published in MDPI IoT Journal.
-
-        - date_end: ''
-          date_start: '2024-06-06'
-          icon: mdpi
-          organization: MDPI Cybersecurity and Privacy
-          title: New Publication
-          description: Co-author of our paper [Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals](https://www.mdpi.com/2624-800X/4/2/17) published in MDPI Journal of Cybersecurity and Privacy's special issue Data Protection and Privacy.
-
 
       text: "[See all](/awards/)"       
     design:

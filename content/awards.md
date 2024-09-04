@@ -49,6 +49,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2024-09-03'
+          icon: cardiff
+          organization: Cardiff University
+          title: PhD Viva - Internal Examiner
+          description: Acted as an internal examiner for a PhD viva at Cardiff University.
+
+        - date_end: ''
           date_start: '2024-07-10'
           icon: sai_lab
           organization: SAI Lab
