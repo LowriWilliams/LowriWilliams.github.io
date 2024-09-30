@@ -55,7 +55,7 @@ sections:
           title: Itsaso Forbes
           description: Itsaso Forbes was a Cardiff Univeristy summer research intern who spent 6 weeks under my supervision exploring the propogation of hate speech on social networks.
 
-        - date_end: ''
+        - date_end: '2024-09-30'
           date_start: '2024-05-28'
           icon: 
           organization: Discribe Funded Project
