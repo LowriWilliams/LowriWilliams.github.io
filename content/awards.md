@@ -49,6 +49,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2024-11-05'
+          icon: mdpi
+          organization: MDPI Information
+          title: New Publication
+          description: Main author of our paper [Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives](https://www.mdpi.com/2078-2489/15/11/706) published in MDPI Information's section Information Processes.
+
+        - date_end: ''
           date_start: '2024-09-03'
           icon: cardiff
           organization: Cardiff University
