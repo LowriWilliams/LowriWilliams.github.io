@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-01-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: Administrator Roll
+          description: Acted as Student Complaints Officer for Cardiff University's School of Computer Science and Informatics).
+          
+        - date_end: ''
           date_start: '2024-11-12'
           icon: datagals
           organization: The Data Gals
@@ -71,13 +78,6 @@ sections:
           organization: MDPI Information
           title: New Publication
           description: Main author of our paper [Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives](https://www.mdpi.com/2078-2489/15/11/706) published in MDPI Information's section Information Processes.
-
-        - date_end: ''
-          date_start: '2024-09-03'
-          icon: cardiff
-          organization: Cardiff University
-          title: PhD Viva - Internal Examiner
-          description: Acted as an internal examiner for a PhD viva at Cardiff University.
 
       text: "[See all](/awards/)"       
     design:

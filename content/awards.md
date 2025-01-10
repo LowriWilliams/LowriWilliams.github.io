@@ -47,6 +47,21 @@ sections:
 
 
       items:
+
+        # - date_end: ''
+        #   date_start: '2024-XX-XX'
+        #   icon: mdpi
+        #   organization: MDPI Informatics
+        #   title: New Publication
+        #   description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis]() published in MDPI Informatics journal.
+        
+        - date_end: ''
+          date_start: '2025-01-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: Administrator Roll
+          description: Acted as Student Complaints Officer for Cardiff University's School of Computer Science and Informatics).
+          
         - date_end: ''
           date_start: '2024-11-12'
           icon: datagals
