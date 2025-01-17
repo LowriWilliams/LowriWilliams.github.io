@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-01-17'
+          icon: mdpi
+          organization: MDPI Informatics
+          title: New Publication
+          description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis](https://www.mdpi.com/2227-9709/12/1/8) published in MDPI Informatics journal.
+
+        - date_end: ''
           date_start: '2025-01-01'
           icon: cardiff
           organization: Cardiff University
@@ -71,13 +78,6 @@ sections:
           organization: The Data Gals
           title: Data Science Mentor
           description: Acted as Data Science Mentor for [The Data Gals](https://thedatagals.co.uk/).
-
-        - date_end: ''
-          date_start: '2024-11-05'
-          icon: mdpi
-          organization: MDPI Information
-          title: New Publication
-          description: Main author of our paper [Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives](https://www.mdpi.com/2078-2489/15/11/706) published in MDPI Information's section Information Processes.
 
       text: "[See all](/awards/)"       
     design:

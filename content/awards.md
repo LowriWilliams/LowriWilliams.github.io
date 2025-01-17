@@ -48,12 +48,12 @@ sections:
 
       items:
 
-        # - date_end: ''
-        #   date_start: '2024-XX-XX'
-        #   icon: mdpi
-        #   organization: MDPI Informatics
-        #   title: New Publication
-        #   description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis]() published in MDPI Informatics journal.
+        - date_end: ''
+          date_start: '2025-01-17'
+          icon: mdpi
+          organization: MDPI Informatics
+          title: New Publication
+          description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis](https://www.mdpi.com/2227-9709/12/1/8) published in MDPI Informatics journal.
         
         - date_end: ''
           date_start: '2025-01-01'
