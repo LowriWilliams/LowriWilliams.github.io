@@ -48,19 +48,19 @@ sections:
 
       items:
 
-        - date_end: ''
-          date_start: '2025-01-01'
-          icon: 
-          organization: PhD Student
-          title: Dylan Hampton
-          description: Dylan Hampton is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs, their security, and how they are trusted within high risk environments.
+        # - date_end: ''
+        #   date_start: '2025-01-01'
+        #   icon: 
+        #   organization: PhD Student
+        #   title: Dylan Hampton
+        #   description: Dylan Hampton is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs, their security, and how they are trusted within high risk environments.
 
-        - date_end: ''
-          date_start: '2025-01-01'
-          icon: 
-          organization: PhD Student
-          title: Jake Samuels
-          description: Jake Samuels is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs and how they can used within a social engineering digital twin.
+        # - date_end: ''
+        #   date_start: '2025-01-01'
+        #   icon: 
+        #   organization: PhD Student
+        #   title: Jake Samuels
+        #   description: Jake Samuels is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs and how they can used within a social engineering digital twin.
 
         - date_end: '2024-07-19'
           date_start: '2024-06-10'
