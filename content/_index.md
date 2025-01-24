@@ -78,13 +78,6 @@ sections:
           title: Administrator Roll
           description: Acted as Student Complaints Officer for Cardiff University's School of Computer Science and Informatics).
           
-        - date_end: ''
-          date_start: '2024-11-12'
-          icon: datagals
-          organization: The Data Gals
-          title: Data Science Mentor
-          description: Acted as Data Science Mentor for [The Data Gals](https://thedatagals.co.uk/).
-
       text: "[See all](/awards/)"       
     design:
       columns: '2'
