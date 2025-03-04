@@ -47,7 +47,7 @@ sections:
 
 
       items:
-      
+
         - date_end: ''
           date_start: '2025-01-18'
           icon: cardiff
