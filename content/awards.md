@@ -47,7 +47,6 @@ sections:
 
 
       items:
-<<<<<<< HEAD
       
         - date_end: ''
           date_start: '2025-01-18'
@@ -55,15 +54,6 @@ sections:
           organization: Cardiff University
           title: New PhD Students
           description: I currently supervise 2 new PhD students, Jake Samuels and Dylan Hampton. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity.
-=======
-
-        # - date_end: ''
-        #   date_start: '2025-01-18'
-        #   icon: cardiff
-        #   organization: Cardiff University
-        #   title: New PhD Students
-        #   description: I currently supervise 2 new PhD students, Jake Samuels and Dylan Hampton. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity.
->>>>>>> parent of 341c286 (awards)
 
         - date_end: ''
           date_start: '2025-01-17'
