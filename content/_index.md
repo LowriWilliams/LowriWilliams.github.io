@@ -77,6 +77,26 @@ sections:
         #   organization: Cardiff University
         #   title: Guest Talk
         #   description: Delivered a guest talk titled "Shining Light on Internet-Based Crimes Against Children" to a nursing cohort at Cardiff University, School of Medicine.
+        - date_end: ''
+          date_start: '2025-01-18'
+          icon: cardiff
+          organization: Cardiff University
+          title: New PhD Students
+          description: I currently supervise 2 new PhD students, Jake Samuels and Dylan Hampton. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity.
+
+        - date_end: ''
+          date_start: '2025-01-17'
+          icon: mdpi
+          organization: MDPI Informatics
+          title: New Publication
+          description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis](https://www.mdpi.com/2227-9709/12/1/8) published in MDPI Informatics journal.
+
+        - date_end: ''
+          date_start: '2025-01-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: Administrator Roll
+          description: Acted as Student Complaints Officer for Cardiff University's School of Computer Science and Informatics).
           
       text: "[See all](/awards/)"       
     design:
