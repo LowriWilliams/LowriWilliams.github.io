@@ -58,25 +58,25 @@ sections:
 
       items:
         - date_end: ''
-          date_start: '2025-01-18'
+          date_start: '2025-03-05'
           icon: cardiff
           organization: Cardiff University
-          title: New PhD Students
-          description: I currently supervise 2 new PhD students, Jake Samuels and Dylan Hampton. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity.
+          title: HEA Fellowship (FHEA)
+          description: Awarded the HEA Fellowship (FHEA).
 
         - date_end: ''
-          date_start: '2025-01-17'
-          icon: mdpi
-          organization: MDPI Informatics
-          title: New Publication
-          description: Main author of our paper [The Evolution of Digital Security by Design using Temporal Network Analysis](https://www.mdpi.com/2227-9709/12/1/8) published in MDPI Informatics journal.
-
-        - date_end: ''
-          date_start: '2025-01-01'
+          date_start: '2025-03-04'
           icon: cardiff
           organization: Cardiff University
-          title: Administrator Roll
-          description: Acted as Student Complaints Officer for Cardiff University's School of Computer Science and Informatics).
+          title: Guest Talk
+          description: Delivered a guest talk to provide an overview of my career path to Cardiff University's Ignite Programme.
+
+        - date_end: ''
+          date_start: '2025-03-03'
+          icon: cardiff
+          organization: Cardiff University
+          title: Guest Talk
+          description: Delivered a guest talk titled "Shining Light on Internet-Based Crimes Against Children" to a nursing cohort at Cardiff University's School of Medicine.
           
       text: "[See all](/awards/)"       
     design:
