@@ -57,6 +57,7 @@ sections:
       date_format: Jan 2006
 
       items:
+      
         - date_end: ''
           date_start: '2025-01-18'
           icon: cardiff
