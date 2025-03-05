@@ -59,6 +59,20 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-03-05'
+          icon: cardiff
+          organization: Cardiff University
+          title: HEA Fellowship (FHEA)
+          description: Awarded the HEA Fellowship (FHEA).
+
+        - date_end: ''
+          date_start: '2025-03-04'
+          icon: cardiff
+          organization: Cardiff University
+          title: Guest Talk
+          description: Delivered a guest talk to provide an overview of my career path to the Ignite Programme at Cardiff University.
+
+        - date_end: ''
           date_start: '2025-03-03'
           icon: cardiff
           organization: Cardiff University
@@ -70,7 +84,7 @@ sections:
           icon: cardiff
           organization: Cardiff University
           title: New PhD Students
-          description: I currently supervise 2 new PhD students, Jake Samuels and Dylan Hampton. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity.
+          description: Introducing 3 new PhD students, Jake Samuels, Dylan Hampton, and Zain Hankin to the team. Their PhDs are funded by the Cyber Innovation Hub and their research focuses around the use of LLMs in cybersecurity and Industrial Control System security.
 
         - date_end: ''
           date_start: '2025-01-17'

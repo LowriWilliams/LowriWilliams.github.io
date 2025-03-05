@@ -49,6 +49,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-04-01'
+          icon: 
+          organization: PhD Student
+          title: Zain Hankin
+          description: Zain Hankin is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi and Dr Vijay Kumar. His research interests revolve around Industrial Control Systems, their security, and how machine learning can safeguard them.
+
+        - date_end: ''
           date_start: '2025-01-01'
           icon: 
           organization: PhD Student
