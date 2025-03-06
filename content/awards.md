@@ -70,6 +70,13 @@ sections:
           description: Delivered a guest talk titled "Shining Light on Internet-Based Crimes Against Children" to a nursing cohort at Cardiff University, School of Medicine.
 
         - date_end: ''
+          date_start: '2025-02-28'
+          icon: datagals
+          organization: The Data Gals
+          title: Nomination
+          description: Nominee for the Tech for Good Awards at the Data Gals Awards.
+
+        - date_end: ''
           date_start: '2025-01-18'
           icon: cardiff
           organization: Cardiff University
