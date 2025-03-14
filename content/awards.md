@@ -47,6 +47,14 @@ sections:
 
 
       items:
+            
+        - date_end: ''
+          date_start: '2025-03-10'
+          icon: trustai
+          organization: TrustAI
+          title: Advisor
+          description: Joined [TrustAI](https://trustailabs.co.uk/) as an advisor and AI expert.
+
         - date_end: ''
           date_start: '2025-03-05'
           icon: cardiff

@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-03-10'
+          icon: trustai
+          organization: TrustAI
+          title: Advisor
+          description: Joined [TrustAI](https://trustailabs.co.uk/) as an advisor and AI expert.
+
+        - date_end: ''
           date_start: '2025-03-05'
           icon: cardiff
           organization: Cardiff University
@@ -71,13 +78,6 @@ sections:
           organization: Cardiff University
           title: Guest Talk
           description: Delivered a guest talk to provide an overview of my career path to the Ignite Programme at Cardiff University.
-
-        - date_end: ''
-          date_start: '2025-03-03'
-          icon: cardiff
-          organization: Cardiff University
-          title: Guest Talk
-          description: Delivered a guest talk titled "Shining Light on Internet-Based Crimes Against Children" to a nursing cohort at Cardiff University, School of Medicine.
 
       text: "[See all](/awards/)"       
     design:
