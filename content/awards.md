@@ -50,7 +50,7 @@ sections:
 
         - date_end: ''
           date_start: '2025-03-10'
-          icon: trusati
+          icon: trustai
           organization: TrustAI
           title: Advisor
           description: Joined TrustAI as an advisor and AI expert.
