@@ -47,6 +47,13 @@ sections:
 
 
       items:
+
+        - date_end: ''
+          date_start: '2025-03-17'
+          icon: cardiffuniversity
+          organization: Cardiff University
+          title: Enriching Student Life Awards 2025
+          description: Nominated for Most Outstanding Use of the Learning Environment.
             
         - date_end: ''
           date_start: '2025-03-10'

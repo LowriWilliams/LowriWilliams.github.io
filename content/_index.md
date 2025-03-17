@@ -59,6 +59,13 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2025-03-17'
+          icon: cardiffuniversity
+          organization: Cardiff University
+          title: Enriching Student Life Awards 2025
+          description: Nominated for Most Outstanding Use of the Learning Environment.
+
+        - date_end: ''
           date_start: '2025-03-10'
           icon: trustai
           organization: TrustAI
@@ -72,12 +79,6 @@ sections:
           title: HEA Fellowship (FHEA)
           description: Awarded the HEA Fellowship (FHEA).
 
-        - date_end: ''
-          date_start: '2025-03-04'
-          icon: cardiff
-          organization: Cardiff University
-          title: Guest Talk
-          description: Delivered a guest talk to provide an overview of my career path to the Ignite Programme at Cardiff University.
 
       text: "[See all](/awards/)"       
     design:
