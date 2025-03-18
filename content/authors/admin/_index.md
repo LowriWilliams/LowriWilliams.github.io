@@ -76,7 +76,7 @@ I am a Lecturer (~Assistant Professor) at the [School of Computer Science and In
 
 Previously, I was a Research Associate at Cardiff University working for the [Discribe Hub](https://www.discribehub.org/) and [Data Innovation Accelerator](https://www.cardiff.ac.uk/data-innovation-accelerator) projects.
 
-I am a co-founder and act as a domain knowledge expert of [QRLA](https://qrla.io/), a start-up formed as part of the [Cyber Innovation Hub](https://cyberinnovationhub.wales/) initative in collaboration with [Alacrity](https://alacrityfoundation.co.uk/).
+<!-- I am a co-founder and act as a domain knowledge expert of [QRLA](https://qrla.io/), a start-up formed as part of the [Cyber Innovation Hub](https://cyberinnovationhub.wales/) initative in collaboration with [Alacrity](https://alacrityfoundation.co.uk/). -->
 
 🚨 **Looking for PhD Students!** - I am interested in supervising funded or self-funded PhD students in projects involving Large Language Model (LLM) security. Please check the relevant page in [FindAPhD](https://www.findaphd.com/phds/project/addressing-cybersecurity-challenges-in-large-language-models-llms-self-funded-students-only/?p170174) for more information and do not hesitate to contact me if you have any questions.
 
