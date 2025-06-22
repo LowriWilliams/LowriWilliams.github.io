@@ -1,12 +1,11 @@
 ---
-title: "Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives"
+title: "The Emotional Landscape of Technological Innovation: a Case Study of ChatGPT's Launch"
 authors:
 - Lowri Williams
-- Eirini Anthi
 - Pete Burnap
 
 date: "2024-11-05"
-doi: "https://www.mdpi.com/2078-2489/15/11/706"
+doi: "https://www.mdpi.com/2227-9709/12/3/58"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -18,20 +17,23 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: 'Journal of Information'
+publication: 'Journal of Informatics'
 publication_short: ""
 
-abstract: This paper presents a data-driven framework to identify and quantify the influence of such features on the visibility and impact of technology-related tweets. The quantitative analysis from statistical modelling reveals that certain content-based features, like the number of words and pronouns used, positively correlate with the impressions of tweets, with increases of up to 2.8%. 
+abstract: This paper overcomes this limitation by presenting a comprehensive analysis for investigating the emotional landscape surrounding technology adoption by using the launch of ChatGPT as a case study. 
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
 - Emerging Technologies
-- Natural Language Processing
-- Statistical Modelling
-- Social Media Data Analysis
+- Technology Barriers
 - Technology Adoption
+- Emotive Language Analysis
+- Topic Modelling
+- ChatGPT
+
+
 featured: true
 
 # links:
