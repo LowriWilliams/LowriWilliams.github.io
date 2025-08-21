@@ -86,13 +86,6 @@ sections:
           title: New Publication
           description: Co-author of our paper [Interpretable Ordinal-aware with Contrastive-enhanced Anomaly Severity Detection on UAV Flight Log Messages](https://ieeexplore.ieee.org/document/11037410) published in IEEE Access. 
 
-        - date_end: ''
-          date_start: '2025-03-17'
-          icon: cardiff
-          organization: Cardiff University
-          title: Enriching Student Life Awards 2025
-          description: Nominated for Most Outstanding Use of the Learning Environment and Most Outstanding Learning Experience.
-
       text: "[See all](/awards/)"       
     design:
       columns: '2'
