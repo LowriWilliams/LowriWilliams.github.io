@@ -60,7 +60,7 @@ sections:
           icon: walesstem
           organization: Wales Stem Awards
           title: Winner
-          description: TrustAI - winner of the STEM reearch project of the year at the Wales STEM Awards 2025. 
+          description: TrustAI - winner of the STEM research project of the year at the Wales STEM Awards 2025. 
 
         - date_end: ''
           date_start: '2025-10-13'
