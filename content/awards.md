@@ -63,7 +63,7 @@ sections:
           description: TrustAI - winner of the STEM reearch project of the year at the Wales STEM Awards 2025. 
 
         - date_end: ''
-          date_start: '2024-10-13'
+          date_start: '2025-10-13'
           icon: cardiff
           organization: Cardiff University
           title: PhD Viva - Internal Examiner
