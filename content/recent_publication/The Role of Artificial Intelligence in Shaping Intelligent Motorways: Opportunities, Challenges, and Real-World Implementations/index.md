@@ -1,13 +1,17 @@
 ---
-title: "The Evolution of Digital Security by Design Using Temporal Network Analysis"
+title: "The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations"
 authors:
+- Eirini Anthi
 - Lowri Williams
-- Hamza Khan
-- Pete Burnap
+- Hamza Afzal
+- Bilal Brar
+- Joydip Bhowmick
+- Kabir Gujral
+- Emyr Thomas
 
 
-date: "2025-01-17"
-doi: "https://www.mdpi.com/2227-9709/12/1/8"
+date: "2025-10-29"
+doi: "https://ieeexplore.ieee.org/document/11220178"
 
 # Schedule page publish date (NOT publication's date).
 publishDate: ""
@@ -19,21 +23,26 @@ publishDate: ""
 publication_types: ["2"]
 
 # Publication name and optional abbreviated publication name.
-publication: 'Journal of Informatics'
+publication: 'IEEE Access'
 publication_short: ""
 
-abstract: This paper presents a data-driven analysis of the evolving landscape of DSbD from 2019 to 2024, gathering insights from textual documents referencing DSbD. Using a combination of text mining techniques and network analysis, a large corpus of textual documents was examined to identify key entities, including organisations, individuals, and the relationships between them. 
+abstract: This paper is a review on how AI is integrated into intelligent transportation systems.
 
 # Summary. An optional shortened abstract.
 summary: 
 
 tags:
-- temporal network analysis
-- digital security by design
-- security by design
-- natural language processing
-- text mining
-featured: true
+- Artificial intelligence
+- Transportation
+- Reviews
+- Predictive models
+- Concept drift
+- Robustness
+- Prediction algorithms
+- Lighting
+- License plate recognition
+- Adversarial machine learning
+
 
 # links:
 # - icon: arxiv

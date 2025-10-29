@@ -64,6 +64,13 @@ sections:
         #   organization: SAI Lab
         #   title: Co-Director of SAI Lab
         #   description: The [Safe AI (SAI) Lab](https://sai-lab.co.uk) is a research group dedicated to ensuring the ethical and secure development of Artificial Intelligence technologies. As a leader in the global movement towards responsible AI, we focus on both the theoretical foundations and practical applications of AI safety. Our interdisciplinary team collaborates with experts across various domains to advance the field and address critical challenges. At SAI Lab, our research spans diverse topics such as algorithmic transparency, robustness, fairness, and the prevention of AI misuse.
+
+        - date_end: ''
+          date_start: '2025-10-29'
+          icon: ieee
+          organization: IEEE Transactions on Intelligent Transportation Systems
+          title: New Publication
+          description: Co-author of our paper [The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations](https://ieeexplore.ieee.org/document/11220178) published in IEEE Transactions on Intelligent Transportation Systems. 
                 
         - date_end: ''
           date_start: '2025-10-16'
