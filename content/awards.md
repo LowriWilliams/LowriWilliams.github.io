@@ -60,7 +60,7 @@ sections:
           icon: ieee
           organization: IEEE Transactions on Intelligent Transportation Systems
           title: New Publication
-          description: Co-author of our paper [The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations](https://ieeexplore.ieee.org/document/11220178) published in IEEE Transactions on Intelligent Transportation Systems. 
+          description: Co-author of our paper [The Role of Artificial Intelligence in Shaping Intelligent Motorways - Opportunities, Challenges, and Real-World Implementations](https://ieeexplore.ieee.org/document/11220178) published in IEEE Transactions on Intelligent Transportation Systems. 
         
         - date_end: ''
           date_start: '2025-10-16'
