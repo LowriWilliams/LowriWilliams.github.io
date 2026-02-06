@@ -59,7 +59,7 @@ sections:
           date_start: '2026-02-06'
           icon: epsrc
           organization: EPSRC Peer Review College
-          title: EPSRC 
+          title: EPSRC
           description: Accepted as a member of the EPSRC Peer Review College. 
 
         - date_end: ''
