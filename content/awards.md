@@ -47,6 +47,14 @@ sections:
 
 
       items:
+
+        - date_end: ''
+          date_start: '2026-02-06'
+          icon: epsrc
+          organization: EPSRC Peer Review College
+          title: Member
+          description: Welcomed as a member at EPSRC Peer Review College.
+          
         - date_end: ''
           date_start: '2025-10-29'
           icon: ieee
