@@ -52,8 +52,8 @@ sections:
           date_start: '2025-10-01'
           icon: 
           organization: PhD Student
-          title: Stephanie Bennett
-          description: Stephanie Bennett is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Her research interests revolve around Critical National Infrastructure and the risks they face.
+          title: Steph Bennett
+          description: Steph Bennett is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Her research interests revolve around Critical National Infrastructure and the risks they face.
 
         - date_end: ''
           date_start: '2025-04-01'
