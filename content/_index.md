@@ -58,7 +58,7 @@ sections:
       items:
 
         - date_end: ''
-          date_start: '2026-02-20'
+          date_start: '2026-03-18'
           icon: oxfordacademic
           organization: Oxford Academic
           title: New Publication
