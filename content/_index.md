@@ -58,33 +58,26 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2026-02-20'
+          icon: oxfordacademic
+          organization: Oxford Academic
+          title: New Publication
+          description: Co-author of our paper "[The Anatomy of an Access Control Reader - A Cybersecurity Perspective](https://doi.org/10.1093/cybsec/tyag008)" published in the Journal of Cybersecurity.
+
+        - date_end: ''
+          date_start: '2026-03-03'
+          icon: cardiff
+          organization: Cardiff University
+          title: Enriching Student Life Awards 2026
+          description: Nominated for Champion for Welsh Education and Most Outstanding Use of the Learning Environment as Learning.
+
+        - date_end: ''
           date_start: '2026-02-06'
           icon: epsrc
           organization: EPSRC Peer Review College
           title: Member
-          description: Welcomed as a member at EPSRC Peer Review College.
+          description: Welcomed as a member at EPSRC Peer Review College. 
 
-        - date_end: ''
-          date_start: '2025-10-29'
-          icon: ieee
-          organization: IEEE Transactions on Intelligent Transportation Systems
-          title: New Publication
-          description: Co-author of our paper [The Role of Artificial Intelligence in Shaping Intelligent Motorways - Opportunities, Challenges, and Real-World Implementations](https://ieeexplore.ieee.org/document/11220178) published in IEEE Transactions on Intelligent Transportation Systems. 
-                
-        - date_end: ''
-          date_start: '2025-10-16'
-          icon: walesstem
-          organization: Wales Stem Awards
-          title: Winner
-          description: TrustAI - winner of the STEM reearch project of the year at the Wales STEM Awards 2025. 
-
-        - date_end: ''
-          date_start: '2025-10-13'
-          icon: cardiff
-          organization: Cardiff University
-          title: PhD Viva - Internal Examiner
-          description: Acted as an internal examiner for a PhD viva at Cardiff University.
-        
       text: "[See all](/awards/)"       
     design:
       columns: '2'

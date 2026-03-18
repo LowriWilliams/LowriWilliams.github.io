@@ -49,6 +49,20 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2026-02-20'
+          icon: oxfordacademic
+          organization: Oxford Academic
+          title: New Publication
+          description: Co-author of our paper "[The Anatomy of an Access Control Reader - A Cybersecurity Perspective](https://doi.org/10.1093/cybsec/tyag008)" published in the Journal of Cybersecurity.
+
+        - date_end: ''
+          date_start: '2026-03-03'
+          icon: cardiff
+          organization: Cardiff University
+          title: Enriching Student Life Awards 2026
+          description: Nominated for Champion for Welsh Education and Most Outstanding Use of the Learning Environment as Learning.
+
+        - date_end: ''
           date_start: '2026-02-06'
           icon: epsrc
           organization: EPSRC Peer Review College
