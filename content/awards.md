@@ -52,7 +52,7 @@ sections:
           date_start: '2026-10-17'
           icon: cyberly
           organization: Cyberly
-          title: CyberDAS - International Cybersecurity Awareness Conference - Speaker
+          title: Cyberly - International Cybersecurity Awareness Conference - Speaker
           description: Presented a talk titled - Unsafe Intelligence? Exploring Cybersecurity and Trust in AI-Powered Transportation.
         
         - date_end: ''
