@@ -49,32 +49,39 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2026-10-01'
+          icon: 
+          organization: 
+          title: Ben Cowan
+          description: Ben Cowan is currently a full-time PhD student with whom I co-supervise with Prof Jon Gillard. Their research interests revolve around GenAI model management in finanical services.
+
+        - date_end: ''
           date_start: '2025-10-01'
           icon: 
           organization: PhD Student
           title: Stephanie Bennett
-          description: Stephanie Bennett is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Her research interests revolve around Critical National Infrastructure and the risks they face.
+          description: Stephanie Bennett is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Their research interests revolve around Critical National Infrastructure and the risks they face.
 
         - date_end: ''
           date_start: '2025-04-01'
           icon: 
           organization: PhD Student
           title: Zain Hankin
-          description: Zain Hankin is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi and Dr Vijay Kumar. His research interests revolve around Industrial Control Systems, their security, and how machine learning can safeguard them.
+          description: Zain Hankin is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi and Dr Vijay Kumar. Their research interests revolve around Industrial Control Systems, their security, and how machine learning can safeguard them.
 
         - date_end: ''
           date_start: '2025-01-01'
           icon: 
           organization: PhD Student
           title: Dylan Hampton
-          description: Dylan Hampton is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs, their security, and how they are trusted within high risk environments.
+          description: Dylan Hampton is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Their research interests revolve around LLMs, their security, and how they are trusted within high risk environments.
 
         - date_end: ''
           date_start: '2025-01-01'
           icon: 
           organization: PhD Student
           title: Jake Samuels
-          description: Jake Samuels is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around LLMs and how they can used within a social engineering digital twin.
+          description: Jake Samuels is currently a full-time PhD student with whom I co-supervise with Dr Eirini Anthi. Their research interests revolve around LLMs and how they can used within a social engineering digital twin.
 
         - date_end: '2024-07-19'
           date_start: '2024-06-10'
@@ -88,28 +95,28 @@ sections:
           icon: 
           organization: Discribe Funded Project
           title: Hamza Khan
-          description: Hamza Khan is a Research Assistant working on a [Discribe](https://www.discribehub.org/) funded project. He is working under my supervison focusing on the development of an ontology based approach towards mapping the Digital Security by Design (DSbD).
+          description: Hamza Khan is a Research Assistant working on a [Discribe](https://www.discribehub.org/) funded project. They are working under my supervison focusing on the development of an ontology based approach towards mapping the Digital Security by Design (DSbD).
 
         - date_end: ''
           date_start: '2024-01-01'
           icon: 
           organization: Part-Time PhD Student 
           title: Tristram Ridley-Jones
-          description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around designing effective Security Operation Centres (SOCs) in organisations.
+          description: Tristram Ridley-Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. Their research interests revolve around designing effective Security Operation Centres (SOCs) in organisations.
 
         - date_end: '2025-03-01'
           date_start: '2022-10-01'
           icon: 
           organization: Part-Time PhD Student 
           title: Peter Jones
-          description: Peter Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. His research interests revolve around the security of access control systems.
+          description: Peter Jones is currently a part-time PhD student with whom I co-supervise with Dr Eirini Anthi. Their research interests revolve around the security of access control systems.
 
         - date_end: '2024-05-31'
           date_start: '2023-11-01'
           icon: 
           organization: Visiting PhD Student 
           title: Swardiantara Silalahi
-          description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. He spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
+          description: Swardiantara Silalahi was a visiting PhD student from Sepuluh Nopember Institute of Technology (ITS), Indonesia. They spent 6 months under my co-supervision with Dr Eirini Anthi, where the focus of his work was on drone forensics. Whilst at Cardiff, we published a paper [Severity-oriented Multiclass Drone Flight Logs Anomaly Detection](https://ieeexplore.ieee.org/document/10520297) in IEEE Access.
 
         - date_end: '2023-06-30'
           date_start: '2023-06-01'

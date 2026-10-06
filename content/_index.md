@@ -58,25 +58,25 @@ sections:
       items:
 
         - date_end: ''
-          date_start: '2026-03-18'
-          icon: oxfordacademic
-          organization: Oxford Academic
-          title: New Publication
-          description: Co-author of our paper "[The Anatomy of an Access Control Reader - A Cybersecurity Perspective](https://doi.org/10.1093/cybsec/tyag008)" published in the Journal of Cybersecurity.
+          date_start: '2026-10-17'
+          icon: cyberly
+          organization: Cyberly
+          title: CyberDAS - International Cybersecurity Awareness Conference - Speaker
+          description: Presented a talk titled - Unsafe Intelligence? Exploring Cybersecurity and Trust in AI-Powered Transportation.
 
         - date_end: ''
-          date_start: '2026-03-03'
+          date_start: '2026-10-01'
           icon: cardiff
           organization: Cardiff University
-          title: Enriching Student Life Awards 2026
-          description: Nominated for Champion for Welsh Education and Most Outstanding Use of the Learning Environment as Learning.
+          title: New PhD Student
+          description: Introducing a new PhD student, Ben Cowan, to the team. Their PhD is funded by Nationwide and their research focuses around GenAI Model Management in Finanical Services.
 
         - date_end: ''
-          date_start: '2026-02-06'
-          icon: epsrc
-          organization: EPSRC Peer Review College
-          title: Member
-          description: Welcomed as a member at EPSRC Peer Review College. 
+          date_start: '2026-10-01'
+          icon: nationalhighways
+          organization: National Highways
+          title: Funding Awarded
+          description: Co-investigator on a National Highways funded project titled - Agent-Based Exploration of AI-Induced Safety Risks on the Strategic Road Network. Worth £250,000.
 
       text: "[See all](/awards/)"       
     design:

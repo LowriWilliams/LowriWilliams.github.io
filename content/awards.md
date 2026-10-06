@@ -49,6 +49,27 @@ sections:
       items:
 
         - date_end: ''
+          date_start: '2026-10-17'
+          icon: cyberly
+          organization: Cyberly
+          title: CyberDAS - International Cybersecurity Awareness Conference - Speaker
+          description: Presented a talk titled - Unsafe Intelligence? Exploring Cybersecurity and Trust in AI-Powered Transportation.
+        
+        - date_end: ''
+          date_start: '2026-10-01'
+          icon: cardiff
+          organization: Cardiff University
+          title: New PhD Student
+          description: Introducing a new PhD student, Ben Cowan, to the team. Their PhD is funded by Nationwide and their research focuses around GenAI Model Management in Finanical Services.
+
+        - date_end: ''
+          date_start: '2026-10-01'
+          icon: nationalhighways
+          organization: National Highways
+          title: Funding Awarded
+          description: Co-investigator on a National Highways funded project titled - Agent-Based Exploration of AI-Induced Safety Risks on the Strategic Road Network. Worth £250,000.
+
+        - date_end: ''
           date_start: '2026-03-18'
           icon: oxfordacademic
           organization: Oxford Academic

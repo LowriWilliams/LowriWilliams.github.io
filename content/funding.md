@@ -47,6 +47,13 @@ sections:
 
 
       items:
+
+        - date_end: ''
+          date_start: '2026-10-01'
+          icon: nationalhighways
+          organization: National Highways
+          title: Funding Awarded
+          description: Co-investigator on a National Highways funded project titled - Agent-Based Exploration of AI-Induced Safety Risks on the Strategic Road Network. Worth £250,000.
           
         - date_end: ''
           date_start: '2024-02-27'
