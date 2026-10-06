@@ -51,7 +51,7 @@ sections:
         - date_end: ''
           date_start: '2026-10-01'
           icon: 
-          organization: 
+          organization: PhD Student
           title: Ben Cowan
           description: Ben Cowan is currently a full-time PhD student with whom I co-supervise with Prof Jon Gillard, Cardiff University. Their research interests revolve around GenAI model management in finanical services.
 
