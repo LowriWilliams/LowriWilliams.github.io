@@ -60,8 +60,8 @@ sections:
         - date_end: ''
           date_start: '2026-10-17'
           icon: cyberly
-          organization: Cyberly
-          title: Cyberly - International Cybersecurity Awareness Conference - Speaker
+          organization: Cybearly
+          title: Cybearly - International Cybersecurity Awareness Conference - Speaker
           description: Presented a talk titled - Unsafe Intelligence? Exploring Cybersecurity and Trust in AI-Powered Transportation.
 
         - date_end: ''
