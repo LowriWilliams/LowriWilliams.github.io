@@ -48,22 +48,14 @@ sections:
 
       items:
 
-        # - date_end: ''
-        #   date_start: '2027-01-01'
-        #   icon: cardiff
-        #   organization: Cardiff University
-        #   title: Module Leader
-        #   description: Module leader of the [Application and System Security (CMT230)](https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/cyber-security-and-technology-msc-full-time-1-year) module at Cardiff University's School of Computational and Mathematical Sciences. This module offers a broad and practical overview of securing modern software applications and underlying system architectures. It focuses on identifying, analysing, and mitigating security risks across a range of environments, from traditional web and enterprise systems to cloud native and machine learning enabled platforms.
-
-
-        - date_end: ''
+        - date_end: '2025-07-01'
           date_start: '2024-10-01'
           icon: cardiff
           organization: Cardiff University
           title: Module Leader
           description: Module leader of the [Software Development Skills 1 (CM6113)](https://www.cardiff.ac.uk/study/undergraduate/courses/course/applied-software-engineering-bsc) module at Cardiff University's School of Computer Science & Informatics. This module introduced basic skills, knowledge and understanding of professional practice and ethics in software development.
 
-        - date_end: ''
+        - date_end: '2025-07-01'
           date_start: '2024-01-01'
           icon: cardiff
           organization: Cardiff University
