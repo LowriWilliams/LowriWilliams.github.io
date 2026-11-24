@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>News · Dr Lowri Williams</title>
+<meta name="description" content="News, awards, papers and activities from Dr Lowri Williams.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --paper:#FFFFFF; --surface:#F4F7FA; --ink:#132130; --muted:#4D5E70; --rule:#C9D3DD;
+  --teal:#0B7471; --teal-bg:#CBE9E6; --amber:#8C6000; --amber-bg:#F6E1A6; --violet:#5A43A6; --violet-bg:#DED6F4;
+  --link:#0C5DA3;
+  --hero:var(--paper); --hero-ink:var(--ink); --hero-muted:var(--muted); --hero-link:var(--link); --hero-line:var(--rule);
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:1.0625rem/1.7 var(--body);
+  background:var(--paper)}
+img{max-width:100%;display:block}
+a{color:var(--link);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* header + dark band */
+.site-head{background:rgba(255,255,255,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);position:sticky;top:0;z-index:5;border-bottom:1px solid var(--hero-line)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px;flex-wrap:wrap}
+.brand{font:800 1.15rem/1 var(--display);color:var(--hero-ink);text-decoration:none;letter-spacing:-.01em}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:0;padding:.5rem 0}
+nav a{font:500 .95rem/1 var(--display);color:var(--hero-muted);text-decoration:none;padding:.35rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current="page"]{color:var(--hero-ink);border-bottom-color:var(--teal)}
+
+.band{position:relative;color:var(--hero-ink);border-bottom:1px solid var(--rule)}
+.band .net{position:absolute;inset:0;width:100%;height:100%}
+.band .wrap{position:relative;z-index:1}
+.band a{color:var(--hero-link)}
+.page-head{padding:4rem 0 3.5rem}
+.page-head h1{font:800 clamp(2.4rem,6vw,3.8rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .8rem}
+.page-head p{max-width:38rem;margin:0;color:var(--hero-muted);font-size:1.15rem}
+
+/* homepage hero */
+.hero{padding:4.5rem 0 4rem}
+.hero-grid{display:grid;grid-template-columns:1fr 220px;gap:3rem;align-items:start}
+.hero h1{font:800 clamp(2.4rem,6vw,4.2rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .4rem}
+.role{font:500 1.05rem/1.5 var(--display);color:var(--hero-muted);margin:0 0 2.5rem}
+.role a{color:inherit}
+.annotated{font:400 clamp(1.35rem,2.6vw,1.85rem)/2.35 var(--body);max-width:30em;margin:0}
+.ent{position:relative;padding:.12em .28em;border-radius:3px;background:var(--bg);white-space:nowrap}
+.ent::after{content:attr(data-tag);position:absolute;left:.28em;top:100%;margin-top:-.15em;font:600 .62rem/1 var(--display);letter-spacing:.02em;color:var(--fg);white-space:nowrap}
+.ent.field{--bg:var(--teal-bg);--fg:var(--teal)}
+.ent.method{--bg:var(--amber-bg);--fg:var(--amber)}
+.ent.target{--bg:var(--violet-bg);--fg:var(--violet)}
+@media (prefers-reduced-motion: no-preference){
+  .ent{background:linear-gradient(var(--bg),var(--bg)) no-repeat 0 0/0% 100%;animation:mark .6s ease-out forwards}
+  .ent::after{opacity:0;animation:tag .3s ease-out forwards}
+  .ent:nth-of-type(1),.ent:nth-of-type(1)::after{animation-delay:.3s}
+  .ent:nth-of-type(2),.ent:nth-of-type(2)::after{animation-delay:.7s}
+  .ent:nth-of-type(3),.ent:nth-of-type(3)::after{animation-delay:1.1s}
+  .ent:nth-of-type(4),.ent:nth-of-type(4)::after{animation-delay:1.5s}
+  @keyframes mark{to{background-size:100% 100%}}
+  @keyframes tag{to{opacity:1}}
+}
+.portrait{background:var(--rule);border-radius:50% 50% 6px 50%;aspect-ratio:1;object-fit:cover;width:100%;border:1px solid var(--rule)}
+.links{list-style:none;padding:0;margin:1.25rem 0 0;font:500 .95rem/1.9 var(--display)}
+.links a{display:inline-flex;align-items:center;gap:.55rem;color:var(--ink);text-decoration:none}
+.links a:hover span{text-decoration:underline}
+.links i{font-size:1.35rem;width:1.35rem;text-align:center;color:var(--link)}
+
+/* callouts */
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--violet);padding:1.4rem 1.6rem;margin:3rem 0;max-width:46rem}
+.callout.amber{border-left-color:var(--amber)}
+.callout h2{font:700 1.2rem/1.3 var(--display);margin:0 0 .4rem}
+.callout p{margin:0}
+
+/* section blocks */
+section.block{padding:3.5rem 0;border-top:1px solid var(--rule)}
+section.block:first-child{border-top:0}
+.block-grid{display:grid;grid-template-columns:200px 1fr;gap:2.5rem}
+.block h2{font:700 1.6rem/1.15 var(--display);letter-spacing:-.015em;margin:0;position:sticky;top:90px;align-self:start}
+.block h2 a{display:block;font:500 .9rem/1.6 var(--display);margin-top:.5rem}
+.block h2 small{display:block;font:500 .9rem/1.5 var(--display);color:var(--muted);margin-top:.4rem;letter-spacing:0}
+.prose{max-width:40rem}
+.prose p:first-child{margin-top:0}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem}
+.facts h3{font:700 1rem/1.3 var(--display);margin:0 0 .6rem}
+.facts ul{margin:0;padding-left:1.1rem}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule)}
+.timeline li{position:relative;padding:0 0 1.9rem 1.6rem}
+.timeline li::before{content:"";position:absolute;left:-7px;top:.55rem;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--teal)}
+.timeline li.current::before{background:var(--teal)}
+.timeline time,.timeline .when{font:600 .9rem/1.4 var(--display);color:var(--teal)}
+.timeline h3{font:700 1.1rem/1.35 var(--display);margin:.15rem 0 .25rem}
+.timeline p{margin:0;color:var(--muted)}
+.tag{display:inline-block;font:600 .75rem/1 var(--display);padding:.3rem .5rem;border-radius:3px;margin-left:.4rem;vertical-align:.15em;background:var(--chip-bg,var(--teal-bg));color:var(--chip-fg,var(--teal))}
+
+.tag-publication{--chip-bg:#DCE8F7;--chip-fg:#1F4F8A}
+.tag-award{--chip-bg:#F6E1A6;--chip-fg:#7A5300}
+.tag-funding{--chip-bg:#D3EEDC;--chip-fg:#1E6B3A}
+.tag-talk{--chip-bg:#F8D9D4;--chip-fg:#9A3324}
+.tag-team{--chip-bg:#DED6F4;--chip-fg:#5A43A6}
+.tag-outreach{--chip-bg:#CBE9E6;--chip-fg:#0B6461}
+.tag-role{--chip-bg:#E3E7EC;--chip-fg:#3E4C5B}
+.tag-visit{--chip-bg:#F6DDEB;--chip-fg:#8A2D62}
+
+/* filter chips + search */
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:2.5rem 0 1rem}
+.chip{font:600 .9rem/1 var(--display);padding:.55rem .85rem;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.search{font:400 1rem/1.4 var(--display);padding:.65rem .9rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink);width:min(100%,24rem)}
+.count{font:500 .9rem/1 var(--display);color:var(--muted);margin-left:auto}
+.empty{font:500 1rem/1.5 var(--display);color:var(--muted)}
+
+/* publications */
+.year{font:800 2rem/1 var(--display);letter-spacing:-.02em;color:var(--muted);margin:0 0 1.25rem;padding-top:.5rem}
+.pubs{list-style:none;margin:0 0 3rem;padding:0}
+.pubs li{padding:0 0 1.6rem;margin:0 0 1.6rem;border-bottom:1px solid var(--rule)}
+.pubs li:last-child{border-bottom:0;margin-bottom:0}
+.pubs h3{font:700 1.15rem/1.35 var(--display);margin:0 0 .35rem}
+.pubs h3 a{color:var(--ink);text-decoration:none}
+.pubs h3 a:hover{text-decoration:underline}
+.pubs .meta{font:400 .95rem/1.5 var(--display);color:var(--muted);margin:0 0 .5rem}
+.pubs .venue{font-style:italic;font-family:var(--body)}
+.pubs .me{color:var(--ink);font-weight:600}
+.pubs p{margin:0 0 .6rem}
+.actions{display:flex;gap:1.1rem;align-items:center;font:600 .9rem/1 var(--display)}
+.linkbtn{font:inherit;color:var(--link);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.badge{--chip-bg:var(--amber-bg);--chip-fg:var(--amber)}
+
+/* people */
+.people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem;margin:0;padding:0;list-style:none}
+.people li{border-top:2px solid var(--ink);padding:1rem 0 2rem}
+.people h3{font:700 1.2rem/1.3 var(--display);margin:0}
+.people .meta{font:500 .9rem/1.5 var(--display);color:var(--teal);margin:.2rem 0 .6rem}
+.people p{margin:0;color:var(--muted)}
+
+/* funding ledger */
+.ledger{list-style:none;margin:0;padding:0}
+.ledger li{display:grid;grid-template-columns:1fr auto;gap:.3rem 2rem;padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.ledger li:first-child{padding-top:0}
+.ledger h3{font:700 1.1rem/1.35 var(--display);margin:0}
+.ledger .amt{font:800 1.5rem/1 var(--display);font-variant-numeric:tabular-nums;text-align:right;grid-row:span 2}
+.ledger .meta{font:500 .9rem/1.5 var(--display);color:var(--muted);margin:0}
+.ledger .pi{--chip-bg:var(--violet-bg);--chip-fg:var(--violet);margin-left:0;margin-right:.5rem}
+.ledger .coi{margin-left:0;margin-right:.5rem}
+
+/* talks */
+.talk{padding:3rem 0 3.5rem}
+.talk-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:2.75rem;align-items:start}
+.video{position:relative;aspect-ratio:16/9;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.talk h2{font:700 clamp(1.5rem,2.6vw,2rem)/1.15 var(--display);letter-spacing:-.015em;margin:0 0 1rem}
+.details{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1.1rem;margin:0 0 1.5rem;font:400 .95rem/1.5 var(--display)}
+.details dt{color:var(--muted)}
+.details dd{margin:0}
+.talk h3{font:700 1.05rem/1.3 var(--display);margin:1.8rem 0 .5rem}
+.talk p{margin:0 0 1rem}
+.themes{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:.5rem}
+.themes li{font:600 .85rem/1 var(--display);padding:.45rem .7rem;border-radius:3px;background:var(--teal-bg);color:var(--teal)}
+.related{margin:0;padding-left:1.1rem}
+
+address{font-style:normal}
+.site-foot{border-top:1px solid var(--rule);color:var(--muted);padding:2rem 0;font:400 .85rem/1.6 var(--display);margin-top:2rem}
+.site-foot a{color:inherit}
+
+@media (max-width:860px){
+  .talk-grid{grid-template-columns:1fr;gap:1.75rem}
+  .hero{padding:3rem 0 3rem}
+  .hero-grid{grid-template-columns:1fr;gap:2rem}
+  .hero aside{display:flex;gap:1.25rem;align-items:center;order:-1}
+  .portrait{width:110px}
+  .links{margin:0}
+  .block-grid{grid-template-columns:1fr;gap:1.25rem}
+  .block h2{position:static}
+  .facts,.people{grid-template-columns:1fr}
+  nav ul{gap:.25rem .9rem}
+  .site-head{position:static}
+  .site-head .wrap{padding-top:.75rem}
+  .page-head{padding:3rem 0 2.5rem}
+  .count{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Lowri Williams</a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="news.html" aria-current="page">News</a></li><li><a href="publications.html">Publications</a></li><li><a href="talks.html">Talks</a></li><li><a href="supervision.html">Supervision</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="funding.html">Funding</a></li><li><a href="index.html#contact">Contact</a></li></ul></nav>
+  </div>
+</header>
+<div class="band"><div class="wrap"><section class="page-head"><h1>News</h1><p>Papers, funding, awards, talks and everything else happening in my research group, newest first.</p></section></div></div>
+<main class="wrap">
+<div class="toolbar" role="group" aria-label="Filter news"><button type="button" class="chip" data-cat="all" aria-pressed="true">All</button><button type="button" class="chip" data-cat="publication" aria-pressed="false">Publications</button><button type="button" class="chip" data-cat="award" aria-pressed="false">Awards</button><button type="button" class="chip" data-cat="funding" aria-pressed="false">Funding</button><button type="button" class="chip" data-cat="talk" aria-pressed="false">Talks</button><button type="button" class="chip" data-cat="team" aria-pressed="false">Team</button><button type="button" class="chip" data-cat="outreach" aria-pressed="false">Outreach</button><button type="button" class="chip" data-cat="role" aria-pressed="false">Roles</button><button type="button" class="chip" data-cat="visit" aria-pressed="false">Visits</button><span class="count" aria-live="polite"></span></div><section class="block news-year" aria-labelledby="y2026"><div class="block-grid"><h2 id="y2026">2026</h2><ol class="timeline"><li data-cat="role"><time datetime="2026-11">November 2026</time><h3>Joined BCS, the Chartered Institute for IT<span class="tag tag-role">Role</span></h3><p>Became a professional member of BCS.</p></li><li data-cat="talk"><time datetime="2026-10">October 2026</time><h3>Speaker at Cybearly Forecasting 2027<span class="tag tag-talk">Talk</span></h3><p>Presented “Unsafe Intelligence? Exploring Cybersecurity and Trust in AI-Powered Transportation” at the international cybersecurity awareness conference in Pescara, Italy. <a href="talks.html">Watch the talk</a>.</p></li><li data-cat="team"><time datetime="2026-10">October 2026</time><h3>New PhD student: Ben Cowan<span class="tag tag-team">Team</span></h3><p>Ben’s PhD, funded by Nationwide, looks at generative AI model management in financial services.</p></li><li data-cat="funding"><time datetime="2026-10">October 2026</time><h3>£250,000 from National Highways<span class="tag tag-funding">Funding</span></h3><p>Co-investigator on “Agent-Based Exploration of AI-Induced Safety Risks on the Strategic Road Network”.</p></li><li data-cat="publication"><time datetime="2026-03">March 2026</time><h3>New paper in the Journal of Cybersecurity<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://doi.org/10.1093/cybsec/tyag008">The Anatomy of an Access Control Reader: A Cybersecurity Perspective</a>”.</p></li><li data-cat="award"><time datetime="2026-03">March 2026</time><h3>Enriching Student Life Awards 2026<span class="tag tag-award">Award</span></h3><p>Nominated for Champion for Welsh Education and Most Outstanding Use of the Learning Environment.</p></li><li data-cat="role"><time datetime="2026-02">February 2026</time><h3>Joined the EPSRC Peer Review College<span class="tag tag-role">Role</span></h3><p>Welcomed as a member of the EPSRC Peer Review College.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2025"><div class="block-grid"><h2 id="y2025">2025</h2><ol class="timeline"><li data-cat="publication"><time datetime="2025-10">October 2025</time><h3>New paper in IEEE Transactions on Intelligent Transportation Systems<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://doi.org/10.1109/TITS.2025.3609972">The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations</a>”.</p></li><li data-cat="award"><time datetime="2025-10">October 2025</time><h3>TrustAI wins at the Wales STEM Awards<span class="tag tag-award">Award</span></h3><p>TrustAI won STEM Research Project of the Year at the Wales STEM Awards 2025.</p></li><li data-cat="role"><time datetime="2025-10">October 2025</time><h3>PhD viva: internal examiner<span class="tag tag-role">Role</span></h3><p>Internal examiner for a PhD viva at Cardiff University.</p></li><li data-cat="team"><time datetime="2025-10">October 2025</time><h3>New PhD student: Stephanie Bennett<span class="tag tag-team">Team</span></h3><p>Stephanie’s PhD, funded by the Cyber Innovation Hub, focuses on threat intelligence processing.</p></li><li data-cat="award"><time datetime="2025-08">August 2025</time><h3>Wales STEM Awards finalist<span class="tag tag-award">Award</span></h3><p>Finalist for Woman of the Year at the Wales STEM Awards 2025, with further nominations for STEM Research Project of the Year and STEM Start-up of the Year.</p></li><li data-cat="publication"><time datetime="2025-06">June 2025</time><h3>New paper in MDPI Informatics<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/informatics12030058">The Emotional Landscape of Technological Innovation: A Case Study of ChatGPT’s Launch</a>”.</p></li><li data-cat="publication"><time datetime="2025-06">June 2025</time><h3>New paper in IEEE Access<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://ieeexplore.ieee.org/document/11037410">Interpretable Ordinal-aware with Contrastive-enhanced Anomaly Severity Detection on UAV Flight Log Messages</a>”.</p></li><li data-cat="award"><time datetime="2025-03">March 2025</time><h3>Enriching Student Life Awards 2025<span class="tag tag-award">Award</span></h3><p>Nominated for Most Outstanding Use of the Learning Environment and Most Outstanding Learning Experience.</p></li><li data-cat="role"><time datetime="2025-03">March 2025</time><h3>Co-founded TrustAI<span class="tag tag-role">Role</span></h3><p>Co-founder of <a href="https://trustailabs.co.uk/">TrustAI</a>.</p></li><li data-cat="award"><time datetime="2025-03">March 2025</time><h3>Awarded HEA Fellowship (FHEA)<span class="tag tag-award">Award</span></h3><p>Recognised as a Fellow of the Higher Education Academy.</p></li><li data-cat="talk"><time datetime="2025-03">March 2025</time><h3>Guest talk: Ignite Programme<span class="tag tag-talk">Talk</span></h3><p>Spoke about my career path to the Ignite Programme at Cardiff University.</p></li><li data-cat="talk"><time datetime="2025-03">March 2025</time><h3>Guest talk: School of Medicine<span class="tag tag-talk">Talk</span></h3><p>Delivered “Shining Light on Internet-Based Crimes Against Children” to a nursing cohort at Cardiff University’s School of Medicine.</p></li><li data-cat="award"><time datetime="2025-02">February 2025</time><h3>Data Gals Awards nominee<span class="tag tag-award">Award</span></h3><p>Nominated for the Tech for Good award at the Data Gals Awards.</p></li><li data-cat="team"><time datetime="2025-01">January 2025</time><h3>Three new PhD students<span class="tag tag-team">Team</span></h3><p>Welcoming Jake Samuels, Dylan Hampton and Zain Hankin. Their PhDs, funded by the Cyber Innovation Hub, cover LLMs in cybersecurity and industrial control system security.</p></li><li data-cat="publication"><time datetime="2025-01">January 2025</time><h3>New paper in MDPI Informatics<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/informatics12010008">The Evolution of Digital Security by Design Using Temporal Network Analysis</a>”.</p></li><li data-cat="role"><time datetime="2025-01">January 2025</time><h3>Student Complaints Officer<span class="tag tag-role">Role</span></h3><p>Took on the role of Student Complaints Officer for the School of Computer Science and Informatics.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2024"><div class="block-grid"><h2 id="y2024">2024</h2><ol class="timeline"><li data-cat="outreach"><time datetime="2024-11">November 2024</time><h3>Data science mentor<span class="tag tag-outreach">Outreach</span></h3><p>Mentoring with <a href="https://thedatagals.co.uk/">The Data Gals</a>.</p></li><li data-cat="publication"><time datetime="2024-11">November 2024</time><h3>New paper in MDPI Information<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/info15110706">Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives</a>”.</p></li><li data-cat="role"><time datetime="2024-09">September 2024</time><h3>PhD viva: internal examiner<span class="tag tag-role">Role</span></h3><p>Internal examiner for a PhD viva at Cardiff University.</p></li><li data-cat="publication"><time datetime="2024-06">June 2024</time><h3>New paper in MDPI IoT<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://doi.org/10.3390/iot5020018">Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)</a>”.</p></li><li data-cat="publication"><time datetime="2024-06">June 2024</time><h3>New paper in the Journal of Cybersecurity and Privacy<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://doi.org/10.3390/jcp4020017">Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals</a>”.</p></li><li data-cat="outreach"><time datetime="2024-05">May 2024</time><h3>Capture the Flag at Yucatan i6<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed a Capture the Flag competition for <a href="https://yucatan-i6.com/">Yucatan i6</a>’s cybersecurity event.</p></li><li data-cat="award"><time datetime="2024-05">May 2024</time><h3>Journal cover: Big Data and Cognitive Computing<span class="tag tag-award">Award</span></h3><p>“<a href="https://doi.org/10.3390/bdcc8050044">Topic Modelling: Going Beyond Token Outputs</a>” was chosen for the <a href="https://www.mdpi.com/2504-2289/8/5">journal’s front cover</a>.</p></li><li data-cat="publication"><time datetime="2024-05">May 2024</time><h3>New paper in IEEE Access<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://ieeexplore.ieee.org/document/10520297">Severity-oriented Multiclass Drone Flight Logs Anomaly Detection</a>”.</p></li><li data-cat="publication"><time datetime="2024-04">April 2024</time><h3>New paper in Big Data and Cognitive Computing<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/bdcc8050044">Topic Modelling: Going Beyond Token Outputs</a>”.</p></li><li data-cat="publication"><time datetime="2024-04">April 2024</time><h3>New paper in MDPI Information<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/info15040237">A Scalable and Automated Framework for Tracking the Likely Adoption of Emerging Technologies</a>”.</p></li><li data-cat="award"><time datetime="2024-03">March 2024</time><h3>Journal cover: Big Data and Cognitive Computing<span class="tag tag-award">Award</span></h3><p>“<a href="https://doi.org/10.3390/bdcc8040038">Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification</a>” was chosen for the <a href="https://www.mdpi.com/2504-2289/8/4">journal’s front cover</a>.</p></li><li data-cat="publication"><time datetime="2024-03">March 2024</time><h3>New paper in Big Data and Cognitive Computing<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.3390/bdcc8040038">Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification</a>”.</p></li><li data-cat="publication"><time datetime="2024-02">February 2024</time><h3>New paper in the Journal of The Colloquium for Information Systems Security Education<span class="tag tag-publication">Publication</span></h3><p>Lead author of “<a href="https://doi.org/10.53735/cisse.v11i1.186">Leveraging Gamification and Game-based Learning in Cybersecurity Education: Engaging and Inspiring Non-Cyber Students</a>”.</p></li><li data-cat="funding"><time datetime="2024-02">February 2024</time><h3>Summer internship funded<span class="tag tag-funding">Funding</span></h3><p>Principal investigator on a Cardiff University summer internship, “Decoding Hate: Analysing Features that Amplify Online Hate Speech”. £3,000.</p></li><li data-cat="role"><time datetime="2024-02">February 2024</time><h3>Guest editor, MDPI Electronics<span class="tag tag-role">Role</span></h3><p>Guest editor of the special issue “<a href="https://www.mdpi.com/journal/electronics/special_issues/AI_in_Cybersecurity_for_IoT">Navigating AI Challenges in Cybersecurity: Strategies for Industrial and IoT Protection</a>”.</p></li><li data-cat="role"><time datetime="2024-02">February 2024</time><h3>Lecturer in Cybersecurity<span class="tag tag-role">Role</span></h3><p>Joined <a href="https://www.cardiff.ac.uk/computer-science/">Cardiff University’s School of Computer Science and Informatics</a> as a Lecturer in Cybersecurity.</p></li><li data-cat="award"><time datetime="2024-01">January 2024</time><h3>Elsevier Dr K W Wong Best Paper Award 2023<span class="tag tag-award">Award</span></h3><p>Co-author of a <a href="https://www.sciencedirect.com/science/article/pii/S2214212620308607">paper</a> given the Dr K W Wong Annual Award for Best Paper 2023 by the Journal of Information Security and Applications.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2023"><div class="block-grid"><h2 id="y2023">2023</h2><ol class="timeline"><li data-cat="award"><time datetime="2023-11">November 2023</time><h3>Elsevier Top Open Access Contributor<span class="tag tag-award">Award</span></h3><p>Co-author of a <a href="https://www.sciencedirect.com/science/article/pii/S2214212620308607">paper</a> recognised by Elsevier as a top open access contribution, linked to the UN Sustainable Development Goals on resilient infrastructure and innovation.</p></li><li data-cat="outreach"><time datetime="2023-11">November 2023</time><h3>Capture the Flag with NCSC CyberFirst<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed a Capture the Flag competition for Cardiff students. Winners could be nominated for the NCSC’s CyberFirst programme.</p></li><li data-cat="outreach"><time datetime="2023-10">October 2023</time><h3>Capture the Flag with Airbus<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised a Capture the Flag competition for Cardiff students with Airbus.</p></li><li data-cat="talk"><time datetime="2023-10">October 2023</time><h3>Speaker at CyberDAS<span class="tag tag-talk">Talk</span></h3><p>Presented a workshop talk at the International Workshop on Cyber Security and Data Science on using text mining to track technology adoption.</p></li><li data-cat="outreach"><time datetime="2023-09">September 2023</time><h3>Capture the Flag at Yucatan i6<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed a Capture the Flag competition for <a href="https://yucatan-i6.com/">Yucatan i6</a>’s cybersecurity event.</p></li><li data-cat="visit"><time datetime="2023-08">August 2023</time><h3>Visit to Université de Montréal<span class="tag tag-visit">Visit</span></h3><p>Visited Montréal, Canada to build research collaborations.</p></li><li data-cat="visit"><time datetime="2023-08">August 2023</time><h3>Visit to the University of Ottawa<span class="tag tag-visit">Visit</span></h3><p>Visited Ottawa, Canada to build research collaborations.</p></li><li data-cat="funding"><time datetime="2023-07">July 2023</time><h3>£120,000 from National Highways<span class="tag tag-funding">Funding</span></h3><p>Co-investigator on “Evaluating and Improving the Robustness of National Highways’ AI-based Systems”.</p></li><li data-cat="funding"><time datetime="2023-07">July 2023</time><h3>Know the Adversary funded<span class="tag tag-funding">Funding</span></h3><p>Principal investigator on “Know the Adversary: Extracting the Context, Action, and Purpose of an Adversary’s Actions from Free Text”. £5,000.</p></li><li data-cat="funding"><time datetime="2023-07">July 2023</time><h3>Three summer internships funded<span class="tag tag-funding">Funding</span></h3><p>Internships with Airbus (threat intelligence report similarity), Copper Horse (automotive cyber security) and CyberSmart (incentives for better security behaviour). £3,000 each.</p></li><li data-cat="outreach"><time datetime="2023-04">April 2023</time><h3>Easter Capture the Flag with UTM<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed an Easter-themed Capture the Flag for students from UTM, Mexico and Cardiff University.</p></li><li data-cat="outreach"><time datetime="2023-03">March 2023</time><h3>Data Science × Cybersecurity Hackathon<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed a hackathon for Graduate Programme Wales and Cardiff University.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2022"><div class="block-grid"><h2 id="y2022">2022</h2><ol class="timeline"><li data-cat="outreach"><time datetime="2022-12">December 2022</time><h3>Capture the Flag with ITS<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised a Capture the Flag competition for students from ITS, Indonesia and Cardiff University.</p></li><li data-cat="outreach"><time datetime="2022-12">December 2022</time><h3>Christmas Capture the Flag<span class="tag tag-outreach">Outreach</span></h3><p>Co-organised and designed a Christmas-themed Capture the Flag at Cardiff University.</p></li><li data-cat="talk"><time datetime="2022-12">December 2022</time><h3>Seminar: How to write an academic paper<span class="tag tag-talk">Talk</span></h3><p>Talk in Cardiff’s internal cybersecurity research seminar series.</p></li><li data-cat="outreach"><time datetime="2022-12">December 2022</time><h3>Cybersecurity Event Series website<span class="tag tag-outreach">Outreach</span></h3><p>Built and maintain Cardiff University’s <a href="https://cyberevents.cs.cf.ac.uk/">Cybersecurity Event Series</a> site.</p></li><li data-cat="funding"><time datetime="2022-12">December 2022</time><h3>Phishing research seed fund<span class="tag tag-funding">Funding</span></h3><p>Co-investigator on a Cardiff–Waikato Strategic International Partnership seed fund, “Factors that Drive Phishing Attacks”. £10,000.</p></li><li data-cat="visit"><time datetime="2022-06">June 2022</time><h3>Visit to the University of Waikato<span class="tag tag-visit">Visit</span></h3><p>Visited Waikato, New Zealand to build research collaborations.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2021"><div class="block-grid"><h2 id="y2021">2021</h2><ol class="timeline"><li data-cat="role"><time datetime="2021-07">July 2021</time><h3>Research Associate, Discribe<span class="tag tag-role">Role</span></h3><p>Joined the Discribe research project as a Research Associate.</p></li><li data-cat="publication"><time datetime="2021-06">June 2021</time><h3>New paper in Computers & Security<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://www.sciencedirect.com/science/article/pii/S0167404821001760">Hardening Machine Learning Denial of Service (DoS) Defences Against Adversarial Attacks in IoT Smart Home Networks</a>”.</p></li><li data-cat="role"><time datetime="2021-06">June 2021</time><h3>Editorial board, Frontiers<span class="tag tag-role">Role</span></h3><p>Editorial board member for the research topic “<a href="https://www.frontiersin.org/research-topics/46751/social-data-science-using-social-networks-data-for-social-impact">Social Data Science: Using Social Networks Data for Social Impact</a>” (June 2021 to February 2024).</p></li><li data-cat="publication"><time datetime="2021-05">May 2021</time><h3>New paper in the Journal of Information Security and Applications<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://www.sciencedirect.com/science/article/pii/S2214212620308607">Adversarial Attacks on Machine Learning Cybersecurity Defences in Industrial Control Systems</a>”.</p></li><li data-cat="publication"><time datetime="2021-02">February 2021</time><h3>New paper in the Journal of Cybersecurity<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://doi.org/10.1093/cybsec/tyab006">A Three-Tiered Intrusion Detection System for Industrial Control Systems</a>”.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2020"><div class="block-grid"><h2 id="y2020">2020</h2><ol class="timeline"><li data-cat="visit"><time datetime="2020-02">February 2020</time><h3>Visit to IIIT Delhi<span class="tag tag-visit">Visit</span></h3><p>Visited Indraprastha Institute of Information Technology, India to build research collaborations.</p></li></ol></div></section><section class="block news-year" aria-labelledby="y2019"><div class="block-grid"><h2 id="y2019">2019</h2><ol class="timeline"><li data-cat="publication"><time datetime="2019-07">July 2019</time><h3>New paper in the IEEE Internet of Things Journal<span class="tag tag-publication">Publication</span></h3><p>Co-author of “<a href="https://ieeexplore.ieee.org/document/8753563">A Supervised Intrusion Detection System for Smart Home IoT Devices</a>”.</p></li><li data-cat="publication"><time datetime="2019-05">May 2019</time><h3>New paper in the Journal of Classification<span class="tag tag-publication">Publication</span></h3><p>Author of “<a href="https://doi.org/10.1007/s00357-019-9307-0">Comparing the Utility of Different Classification Schemes for Emotive Language Analysis</a>”.</p></li><li data-cat="role"><time datetime="2019-02">February 2019</time><h3>Research Data Scientist, Data Innovation Accelerator<span class="tag tag-role">Role</span></h3><p>Joined the Data Innovation Accelerator project (February 2019 to July 2021).</p></li></ol></div></section>
+</main>
+<footer class="site-foot">
+  <div class="wrap">© 2026 Lowri Williams. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>.</div>
+</footer>
+<script>
+(function(){
+  var chips=document.querySelectorAll('.chip'),items=document.querySelectorAll('.news-year li'),count=document.querySelector('.count');
+  function apply(cat){
+    var n=0;
+    items.forEach(function(li){var show=cat==='all'||li.dataset.cat===cat;li.hidden=!show;if(show)n++;});
+    document.querySelectorAll('.news-year').forEach(function(s){s.hidden=!s.querySelector('li:not([hidden])');});
+    chips.forEach(function(c){c.setAttribute('aria-pressed',c.dataset.cat===cat?'true':'false');});
+    count.textContent=n+(n===1?' item':' items');
+  }
+  chips.forEach(function(c){c.addEventListener('click',function(){apply(c.dataset.cat);});});
+  apply('all');
+})();
+</script>
+</body>
+</html>

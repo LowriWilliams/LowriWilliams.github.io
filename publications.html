@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Publications · Dr Lowri Williams</title>
+<meta name="description" content="Journal papers by Dr Lowri Williams on cybersecurity, NLP and machine learning.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFFFF; --surface:#F4F7FA; --ink:#132130; --muted:#4D5E70; --rule:#C9D3DD;
+  --teal:#0B7471; --teal-bg:#CBE9E6; --amber:#8C6000; --amber-bg:#F6E1A6; --violet:#5A43A6; --violet-bg:#DED6F4;
+  --link:#0C5DA3;
+  --hero:var(--paper); --hero-ink:var(--ink); --hero-muted:var(--muted); --hero-link:var(--link); --hero-line:var(--rule);
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:1.0625rem/1.7 var(--body);
+  background:var(--paper)}
+img{max-width:100%;display:block}
+a{color:var(--link);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* header + dark band */
+.site-head{background:rgba(255,255,255,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);position:sticky;top:0;z-index:5;border-bottom:1px solid var(--hero-line)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px;flex-wrap:wrap}
+.brand{font:800 1.15rem/1 var(--display);color:var(--hero-ink);text-decoration:none;letter-spacing:-.01em}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:0;padding:.5rem 0}
+nav a{font:500 .95rem/1 var(--display);color:var(--hero-muted);text-decoration:none;padding:.35rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current="page"]{color:var(--hero-ink);border-bottom-color:var(--teal)}
+
+.band{position:relative;color:var(--hero-ink);border-bottom:1px solid var(--rule)}
+.band .net{position:absolute;inset:0;width:100%;height:100%}
+.band .wrap{position:relative;z-index:1}
+.band a{color:var(--hero-link)}
+.page-head{padding:4rem 0 3.5rem}
+.page-head h1{font:800 clamp(2.4rem,6vw,3.8rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .8rem}
+.page-head p{max-width:38rem;margin:0;color:var(--hero-muted);font-size:1.15rem}
+
+/* homepage hero */
+.hero{padding:4.5rem 0 4rem}
+.hero-grid{display:grid;grid-template-columns:1fr 220px;gap:3rem;align-items:start}
+.hero h1{font:800 clamp(2.4rem,6vw,4.2rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .4rem}
+.role{font:500 1.05rem/1.5 var(--display);color:var(--hero-muted);margin:0 0 2.5rem}
+.role a{color:inherit}
+.annotated{font:400 clamp(1.35rem,2.6vw,1.85rem)/2.35 var(--body);max-width:30em;margin:0}
+.ent{position:relative;padding:.12em .28em;border-radius:3px;background:var(--bg);white-space:nowrap}
+.ent::after{content:attr(data-tag);position:absolute;left:.28em;top:100%;margin-top:-.15em;font:600 .62rem/1 var(--display);letter-spacing:.02em;color:var(--fg);white-space:nowrap}
+.ent.field{--bg:var(--teal-bg);--fg:var(--teal)}
+.ent.method{--bg:var(--amber-bg);--fg:var(--amber)}
+.ent.target{--bg:var(--violet-bg);--fg:var(--violet)}
+@media (prefers-reduced-motion: no-preference){
+  .ent{background:linear-gradient(var(--bg),var(--bg)) no-repeat 0 0/0% 100%;animation:mark .6s ease-out forwards}
+  .ent::after{opacity:0;animation:tag .3s ease-out forwards}
+  .ent:nth-of-type(1),.ent:nth-of-type(1)::after{animation-delay:.3s}
+  .ent:nth-of-type(2),.ent:nth-of-type(2)::after{animation-delay:.7s}
+  .ent:nth-of-type(3),.ent:nth-of-type(3)::after{animation-delay:1.1s}
+  .ent:nth-of-type(4),.ent:nth-of-type(4)::after{animation-delay:1.5s}
+  @keyframes mark{to{background-size:100% 100%}}
+  @keyframes tag{to{opacity:1}}
+}
+.portrait{background:var(--rule);border-radius:50% 50% 6px 50%;aspect-ratio:1;object-fit:cover;width:100%;border:1px solid var(--rule)}
+.links{list-style:none;padding:0;margin:1.25rem 0 0;font:500 .95rem/1.9 var(--display)}
+
+/* callouts */
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--violet);padding:1.4rem 1.6rem;margin:3rem 0;max-width:46rem}
+.callout.amber{border-left-color:var(--amber)}
+.callout h2{font:700 1.2rem/1.3 var(--display);margin:0 0 .4rem}
+.callout p{margin:0}
+
+/* section blocks */
+section.block{padding:3.5rem 0;border-top:1px solid var(--rule)}
+section.block:first-child{border-top:0}
+.block-grid{display:grid;grid-template-columns:200px 1fr;gap:2.5rem}
+.block h2{font:700 1.6rem/1.15 var(--display);letter-spacing:-.015em;margin:0;position:sticky;top:90px;align-self:start}
+.block h2 a{display:block;font:500 .9rem/1.6 var(--display);margin-top:.5rem}
+.block h2 small{display:block;font:500 .9rem/1.5 var(--display);color:var(--muted);margin-top:.4rem;letter-spacing:0}
+.prose{max-width:40rem}
+.prose p:first-child{margin-top:0}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem}
+.facts h3{font:700 1rem/1.3 var(--display);margin:0 0 .6rem}
+.facts ul{margin:0;padding-left:1.1rem}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule)}
+.timeline li{position:relative;padding:0 0 1.9rem 1.6rem}
+.timeline li::before{content:"";position:absolute;left:-7px;top:.55rem;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--teal)}
+.timeline li.current::before{background:var(--teal)}
+.timeline time,.timeline .when{font:600 .9rem/1.4 var(--display);color:var(--teal)}
+.timeline h3{font:700 1.1rem/1.35 var(--display);margin:.15rem 0 .25rem}
+.timeline p{margin:0;color:var(--muted)}
+.tag{display:inline-block;font:600 .75rem/1 var(--display);padding:.3rem .5rem;border-radius:3px;margin-left:.4rem;vertical-align:.15em;background:var(--chip-bg,var(--teal-bg));color:var(--chip-fg,var(--teal))}
+
+/* filter chips + search */
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:2.5rem 0 1rem}
+.chip{font:600 .9rem/1 var(--display);padding:.55rem .85rem;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.search{font:400 1rem/1.4 var(--display);padding:.65rem .9rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink);width:min(100%,24rem)}
+.count{font:500 .9rem/1 var(--display);color:var(--muted);margin-left:auto}
+.empty{font:500 1rem/1.5 var(--display);color:var(--muted)}
+
+/* publications */
+.year{font:800 2rem/1 var(--display);letter-spacing:-.02em;color:var(--muted);margin:0 0 1.25rem;padding-top:.5rem}
+.pubs{list-style:none;margin:0 0 3rem;padding:0}
+.pubs li{padding:0 0 1.6rem;margin:0 0 1.6rem;border-bottom:1px solid var(--rule)}
+.pubs li:last-child{border-bottom:0;margin-bottom:0}
+.pubs h3{font:700 1.15rem/1.35 var(--display);margin:0 0 .35rem}
+.pubs h3 a{color:var(--ink);text-decoration:none}
+.pubs h3 a:hover{text-decoration:underline}
+.pubs .meta{font:400 .95rem/1.5 var(--display);color:var(--muted);margin:0 0 .5rem}
+.pubs .venue{font-style:italic;font-family:var(--body)}
+.pubs .me{color:var(--ink);font-weight:600}
+.pubs p{margin:0 0 .6rem}
+.actions{display:flex;gap:1.1rem;align-items:center;font:600 .9rem/1 var(--display)}
+.linkbtn{font:inherit;color:var(--link);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.badge{--chip-bg:var(--amber-bg);--chip-fg:var(--amber)}
+
+/* people */
+.people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem;margin:0;padding:0;list-style:none}
+.people li{border-top:2px solid var(--ink);padding:1rem 0 2rem}
+.people h3{font:700 1.2rem/1.3 var(--display);margin:0}
+.people .meta{font:500 .9rem/1.5 var(--display);color:var(--teal);margin:.2rem 0 .6rem}
+.people p{margin:0;color:var(--muted)}
+
+/* funding ledger */
+.ledger{list-style:none;margin:0;padding:0}
+.ledger li{display:grid;grid-template-columns:1fr auto;gap:.3rem 2rem;padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.ledger li:first-child{padding-top:0}
+.ledger h3{font:700 1.1rem/1.35 var(--display);margin:0}
+.ledger .amt{font:800 1.5rem/1 var(--display);font-variant-numeric:tabular-nums;text-align:right;grid-row:span 2}
+.ledger .meta{font:500 .9rem/1.5 var(--display);color:var(--muted);margin:0}
+.ledger .pi{--chip-bg:var(--violet-bg);--chip-fg:var(--violet);margin-left:0;margin-right:.5rem}
+.ledger .coi{margin-left:0;margin-right:.5rem}
+
+/* talks */
+.talk{padding:3rem 0 3.5rem}
+.talk-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:2.75rem;align-items:start}
+.video{position:relative;aspect-ratio:16/9;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.talk h2{font:700 clamp(1.5rem,2.6vw,2rem)/1.15 var(--display);letter-spacing:-.015em;margin:0 0 1rem}
+.details{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1.1rem;margin:0 0 1.5rem;font:400 .95rem/1.5 var(--display)}
+.details dt{color:var(--muted)}
+.details dd{margin:0}
+.talk h3{font:700 1.05rem/1.3 var(--display);margin:1.8rem 0 .5rem}
+.talk p{margin:0 0 1rem}
+.themes{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:.5rem}
+.themes li{font:600 .85rem/1 var(--display);padding:.45rem .7rem;border-radius:3px;background:var(--teal-bg);color:var(--teal)}
+.related{margin:0;padding-left:1.1rem}
+
+address{font-style:normal}
+.site-foot{border-top:1px solid var(--rule);color:var(--muted);padding:2rem 0;font:400 .85rem/1.6 var(--display);margin-top:2rem}
+.site-foot a{color:inherit}
+
+@media (max-width:860px){
+  .talk-grid{grid-template-columns:1fr;gap:1.75rem}
+  .hero{padding:3rem 0 3rem}
+  .hero-grid{grid-template-columns:1fr;gap:2rem}
+  .hero aside{display:flex;gap:1.25rem;align-items:center;order:-1}
+  .portrait{width:110px}
+  .links{margin:0}
+  .block-grid{grid-template-columns:1fr;gap:1.25rem}
+  .block h2{position:static}
+  .facts,.people{grid-template-columns:1fr}
+  nav ul{gap:.25rem .9rem}
+  .site-head{position:static}
+  .site-head .wrap{padding-top:.75rem}
+  .page-head{padding:3rem 0 2.5rem}
+  .count{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Lowri Williams</a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="news.html">News</a></li><li><a href="publications.html" aria-current="page">Publications</a></li><li><a href="talks.html">Talks</a></li><li><a href="supervision.html">Supervision</a></li><li><a href="teaching.html">Teaching</a></li><li><a href="funding.html">Funding</a></li><li><a href="index.html#contact">Contact</a></li></ul></nav>
+  </div>
+</header>
+<div class="band"><div class="wrap"><section class="page-head"><h1>Publications</h1><p>Journal and conference papers on cyber defence, intrusion detection, adversarial machine learning and text mining.</p></section></div></div>
+<main class="wrap">
+<div class="toolbar"><label class="sr" for="q">Search publications</label><input id="q" class="search" type="search" placeholder="Search by title, author or journal"><span class="count" aria-live="polite"></span></div><section class="block pub-year" aria-labelledby="p2026"><div class="block-grid"><h2 id="p2026">2026</h2><ol class="pubs"><li data-search="peter jones, lowri williams, eirini anthi the anatomy of an access control reader: a cybersecurity perspective journal of cybersecurity 2026"><h3><a href="https://doi.org/10.1093/cybsec/tyag008">The Anatomy of an Access Control Reader: A Cybersecurity Perspective</a></h3><p class="meta">Peter Jones, <span class="me">Lowri Williams</span>, Eirini Anthi · <span class="venue">Journal of Cybersecurity</span></p><div class="actions"><a href="https://doi.org/10.1093/cybsec/tyag008">Read paper</a><button type="button" class="linkbtn copy" data-cite="Peter Jones, Lowri Williams, Eirini Anthi (2026). The Anatomy of an Access Control Reader: A Cybersecurity Perspective. Journal of Cybersecurity.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2025"><div class="block-grid"><h2 id="p2025">2025</h2><ol class="pubs"><li data-search="eirini anthi, lowri williams, hamza afzal, bilal brar, joydip bhowmick, kabir gujral, emyr thomas the role of artificial intelligence in shaping intelligent motorways: opportunities, challenges, and real-world implementations ieee transactions on intelligent transportation systems 2025"><h3><a href="https://doi.org/10.1109/TITS.2025.3609972">The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Hamza Afzal, Bilal Brar, Joydip Bhowmick, Kabir Gujral, Emyr Thomas · <span class="venue">IEEE Transactions on Intelligent Transportation Systems</span></p><div class="actions"><a href="https://doi.org/10.1109/TITS.2025.3609972">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Hamza Afzal, Bilal Brar, Joydip Bhowmick, Kabir Gujral, Emyr Thomas (2025). The Role of Artificial Intelligence in Shaping Intelligent Motorways: Opportunities, Challenges, and Real-World Implementations. IEEE Transactions on Intelligent Transportation Systems.">Copy citation</button></div></li><li data-search="lowri williams, pete burnap the emotional landscape of technological innovation: a case study of chatgpt’s launch informatics 2025"><h3><a href="https://doi.org/10.3390/informatics12030058">The Emotional Landscape of Technological Innovation: A Case Study of ChatGPT’s Launch</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Pete Burnap · <span class="venue">Informatics</span></p><div class="actions"><a href="https://doi.org/10.3390/informatics12030058">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Pete Burnap (2025). The Emotional Landscape of Technological Innovation: A Case Study of ChatGPT’s Launch. Informatics.">Copy citation</button></div></li><li data-search="swardiantara silalahi, tohari ahmad, hudan studiawan, eirini anthi, lowri williams interpretable ordinal-aware with contrastive-enhanced anomaly severity detection on uav flight log messages ieee access 2025"><h3><a href="https://ieeexplore.ieee.org/document/11037410">Interpretable Ordinal-aware with Contrastive-enhanced Anomaly Severity Detection on UAV Flight Log Messages</a></h3><p class="meta">Swardiantara Silalahi, Tohari Ahmad, Hudan Studiawan, Eirini Anthi, <span class="me">Lowri Williams</span> · <span class="venue">IEEE Access</span></p><div class="actions"><a href="https://ieeexplore.ieee.org/document/11037410">Read paper</a><button type="button" class="linkbtn copy" data-cite="Swardiantara Silalahi, Tohari Ahmad, Hudan Studiawan, Eirini Anthi, Lowri Williams (2025). Interpretable Ordinal-aware with Contrastive-enhanced Anomaly Severity Detection on UAV Flight Log Messages. IEEE Access.">Copy citation</button></div></li><li data-search="lowri williams, hamza khan, pete burnap the evolution of digital security by design using temporal network analysis informatics 2025"><h3><a href="https://doi.org/10.3390/informatics12010008">The Evolution of Digital Security by Design Using Temporal Network Analysis</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Hamza Khan, Pete Burnap · <span class="venue">Informatics</span></p><div class="actions"><a href="https://doi.org/10.3390/informatics12010008">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Hamza Khan, Pete Burnap (2025). The Evolution of Digital Security by Design Using Temporal Network Analysis. Informatics.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2024"><div class="block-grid"><h2 id="p2024">2024</h2><ol class="pubs"><li data-search="lowri williams, eirini anthi, pete burnap uncovering key factors that drive the impressions of online emerging technology narratives information 2024"><h3><a href="https://doi.org/10.3390/info15110706">Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Eirini Anthi, Pete Burnap · <span class="venue">Information</span></p><div class="actions"><a href="https://doi.org/10.3390/info15110706">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Eirini Anthi, Pete Burnap (2024). Uncovering Key Factors That Drive the Impressions of Online Emerging Technology Narratives. Information.">Copy citation</button></div></li><li data-search="pete burnap, eirini anthi, phillip reinecke, lowri williams, fengnian cao, rakan aldmoura, kevin jones mapping automated cyber attack intelligence to context-based impact on system-level goals journal of cybersecurity and privacy 2024"><h3><a href="https://doi.org/10.3390/jcp4020017">Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals</a></h3><p class="meta">Pete Burnap, Eirini Anthi, Phillip Reinecke, <span class="me">Lowri Williams</span>, Fengnian Cao, Rakan Aldmoura, Kevin Jones · <span class="venue">Journal of Cybersecurity and Privacy</span></p><div class="actions"><a href="https://doi.org/10.3390/jcp4020017">Read paper</a><button type="button" class="linkbtn copy" data-cite="Pete Burnap, Eirini Anthi, Phillip Reinecke, Lowri Williams, Fengnian Cao, Rakan Aldmoura, Kevin Jones (2024). Mapping Automated Cyber Attack Intelligence to Context-based Impact on System-level Goals. Journal of Cybersecurity and Privacy.">Copy citation</button></div></li><li data-search="eirini anthi, lowri williams, vasilis ieropoulos, theodoros spyridopoulos investigating radio frequency vulnerabilities in the internet of things (iot) iot 2024"><h3><a href="https://doi.org/10.3390/iot5020018">Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT)</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Vasilis Ieropoulos, Theodoros Spyridopoulos · <span class="venue">IoT</span></p><div class="actions"><a href="https://doi.org/10.3390/iot5020018">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Vasilis Ieropoulos, Theodoros Spyridopoulos (2024). Investigating Radio Frequency Vulnerabilities in the Internet of Things (IoT). IoT.">Copy citation</button></div></li><li data-search="swardiantara silalahi, tohari ahmad, hudan studiawan, eirini anthi, lowri williams severity-oriented multiclass drone flight logs anomaly detection ieee access 2024"><h3><a href="https://ieeexplore.ieee.org/document/10520297">Severity-oriented Multiclass Drone Flight Logs Anomaly Detection</a></h3><p class="meta">Swardiantara Silalahi, Tohari Ahmad, Hudan Studiawan, Eirini Anthi, <span class="me">Lowri Williams</span> · <span class="venue">IEEE Access</span></p><div class="actions"><a href="https://ieeexplore.ieee.org/document/10520297">Read paper</a><button type="button" class="linkbtn copy" data-cite="Swardiantara Silalahi, Tohari Ahmad, Hudan Studiawan, Eirini Anthi, Lowri Williams (2024). Severity-oriented Multiclass Drone Flight Logs Anomaly Detection. IEEE Access.">Copy citation</button></div></li><li data-search="lowri williams, eirini anthi, laura arman, pete burnap topic modelling: going beyond token outputs big data and cognitive computing 2024"><h3><a href="https://doi.org/10.3390/bdcc8050044">Topic Modelling: Going Beyond Token Outputs</a><span class="tag badge">Journal cover</span></h3><p class="meta"><span class="me">Lowri Williams</span>, Eirini Anthi, Laura Arman, Pete Burnap · <span class="venue">Big Data and Cognitive Computing</span></p><div class="actions"><a href="https://doi.org/10.3390/bdcc8050044">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Eirini Anthi, Laura Arman, Pete Burnap (2024). Topic Modelling: Going Beyond Token Outputs. Big Data and Cognitive Computing.">Copy citation</button></div></li><li data-search="lowri williams, eirini anthi, pete burnap a scalable and automated framework for tracking the likely adoption of emerging technologies information 2024"><h3><a href="https://doi.org/10.3390/info15040237">A Scalable and Automated Framework for Tracking the Likely Adoption of Emerging Technologies</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Eirini Anthi, Pete Burnap · <span class="venue">Information</span></p><div class="actions"><a href="https://doi.org/10.3390/info15040237">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Eirini Anthi, Pete Burnap (2024). A Scalable and Automated Framework for Tracking the Likely Adoption of Emerging Technologies. Information.">Copy citation</button></div></li><li data-search="lowri williams, eirini anthi, pete burnap comparing hierarchical approaches to enhance supervised emotive text classification big data and cognitive computing 2024"><h3><a href="https://doi.org/10.3390/bdcc8040038">Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification</a><span class="tag badge">Journal cover</span></h3><p class="meta"><span class="me">Lowri Williams</span>, Eirini Anthi, Pete Burnap · <span class="venue">Big Data and Cognitive Computing</span></p><div class="actions"><a href="https://doi.org/10.3390/bdcc8040038">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Eirini Anthi, Pete Burnap (2024). Comparing Hierarchical Approaches to Enhance Supervised Emotive Text Classification. Big Data and Cognitive Computing.">Copy citation</button></div></li><li data-search="lowri williams, eirini anthi, amir javed, yulia cherdantseva leveraging gamification and game-based learning in cybersecurity education: engaging and inspiring non-cyber students journal of the colloquium for information systems security education 2024"><h3><a href="https://doi.org/10.53735/cisse.v11i1.186">Leveraging Gamification and Game-based Learning in Cybersecurity Education: Engaging and Inspiring Non-Cyber Students</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Eirini Anthi, Amir Javed, Yulia Cherdantseva · <span class="venue">Journal of The Colloquium for Information Systems Security Education</span></p><div class="actions"><a href="https://doi.org/10.53735/cisse.v11i1.186">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Eirini Anthi, Amir Javed, Yulia Cherdantseva (2024). Leveraging Gamification and Game-based Learning in Cybersecurity Education: Engaging and Inspiring Non-Cyber Students. Journal of The Colloquium for Information Systems Security Education.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2021"><div class="block-grid"><h2 id="p2021">2021</h2><ol class="pubs"><li data-search="eirini anthi, lowri williams, amir javed, pete burnap hardening machine learning denial of service (dos) defences against adversarial attacks in iot smart home networks computers &amp; security 2021"><h3><a href="https://www.sciencedirect.com/science/article/pii/S0167404821001760">Hardening Machine Learning Denial of Service (DoS) Defences Against Adversarial Attacks in IoT Smart Home Networks</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Amir Javed, Pete Burnap · <span class="venue">Computers & Security</span></p><div class="actions"><a href="https://www.sciencedirect.com/science/article/pii/S0167404821001760">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Amir Javed, Pete Burnap (2021). Hardening Machine Learning Denial of Service (DoS) Defences Against Adversarial Attacks in IoT Smart Home Networks. Computers &amp; Security.">Copy citation</button></div></li><li data-search="eirini anthi, lowri williams, matilda rhode, pete burnap, adam wedgbury adversarial attacks on machine learning cybersecurity defences in industrial control systems journal of information security and applications 2021"><h3><a href="https://www.sciencedirect.com/science/article/pii/S2214212620308607">Adversarial Attacks on Machine Learning Cybersecurity Defences in Industrial Control Systems</a><span class="tag badge">Best Paper Award 2023</span></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Matilda Rhode, Pete Burnap, Adam Wedgbury · <span class="venue">Journal of Information Security and Applications</span></p><div class="actions"><a href="https://www.sciencedirect.com/science/article/pii/S2214212620308607">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Matilda Rhode, Pete Burnap, Adam Wedgbury (2021). Adversarial Attacks on Machine Learning Cybersecurity Defences in Industrial Control Systems. Journal of Information Security and Applications.">Copy citation</button></div></li><li data-search="eirini anthi, lowri williams, pete burnap, kevin jones a three-tiered intrusion detection system for industrial control systems journal of cybersecurity 2021"><h3><a href="https://doi.org/10.1093/cybsec/tyab006">A Three-Tiered Intrusion Detection System for Industrial Control Systems</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Pete Burnap, Kevin Jones · <span class="venue">Journal of Cybersecurity</span></p><div class="actions"><a href="https://doi.org/10.1093/cybsec/tyab006">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Pete Burnap, Kevin Jones (2021). A Three-Tiered Intrusion Detection System for Industrial Control Systems. Journal of Cybersecurity.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2019"><div class="block-grid"><h2 id="p2019">2019</h2><ol class="pubs"><li data-search="lowri williams, michael arribas-ayllon, andreas artemiou, irena spasić comparing the utility of different classification schemes for emotive language analysis journal of classification 2019"><h3><a href="https://doi.org/10.1007/s00357-019-9307-0">Comparing the Utility of Different Classification Schemes for Emotive Language Analysis</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Michael Arribas-Ayllon, Andreas Artemiou, Irena Spasić · <span class="venue">Journal of Classification</span></p><div class="actions"><a href="https://doi.org/10.1007/s00357-019-9307-0">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Michael Arribas-Ayllon, Andreas Artemiou, Irena Spasić (2019). Comparing the Utility of Different Classification Schemes for Emotive Language Analysis. Journal of Classification.">Copy citation</button></div></li><li data-search="eirini anthi, lowri williams, małgorzata słowińska, george theodorakopoulos, pete burnap a supervised intrusion detection system for smart home iot devices ieee internet of things journal 2019"><h3><a href="https://ieeexplore.ieee.org/document/8753563">A Supervised Intrusion Detection System for Smart Home IoT Devices</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Małgorzata Słowińska, George Theodorakopoulos, Pete Burnap · <span class="venue">IEEE Internet of Things Journal</span></p><div class="actions"><a href="https://ieeexplore.ieee.org/document/8753563">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Małgorzata Słowińska, George Theodorakopoulos, Pete Burnap (2019). A Supervised Intrusion Detection System for Smart Home IoT Devices. IEEE Internet of Things Journal.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2018"><div class="block-grid"><h2 id="p2018">2018</h2><ol class="pubs"><li data-search="eirini anthi, lowri williams, pete burnap pulse: an adaptive intrusion detection for the internet of things living in the internet of things: cybersecurity of the iot 2018"><h3><a href="https://doi.org/10.1049/cp.2018.0035">Pulse: An Adaptive Intrusion Detection for the Internet of Things</a></h3><p class="meta">Eirini Anthi, <span class="me">Lowri Williams</span>, Pete Burnap · <span class="venue">Living in the Internet of Things: Cybersecurity of the IoT</span></p><div class="actions"><a href="https://doi.org/10.1049/cp.2018.0035">Read paper</a><button type="button" class="linkbtn copy" data-cite="Eirini Anthi, Lowri Williams, Pete Burnap (2018). Pulse: An Adaptive Intrusion Detection for the Internet of Things. Living in the Internet of Things: Cybersecurity of the IoT.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2017"><div class="block-grid"><h2 id="p2017">2017</h2><ol class="pubs"><li data-search="irena spasić, lowri williams, andreas buerki idiom-based features in sentiment analysis: cutting the gordian knot ieee transactions on affective computing 2017"><h3><a href="https://ieeexplore.ieee.org/document/8226982">Idiom-based Features in Sentiment Analysis: Cutting the Gordian Knot</a></h3><p class="meta">Irena Spasić, <span class="me">Lowri Williams</span>, Andreas Buerki · <span class="venue">IEEE Transactions on Affective Computing</span></p><div class="actions"><a href="https://ieeexplore.ieee.org/document/8226982">Read paper</a><button type="button" class="linkbtn copy" data-cite="Irena Spasić, Lowri Williams, Andreas Buerki (2017). Idiom-based Features in Sentiment Analysis: Cutting the Gordian Knot. IEEE Transactions on Affective Computing.">Copy citation</button></div></li></ol></div></section><section class="block pub-year" aria-labelledby="p2015"><div class="block-grid"><h2 id="p2015">2015</h2><ol class="pubs"><li data-search="lowri williams, christian bannister, michael arribas-ayllon, alun preece, irena spasić the role of idioms in sentiment analysis expert systems with applications 2015"><h3><a href="https://doi.org/10.1016/j.eswa.2015.05.039">The Role of Idioms in Sentiment Analysis</a></h3><p class="meta"><span class="me">Lowri Williams</span>, Christian Bannister, Michael Arribas-Ayllon, Alun Preece, Irena Spasić · <span class="venue">Expert Systems with Applications</span></p><div class="actions"><a href="https://doi.org/10.1016/j.eswa.2015.05.039">Read paper</a><button type="button" class="linkbtn copy" data-cite="Lowri Williams, Christian Bannister, Michael Arribas-Ayllon, Alun Preece, Irena Spasić (2015). The Role of Idioms in Sentiment Analysis. Expert Systems with Applications.">Copy citation</button></div></li></ol></div></section><p class="empty" hidden>No publications match that search. Try an author’s surname or a single keyword.</p>
+<p style="margin:0 0 3rem">Full list also on <a href="https://scholar.google.com/citations?user=yCk02XcAAAAJ&amp;hl=en">Google Scholar</a> and my <a href="https://profiles.cardiff.ac.uk/staff/williamsl10">Cardiff University profile</a>.</p>
+</main>
+<footer class="site-foot">
+  <div class="wrap">© 2026 Lowri Williams. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>.</div>
+</footer>
+<script>
+(function(){
+  var q=document.getElementById('q'),items=document.querySelectorAll('.pub-year li'),count=document.querySelector('.count'),empty=document.querySelector('.empty');
+  function apply(){
+    var t=q.value.trim().toLowerCase(),n=0;
+    items.forEach(function(li){var show=!t||li.dataset.search.indexOf(t)>-1;li.hidden=!show;if(show)n++;});
+    document.querySelectorAll('.pub-year').forEach(function(s){s.hidden=!s.querySelector('li:not([hidden])');});
+    count.textContent=n+(n===1?' paper':' papers');
+    empty.hidden=n>0;
+  }
+  q.addEventListener('input',apply);apply();
+  document.querySelectorAll('.copy').forEach(function(b){
+    b.addEventListener('click',function(){
+      var text=b.dataset.cite;
+      function done(){b.textContent='Citation copied';setTimeout(function(){b.textContent='Copy citation';},2000);}
+      try{navigator.clipboard.writeText(text).then(done,function(){prompt('Copy this citation:',text);});}
+      catch(e){prompt('Copy this citation:',text);}
+    });
+  });
+})();
+</script>
+</body>
+</html>

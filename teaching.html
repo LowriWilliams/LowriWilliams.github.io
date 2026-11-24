@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teaching · Dr Lowri Williams</title>
+<meta name="description" content="Modules taught by Dr Lowri Williams at Cardiff University.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,600;12..96,800&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#FFFFFF; --surface:#F4F7FA; --ink:#132130; --muted:#4D5E70; --rule:#C9D3DD;
+  --teal:#0B7471; --teal-bg:#CBE9E6; --amber:#8C6000; --amber-bg:#F6E1A6; --violet:#5A43A6; --violet-bg:#DED6F4;
+  --link:#0C5DA3;
+  --hero:var(--paper); --hero-ink:var(--ink); --hero-muted:var(--muted); --hero-link:var(--link); --hero-line:var(--rule);
+  --display:"Bricolage Grotesque","Segoe UI",system-ui,sans-serif;
+  --body:"Source Serif 4",Georgia,"Times New Roman",serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;color:var(--ink);font:1.0625rem/1.7 var(--body);
+  background:var(--paper)}
+img{max-width:100%;display:block}
+a{color:var(--link);text-underline-offset:3px}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:3px solid var(--teal);outline-offset:3px;border-radius:2px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.5rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}
+
+/* header + dark band */
+.site-head{background:rgba(255,255,255,.92);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);position:sticky;top:0;z-index:5;border-bottom:1px solid var(--hero-line)}
+.site-head .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:64px;flex-wrap:wrap}
+.brand{font:800 1.15rem/1 var(--display);color:var(--hero-ink);text-decoration:none;letter-spacing:-.01em}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:.25rem 1.1rem;margin:0;padding:.5rem 0}
+nav a{font:500 .95rem/1 var(--display);color:var(--hero-muted);text-decoration:none;padding:.35rem 0;border-bottom:2px solid transparent}
+nav a:hover,nav a[aria-current="page"]{color:var(--hero-ink);border-bottom-color:var(--teal)}
+
+.band{position:relative;color:var(--hero-ink);border-bottom:1px solid var(--rule)}
+.band .net{position:absolute;inset:0;width:100%;height:100%}
+.band .wrap{position:relative;z-index:1}
+.band a{color:var(--hero-link)}
+.page-head{padding:4rem 0 3.5rem}
+.page-head h1{font:800 clamp(2.4rem,6vw,3.8rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .8rem}
+.page-head p{max-width:38rem;margin:0;color:var(--hero-muted);font-size:1.15rem}
+
+/* homepage hero */
+.hero{padding:4.5rem 0 4rem}
+.hero-grid{display:grid;grid-template-columns:1fr 220px;gap:3rem;align-items:start}
+.hero h1{font:800 clamp(2.4rem,6vw,4.2rem)/1.02 var(--display);letter-spacing:-.03em;margin:0 0 .4rem}
+.role{font:500 1.05rem/1.5 var(--display);color:var(--hero-muted);margin:0 0 2.5rem}
+.role a{color:inherit}
+.annotated{font:400 clamp(1.35rem,2.6vw,1.85rem)/2.35 var(--body);max-width:30em;margin:0}
+.ent{position:relative;padding:.12em .28em;border-radius:3px;background:var(--bg);white-space:nowrap}
+.ent::after{content:attr(data-tag);position:absolute;left:.28em;top:100%;margin-top:-.15em;font:600 .62rem/1 var(--display);letter-spacing:.02em;color:var(--fg);white-space:nowrap}
+.ent.field{--bg:var(--teal-bg);--fg:var(--teal)}
+.ent.method{--bg:var(--amber-bg);--fg:var(--amber)}
+.ent.target{--bg:var(--violet-bg);--fg:var(--violet)}
+@media (prefers-reduced-motion: no-preference){
+  .ent{background:linear-gradient(var(--bg),var(--bg)) no-repeat 0 0/0% 100%;animation:mark .6s ease-out forwards}
+  .ent::after{opacity:0;animation:tag .3s ease-out forwards}
+  .ent:nth-of-type(1),.ent:nth-of-type(1)::after{animation-delay:.3s}
+  .ent:nth-of-type(2),.ent:nth-of-type(2)::after{animation-delay:.7s}
+  .ent:nth-of-type(3),.ent:nth-of-type(3)::after{animation-delay:1.1s}
+  .ent:nth-of-type(4),.ent:nth-of-type(4)::after{animation-delay:1.5s}
+  @keyframes mark{to{background-size:100% 100%}}
+  @keyframes tag{to{opacity:1}}
+}
+.portrait{background:var(--rule);border-radius:50% 50% 6px 50%;aspect-ratio:1;object-fit:cover;width:100%;border:1px solid var(--rule)}
+.links{list-style:none;padding:0;margin:1.25rem 0 0;font:500 .95rem/1.9 var(--display)}
+
+/* callouts */
+.callout{background:var(--surface);border:1px solid var(--rule);border-left:5px solid var(--violet);padding:1.4rem 1.6rem;margin:3rem 0;max-width:46rem}
+.callout.amber{border-left-color:var(--amber)}
+.callout h2{font:700 1.2rem/1.3 var(--display);margin:0 0 .4rem}
+.callout p{margin:0}
+
+/* section blocks */
+section.block{padding:3.5rem 0;border-top:1px solid var(--rule)}
+section.block:first-child{border-top:0}
+.block-grid{display:grid;grid-template-columns:200px 1fr;gap:2.5rem}
+.block h2{font:700 1.6rem/1.15 var(--display);letter-spacing:-.015em;margin:0;position:sticky;top:90px;align-self:start}
+.block h2 a{display:block;font:500 .9rem/1.6 var(--display);margin-top:.5rem}
+.block h2 small{display:block;font:500 .9rem/1.5 var(--display);color:var(--muted);margin-top:.4rem;letter-spacing:0}
+.prose{max-width:40rem}
+.prose p:first-child{margin-top:0}
+.facts{display:grid;grid-template-columns:1fr 1fr;gap:2rem;margin-top:2rem}
+.facts h3{font:700 1rem/1.3 var(--display);margin:0 0 .6rem}
+.facts ul{margin:0;padding-left:1.1rem}
+
+/* timeline */
+.timeline{list-style:none;margin:0;padding:0;border-left:2px solid var(--rule)}
+.timeline li{position:relative;padding:0 0 1.9rem 1.6rem}
+.timeline li::before{content:"";position:absolute;left:-7px;top:.55rem;width:12px;height:12px;border-radius:50%;background:var(--paper);border:2px solid var(--teal)}
+.timeline li.current::before{background:var(--teal)}
+.timeline time,.timeline .when{font:600 .9rem/1.4 var(--display);color:var(--teal)}
+.timeline h3{font:700 1.1rem/1.35 var(--display);margin:.15rem 0 .25rem}
+.timeline p{margin:0;color:var(--muted)}
+.tag{display:inline-block;font:600 .75rem/1 var(--display);padding:.3rem .5rem;border-radius:3px;margin-left:.4rem;vertical-align:.15em;background:var(--chip-bg,var(--teal-bg));color:var(--chip-fg,var(--teal))}
+
+/* filter chips + search */
+.toolbar{display:flex;flex-wrap:wrap;gap:.5rem;align-items:center;margin:2.5rem 0 1rem}
+.chip{font:600 .9rem/1 var(--display);padding:.55rem .85rem;border-radius:999px;border:1px solid var(--rule);background:var(--surface);color:var(--ink);cursor:pointer}
+.chip[aria-pressed="true"]{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+.search{font:400 1rem/1.4 var(--display);padding:.65rem .9rem;border:1px solid var(--rule);border-radius:6px;background:var(--surface);color:var(--ink);width:min(100%,24rem)}
+.count{font:500 .9rem/1 var(--display);color:var(--muted);margin-left:auto}
+.empty{font:500 1rem/1.5 var(--display);color:var(--muted)}
+
+/* publications */
+.year{font:800 2rem/1 var(--display);letter-spacing:-.02em;color:var(--muted);margin:0 0 1.25rem;padding-top:.5rem}
+.pubs{list-style:none;margin:0 0 3rem;padding:0}
+.pubs li{padding:0 0 1.6rem;margin:0 0 1.6rem;border-bottom:1px solid var(--rule)}
+.pubs li:last-child{border-bottom:0;margin-bottom:0}
+.pubs h3{font:700 1.15rem/1.35 var(--display);margin:0 0 .35rem}
+.pubs h3 a{color:var(--ink);text-decoration:none}
+.pubs h3 a:hover{text-decoration:underline}
+.pubs .meta{font:400 .95rem/1.5 var(--display);color:var(--muted);margin:0 0 .5rem}
+.pubs .venue{font-style:italic;font-family:var(--body)}
+.pubs .me{color:var(--ink);font-weight:600}
+.pubs p{margin:0 0 .6rem}
+.actions{display:flex;gap:1.1rem;align-items:center;font:600 .9rem/1 var(--display)}
+.linkbtn{font:inherit;color:var(--link);background:none;border:0;padding:0;cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+.badge{--chip-bg:var(--amber-bg);--chip-fg:var(--amber)}
+
+/* people */
+.people{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.5rem;margin:0;padding:0;list-style:none}
+.people li{border-top:2px solid var(--ink);padding:1rem 0 2rem}
+.people h3{font:700 1.2rem/1.3 var(--display);margin:0}
+.people .meta{font:500 .9rem/1.5 var(--display);color:var(--teal);margin:.2rem 0 .6rem}
+.people p{margin:0;color:var(--muted)}
+
+/* funding ledger */
+.ledger{list-style:none;margin:0;padding:0}
+.ledger li{display:grid;grid-template-columns:1fr auto;gap:.3rem 2rem;padding:1.4rem 0;border-bottom:1px solid var(--rule)}
+.ledger li:first-child{padding-top:0}
+.ledger h3{font:700 1.1rem/1.35 var(--display);margin:0}
+.ledger .amt{font:800 1.5rem/1 var(--display);font-variant-numeric:tabular-nums;text-align:right;grid-row:span 2}
+.ledger .meta{font:500 .9rem/1.5 var(--display);color:var(--muted);margin:0}
+.ledger .pi{--chip-bg:var(--violet-bg);--chip-fg:var(--violet);margin-left:0;margin-right:.5rem}
+.ledger .coi{margin-left:0;margin-right:.5rem}
+
+/* talks */
+.talk{padding:3rem 0 3.5rem}
+.talk-grid{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:2.75rem;align-items:start}
+.video{position:relative;aspect-ratio:16/9;background:var(--surface);border:1px solid var(--rule);border-radius:6px;overflow:hidden}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.talk h2{font:700 clamp(1.5rem,2.6vw,2rem)/1.15 var(--display);letter-spacing:-.015em;margin:0 0 1rem}
+.details{display:grid;grid-template-columns:auto 1fr;gap:.3rem 1.1rem;margin:0 0 1.5rem;font:400 .95rem/1.5 var(--display)}
+.details dt{color:var(--muted)}
+.details dd{margin:0}
+.talk h3{font:700 1.05rem/1.3 var(--display);margin:1.8rem 0 .5rem}
+.talk p{margin:0 0 1rem}
+.themes{margin:0;padding:0;list-style:none;display:flex;flex-wrap:wrap;gap:.5rem}
+.themes li{font:600 .85rem/1 var(--display);padding:.45rem .7rem;border-radius:3px;background:var(--teal-bg);color:var(--teal)}
+.related{margin:0;padding-left:1.1rem}
+
+address{font-style:normal}
+.site-foot{border-top:1px solid var(--rule);color:var(--muted);padding:2rem 0;font:400 .85rem/1.6 var(--display);margin-top:2rem}
+.site-foot a{color:inherit}
+
+@media (max-width:860px){
+  .talk-grid{grid-template-columns:1fr;gap:1.75rem}
+  .hero{padding:3rem 0 3rem}
+  .hero-grid{grid-template-columns:1fr;gap:2rem}
+  .hero aside{display:flex;gap:1.25rem;align-items:center;order:-1}
+  .portrait{width:110px}
+  .links{margin:0}
+  .block-grid{grid-template-columns:1fr;gap:1.25rem}
+  .block h2{position:static}
+  .facts,.people{grid-template-columns:1fr}
+  nav ul{gap:.25rem .9rem}
+  .site-head{position:static}
+  .site-head .wrap{padding-top:.75rem}
+  .page-head{padding:3rem 0 2.5rem}
+  .count{margin-left:0;width:100%}
+}
+</style>
+</head>
+<body>
+<header class="site-head">
+  <div class="wrap">
+    <a class="brand" href="index.html">Lowri Williams</a>
+    <nav aria-label="Main"><ul><li><a href="index.html">Home</a></li><li><a href="news.html">News</a></li><li><a href="publications.html">Publications</a></li><li><a href="talks.html">Talks</a></li><li><a href="supervision.html">Supervision</a></li><li><a href="teaching.html" aria-current="page">Teaching</a></li><li><a href="funding.html">Funding</a></li><li><a href="index.html#contact">Contact</a></li></ul></nav>
+  </div>
+</header>
+<div class="band"><div class="wrap"><section class="page-head"><h1>Teaching</h1><p>Modules I lead at Cardiff University, from software security to research skills, plus the competitions I run for students.</p></section></div></div>
+<main class="wrap">
+<section class="block" aria-labelledby="t1"><div class="block-grid"><h2 id="t1">Modules led <small>Cardiff University</small></h2><ol class="timeline"><li class="current"><span class="when">From January 2027</span><h3><a href="https://www.cardiff.ac.uk/study/postgraduate/taught/courses/course/cyber-security-and-technology-msc-full-time-1-year">Application and System Security (CMT230)</a><span class="tag">Current</span></h3><p>A broad, practical overview of securing modern software and system architectures. Students learn to identify, analyse and mitigate security risks across environments from traditional web and enterprise systems to cloud-native and machine-learning-enabled platforms. School of Computational and Mathematical Sciences.</p></li><li class=""><span class="when">October 2024 to July 2025</span><h3><a href="https://www.cardiff.ac.uk/study/undergraduate/courses/course/applied-software-engineering-bsc">Software Development Skills 1 (CM6113)</a></h3><p>Introduced the basic skills, knowledge and understanding of professional practice and ethics in software development.</p></li><li class=""><span class="when">January 2024 to July 2025</span><h3><a href="https://data.cardiff.ac.uk/legacy/grails/module/CMT221.html">Topics, Research and Skills in Computing (CMT221)</a></h3><p>Prepared students for their dissertation by building a thorough understanding of the approaches, methods, tools and techniques needed for effective research in computer science.</p></li><li class=""><span class="when">January 2017 to July 2018</span><h3>Information Modelling and Database Systems (CMT207)</h3><p>An introduction to databases: information, data and knowledge, database systems, SQL, and conceptual, logical and physical database design.</p></li></ol></div></section>
+<section class="block" aria-labelledby="t2"><div class="block-grid"><h2 id="t2">Recognition</h2><ol class="timeline">
+<li><span class="when">March 2026</span><h3>Enriching Student Life Awards 2026</h3><p>Nominated for Champion for Welsh Education and Most Outstanding Use of the Learning Environment.</p></li>
+<li><span class="when">March 2025</span><h3>Fellow of the Higher Education Academy (FHEA)</h3><p>Awarded HEA Fellowship.</p></li>
+<li><span class="when">March 2025</span><h3>Enriching Student Life Awards 2025</h3><p>Nominated for Most Outstanding Use of the Learning Environment and Most Outstanding Learning Experience.</p></li>
+</ol></div></section>
+
+</main>
+<footer class="site-foot">
+  <div class="wrap">© 2026 Lowri Williams. Licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0">CC BY-NC-ND 4.0</a>.</div>
+</footer>
+
+</body>
+</html>
